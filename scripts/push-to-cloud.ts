@@ -8,6 +8,7 @@
  *   npm run push:cloud -- --overwrite        # replace cloud menus on the same dates
  *   npm run push:cloud -- --rules --settings # also replace the cloud's rules / settings
  *   npm run push:cloud -- --list             # just show the menus on both sides
+ *   npm run push:cloud -- --recipes-only     # only recipes (and the dishes/ingredients they need)
  *
  * Source defaults to local.db; set SOURCE_DATABASE_URL (+ SOURCE_DATABASE_AUTH_TOKEN) to copy from another
  * database, e.g. a Turso point-in-time restore. CLOUD_DATABASE_URL / CLOUD_DATABASE_AUTH_TOKEN override the target.
@@ -62,13 +63,16 @@ async function main() {
     return;
   }
 
-  // ---- which menus
-  const localMenus = await local
-    .select()
-    .from(menus)
-    .where(onlyDate ? eq(menus.date, onlyDate) : ne(menus.source, "historial"));
-  if (!localMenus.length) throw new Error(onlyDate ? `No local menu on ${onlyDate}.` : "No menus made in the app locally.");
-  const localItems = await local.select().from(menuItems).where(inArray(menuItems.menuId, localMenus.map((m) => m.id)));
+  // ---- which menus (none with --recipes-only)
+  const recipesOnly = flag("--recipes-only");
+  const localMenus = recipesOnly
+    ? []
+    : await local
+        .select()
+        .from(menus)
+        .where(onlyDate ? eq(menus.date, onlyDate) : ne(menus.source, "historial"));
+  if (!recipesOnly && !localMenus.length) throw new Error(onlyDate ? `No local menu on ${onlyDate}.` : "No menus made in the app locally.");
+  const localItems = localMenus.length ? await local.select().from(menuItems).where(inArray(menuItems.menuId, localMenus.map((m) => m.id))) : [];
 
   // ---- dishes (by name): used by those menus + every dish with a local recipe
   const localDishes = await local.select().from(dishes);
