@@ -26,7 +26,7 @@ export function LoginForm({ next }: { next: string }) {
       <form onSubmit={submit} className="space-y-3">
         <div>
           <Label>PIN</Label>
-          <Input type="password" inputMode="numeric" autoComplete="current-password" value={pin} onChange={(e) => setPin(e.target.value)} autoFocus />
+          <Input type="password" autoComplete="current-password" value={pin} onChange={(e) => setPin(e.target.value)} autoFocus />
         </div>
         {error && <p className="text-sm text-red">{error}</p>}
         <Button variant="primary" type="submit" disabled={busy || !pin}>
