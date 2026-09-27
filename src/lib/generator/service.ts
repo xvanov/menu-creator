@@ -1,5 +1,5 @@
 import "server-only";
-import { and, eq, notInArray, sql } from "drizzle-orm";
+import { and, asc, eq, notInArray, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { findDishByName, ensureDish } from "@/lib/dishes";
 import { getLlm, llmEnabled, llmStatus } from "@/lib/llm";
@@ -355,6 +355,29 @@ export async function addMenuItem(
   });
   await touch(menu.id);
   return { menuId: menu.id, newDishIds: created ? [dish.id] : [] };
+}
+
+/**
+ * Saves a new display order. `order` lists item ids; items of the menu not listed keep their relative order
+ * after the listed ones. Positions are renumbered 0..n so later additions still append at the end.
+ */
+export async function reorderMenuItems(date: string, order: number[]): Promise<void> {
+  const menu = await requireMenu(date);
+  const rows = await db
+    .select({ id: menuItems.id })
+    .from(menuItems)
+    .where(eq(menuItems.menuId, menu.id))
+    .orderBy(asc(menuItems.position), asc(menuItems.id));
+  const known = new Set(rows.map((r) => r.id));
+  const unknown = order.filter((id) => !known.has(id));
+  if (unknown.length) throw new MenuError("El orden incluye platos que no están en el menú (recarga la página).", 409);
+  const listed = new Set(order);
+  const final = [...order, ...rows.map((r) => r.id).filter((id) => !listed.has(id))];
+  if (final.length) {
+    const stmts = final.map((id, position) => db.update(menuItems).set({ position }).where(eq(menuItems.id, id)));
+    await db.batch(stmts as [(typeof stmts)[number], ...(typeof stmts)[number][]]);
+  }
+  await touch(menu.id);
 }
 
 export async function updateMenuItem(

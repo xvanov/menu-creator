@@ -11,6 +11,7 @@ import { api, errorText, type DishOption } from "./api";
 import { isValidDate, longDate, shiftServiceDay } from "./dates";
 import { DishPicker } from "./dish-picker";
 import { ItemRow, type ItemPatch } from "./item-row";
+import { SortableList } from "./sortable-list";
 
 export interface MenuEditorProps {
   initial: MenuPayload;
@@ -65,6 +66,19 @@ export function MenuEditor({ initial, settings, dishDefaults }: MenuEditorProps)
   const deleteItem = (id: number) => mutate(() => api<MenuPayload>(`${base}/items/${id}`, { method: "DELETE" }));
   const addItem = (body: { course: Course; name: string; dishId?: number; price?: number | null }) =>
     mutate(() => api<MenuPayload>(`${base}/items`, { method: "POST", body }));
+  /** Drag & drop: show the new order at once, save it, and re-sync from the server if saving fails. */
+  async function reorder(course: Course, next: MenuItemView[]) {
+    const queue = [...next];
+    const all = items.map((i) => (i.course === course ? queue.shift()! : i));
+    setPayload({ ...payload, items: all });
+    setError(null);
+    try {
+      setPayload(await api<MenuPayload>(`${base}/items`, { method: "PATCH", body: { order: all.map((i) => i.id) } }));
+    } catch (e) {
+      setError(`No se pudo guardar el orden: ${errorText(e)}`);
+      await mutate(() => api<MenuPayload>(base));
+    }
+  }
   const approve = (dishId: number) =>
     mutate(async () => {
       await api(`/api/dishes/${dishId}`, { method: "PATCH", body: { status: "activo" } });
@@ -175,19 +189,22 @@ export function MenuEditor({ initial, settings, dishDefaults }: MenuEditorProps)
             <Card key={s.course}>
               <SectionHeader num={s.num} title={s.title} note={s.note} />
               <ul>
-                {byCourse(s.course).map((item) => (
-                  <ItemRow
-                    key={`${item.id}-${item.dishId}-${item.name}`}
-                    item={item}
-                    disabled={!!busy}
-                    portionsPlaceholder={placeholderPortions(item, dishDefaults, settings)}
-                    pricePlaceholder={item.dishId ? dishDefaults[item.dishId]?.price : null}
-                    onPatch={(p) => patchItem(item.id, p)}
-                    onSwap={() => swapItem(item.id)}
-                    onDelete={() => deleteItem(item.id)}
-                    onApprove={approve}
-                  />
-                ))}
+                <SortableList items={byCourse(s.course)} disabled={!!busy} onReorder={(next) => reorder(s.course, next)}>
+                  {(item, handle) => (
+                    <ItemRow
+                      key={`${item.id}-${item.dishId}-${item.name}`}
+                      item={item}
+                      handle={handle}
+                      disabled={!!busy}
+                      portionsPlaceholder={placeholderPortions(item, dishDefaults, settings)}
+                      pricePlaceholder={item.dishId ? dishDefaults[item.dishId]?.price : null}
+                      onPatch={(p) => patchItem(item.id, p)}
+                      onSwap={() => swapItem(item.id)}
+                      onDelete={() => deleteItem(item.id)}
+                      onApprove={approve}
+                    />
+                  )}
+                </SortableList>
                 {byCourse(s.course).length === 0 && <li className="py-2 text-sm text-ink-soft">Sin platos.</li>}
               </ul>
               <AddItem course={s.course} disabled={!!busy} onAdd={addItem} />

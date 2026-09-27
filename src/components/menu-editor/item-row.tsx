@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState, type ReactNode } from "react";
 import { Badge, Button, Input, Spinner } from "@/components/ui";
 import type { MenuItemView } from "@/lib/types";
 import type { DishOption } from "./api";
@@ -31,8 +31,11 @@ export function ItemRow({
   onSwap,
   onDelete,
   onApprove,
+  handle,
 }: {
   item: MenuItemView;
+  /** Drag handle rendered at the start of the row (from SortableList). */
+  handle?: ReactNode;
   portionsPlaceholder: number;
   pricePlaceholder?: number | null;
   disabled?: boolean;
@@ -46,6 +49,22 @@ export function ItemRow({
   const [pending, setPending] = useState<string | null>(null);
   const isExtra = item.course === "extra";
   const busy = disabled || pending !== null;
+
+  // number fields save ~0.8 s after typing stops (and on blur), so nothing typed is lost on refresh
+  const timers = useRef<Record<string, ReturnType<typeof setTimeout>>>({});
+  const sent = useRef<Record<string, number | null>>({});
+  function saveNumber(field: "portions" | "price", raw: string, now = false) {
+    clearTimeout(timers.current[field]);
+    const save = () => {
+      const v = numOrNull(raw);
+      const current = field === "portions" ? item.portions : item.price;
+      if (v === undefined || v === current || sent.current[field] === v) return;
+      sent.current[field] = v;
+      void run("Guardando…", () => onPatch(field === "portions" ? { portions: v === null ? null : Math.round(v) } : { price: v }));
+    };
+    if (now) save();
+    else timers.current[field] = setTimeout(save, 800);
+  }
 
   async function run(label: string, fn: () => Promise<unknown>) {
     setPending(label);
@@ -70,8 +89,9 @@ export function ItemRow({
 
   const dish = item.dish;
   return (
-    <li className="border-b border-line py-2.5">
+    <div className="border-b border-line py-2.5">
       <div className="flex items-start gap-3">
+        {handle}
         <span className="diamond mt-2.5" />
         <div className="min-w-0 flex-1">
           {editing ? (
@@ -127,11 +147,8 @@ export function ItemRow({
             defaultValue={item.portions ?? ""}
             placeholder={String(portionsPlaceholder)}
             disabled={busy}
-            onBlur={(e) => {
-              const v = numOrNull(e.target.value);
-              if (v === undefined || v === item.portions) return;
-              void run("Guardando…", () => onPatch({ portions: v === null ? null : Math.round(v) }));
-            }}
+            onChange={(e) => saveNumber("portions", e.target.value)}
+            onBlur={(e) => saveNumber("portions", e.target.value, true)}
           />
         </label>
         {isExtra && (
@@ -147,11 +164,8 @@ export function ItemRow({
               defaultValue={item.price ?? ""}
               placeholder={pricePlaceholder != null ? String(pricePlaceholder) : "precio"}
               disabled={busy}
-              onBlur={(e) => {
-                const v = numOrNull(e.target.value);
-                if (v === undefined || v === item.price) return;
-                void run("Guardando…", () => onPatch({ price: v }));
-              }}
+              onChange={(e) => saveNumber("price", e.target.value)}
+              onBlur={(e) => saveNumber("price", e.target.value, true)}
             />
           </label>
         )}
@@ -174,6 +188,6 @@ export function ItemRow({
           </Button>
         </div>
       </div>
-    </li>
+    </div>
   );
 }
