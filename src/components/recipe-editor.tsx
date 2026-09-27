@@ -21,7 +21,11 @@ interface Row {
   name: string;
   unit: string;
   storeSection: string;
-  qtyPerPortion: string;
+  /** Source of truth: quantity per portion (what's saved). */
+  perPortion: number;
+  /** What the person types: `amount` for `basis` portions (e.g. 2 kg para 40). */
+  amount: string;
+  basis: string;
   fixedQty: string;
   source: RecipeItemView["source"] | "nuevo";
   corrections: number;
@@ -34,14 +38,18 @@ const num = (s: string) => {
 const money = (n: number) => `S/ ${n.toFixed(2)}`;
 let seq = 0;
 
-function toRows(items: RecipeItemView[]): Row[] {
+const amountFor = (perPortion: number, basis: number) => fmtQty(Math.round(perPortion * basis * 1000) / 1000);
+
+function toRows(items: RecipeItemView[], basis: number): Row[] {
   return items.map((i) => ({
     key: `r${i.id}`,
     ingredientId: i.ingredientId,
     name: i.name,
     unit: i.unit,
     storeSection: i.storeSection,
-    qtyPerPortion: fmtQty(i.qtyPerPortion),
+    perPortion: i.qtyPerPortion,
+    amount: amountFor(i.qtyPerPortion, basis),
+    basis: String(basis),
     fixedQty: fmtQty(i.fixedQty),
     source: i.source,
     corrections: i.corrections,
@@ -62,12 +70,32 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
   const [error, setError] = useState<string | null>(null);
   const [info, setInfo] = useState<string | null>(null);
 
-  const applyRecipe = useCallback((r: RecipeView) => {
+  /** `basis` = how many portions the amounts are shown for (keeps the person's choice after saving). */
+  const applyRecipe = useCallback((r: RecipeView, basis?: number) => {
+    const b = basis ?? r.portions;
     setRecipe(r);
-    setRows(toRows(r.items));
-    setPortions(r.portions);
+    setRows(toRows(r.items, b));
+    setPortions(b);
     setDirty(false);
   }, []);
+
+  /** Changing "Cantidades para N porciones" re-expresses every row for N portions (per-portion values don't change). */
+  const changeBasis = (n: number) => {
+    setPortions(n);
+    setRows((rs) => rs.map((r) => ({ ...r, basis: String(n), amount: amountFor(r.perPortion, n) })));
+  };
+
+  const setAmount = (key: string, amount: string, basis?: string) => {
+    setDirty(true);
+    setRows((rs) =>
+      rs.map((r) => {
+        if (r.key !== key) return r;
+        const b = basis ?? r.basis;
+        const n = num(b);
+        return { ...r, amount, basis: b, perPortion: n > 0 ? num(amount) / n : r.perPortion };
+      }),
+    );
+  };
 
   const loadOptions = useCallback(async () => {
     const res = await fetch("/api/ingredients");
@@ -108,7 +136,10 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
   };
 
   const addRow = () => {
-    setRows((rs) => [...rs, { key: `n${++seq}`, ingredientId: null, name: "", unit: "kg", storeSection: "mercado", qtyPerPortion: "0", fixedQty: "0", source: "nuevo", corrections: 0 }]);
+    setRows((rs) => [
+      ...rs,
+      { key: `n${++seq}`, ingredientId: null, name: "", unit: "kg", storeSection: "mercado", perPortion: 0, amount: "", basis: String(portions), fixedQty: "0", source: "nuevo", corrections: 0 },
+    ]);
     setDirty(true);
   };
 
@@ -124,13 +155,13 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
           name: r.name.trim(),
           unit: r.ingredientId == null ? (r.unit as (typeof UNITS)[number]) : undefined,
           storeSection: r.ingredientId == null ? r.storeSection : undefined,
-          qtyPerPortion: num(r.qtyPerPortion),
+          qtyPerPortion: Math.round(r.perPortion * 1e6) / 1e6,
           fixedQty: num(r.fixedQty),
         }));
       const res = await fetch(`/api/recipes/${dishId}`, { method: "PUT", headers: { "content-type": "application/json" }, body: JSON.stringify({ items }) });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "No se pudo guardar");
-      applyRecipe(data as RecipeView);
+      applyRecipe(data as RecipeView, portions);
       setInfo("Receta guardada. Las próximas listas de compras usan estas cantidades.");
       void loadOptions();
     } catch (e) {
@@ -155,7 +186,7 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
       const res = await fetch(`/api/recipes/${dishId}/draft`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ overwrite }) });
       const data = (await res.json()) as { outcome?: DraftOutcome; recipe?: RecipeView; error?: string };
       if (!res.ok) throw new Error(data.error ?? "No se pudo generar");
-      if (data.recipe) applyRecipe(data.recipe);
+      if (data.recipe) applyRecipe(data.recipe, portions);
       if (data.outcome?.status === "ok") setInfo("Receta generada con IA. Revisa las cantidades y corrige lo que haga falta.");
       else setError(`La IA no pudo generar la receta${data.outcome?.message ? `: ${data.outcome.message}` : ""}. Puedes escribirla a mano.`);
       void loadOptions();
@@ -169,7 +200,7 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
   const costs = rows.map((r) => {
     const p = priceOf(r);
     if (p == null) return null;
-    return p * (num(r.qtyPerPortion) + (portions > 0 ? num(r.fixedQty) / portions : 0));
+    return p * (r.perPortion + (portions > 0 ? num(r.fixedQty) / portions : 0));
   });
   const perPortion = costs.reduce<number>((s, c) => s + (c ?? 0), 0);
   const missingPrices = costs.filter((c) => c == null).length;
@@ -202,15 +233,29 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
       {error && <Warning>{error}</Warning>}
       {info && <div className="border-l-4 border-orange bg-yellow/30 px-3 py-2 text-sm">{info}</div>}
 
+      <label className="flex flex-wrap items-center gap-2 bg-yellow/30 px-3 py-2 text-sm">
+        <span className="font-heading text-xs font-semibold uppercase tracking-wider">Cantidades para</span>
+        <Input
+          className="py-1"
+          style={{ width: "5rem" }}
+          inputMode="numeric"
+          value={String(portions)}
+          onChange={(e) => changeBasis(Math.max(1, Math.round(num(e.target.value)) || 1))}
+          aria-label="Porciones de referencia"
+        />
+        <span className="font-heading text-xs font-semibold uppercase tracking-wider">porciones</span>
+        <span className="text-xs text-ink-soft">Escribe cuánto usas para esa cantidad de porciones (ej. 2 kg de fideo para 40). También puedes cambiar las porciones en una fila.</span>
+      </label>
+
       {rows.length === 0 ? (
         <p className="text-sm text-ink-soft">
           Este plato aún no tiene receta. Usa <b>Generar con IA</b> o agrega los ingredientes a mano.
         </p>
       ) : (
         <div className="divide-y divide-line border-y border-line">
-          <div className="hidden grid-cols-[minmax(0,2.2fr)_1fr_1fr_0.8fr_1fr_1fr_auto] gap-2 py-1.5 font-heading text-xs font-semibold uppercase tracking-wider text-ink-soft md:grid">
+          <div className="hidden grid-cols-[minmax(0,2.2fr)_1.6fr_1fr_0.8fr_1fr_1fr_auto] gap-2 py-1.5 font-heading text-xs font-semibold uppercase tracking-wider text-ink-soft md:grid">
             <span>Ingrediente</span>
-            <span>Por porción</span>
+            <span>Cantidad · para porciones</span>
             <span>Fijo por olla</span>
             <span>Unidad</span>
             <span>Para {portions}</span>
@@ -218,10 +263,10 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
             <span />
           </div>
           {rows.map((r, idx) => {
-            const total = num(r.qtyPerPortion) * portions + num(r.fixedQty);
+            const total = r.perPortion * portions + num(r.fixedQty);
             const cost = costs[idx];
             return (
-              <div key={r.key} className="grid grid-cols-2 items-center gap-2 py-2 md:grid-cols-[minmax(0,2.2fr)_1fr_1fr_0.8fr_1fr_1fr_auto]">
+              <div key={r.key} className="grid grid-cols-2 items-center gap-2 py-2 md:grid-cols-[minmax(0,2.2fr)_1.6fr_1fr_0.8fr_1fr_1fr_auto]">
                 <div className="col-span-2 md:col-span-1">
                   <Input list={`ingredients-${dishId}`} value={r.name} placeholder="Ingrediente" onChange={(e) => setName(r.key, e.target.value)} aria-label="Ingrediente" />
                   <div className="mt-1 flex flex-wrap items-center gap-1">
@@ -231,10 +276,15 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
                     {r.ingredientId == null && r.name.trim() && <span className="text-xs text-ink-soft">se creará como ingrediente</span>}
                   </div>
                 </div>
-                <label className="text-xs text-ink-soft md:text-base md:text-ink">
-                  <span className="md:hidden">Por porción</span>
-                  <Input inputMode="decimal" value={r.qtyPerPortion} onChange={(e) => update(r.key, { qtyPerPortion: e.target.value })} />
-                </label>
+                <div className="col-span-2 text-xs text-ink-soft md:col-span-1">
+                  <span className="md:hidden">Cantidad</span>
+                  <div className="flex items-center gap-1">
+                    <Input className="min-w-0" inputMode="decimal" value={r.amount} placeholder="0" onChange={(e) => setAmount(r.key, e.target.value)} aria-label={`Cantidad de ${r.name}`} />
+                    <span className="whitespace-nowrap">{r.unit} para</span>
+                    <Input className="min-w-0" style={{ width: "4rem" }} inputMode="numeric" value={r.basis} onChange={(e) => setAmount(r.key, r.amount, e.target.value)} aria-label={`Porciones para ${r.name}`} />
+                  </div>
+                  <div className="mt-0.5">= {fmtQty(Math.round(r.perPortion * 10000) / 10000)} {r.unit} por porción</div>
+                </div>
                 <label className="text-xs text-ink-soft md:text-base md:text-ink">
                   <span className="md:hidden">Fijo por olla</span>
                   <Input inputMode="decimal" value={r.fixedQty} onChange={(e) => update(r.key, { fixedQty: e.target.value })} />
@@ -282,10 +332,6 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
       )}
 
       <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
-        <label className="flex items-center gap-2">
-          <span className="font-heading text-xs font-semibold uppercase tracking-wider text-ink-soft">Porciones</span>
-          <Input className="w-20" inputMode="numeric" value={String(portions)} onChange={(e) => setPortions(Math.max(1, Math.round(num(e.target.value)) || 1))} />
-        </label>
         <span>
           Costo por porción: <b className="text-red">{money(perPortion)}</b>
         </span>

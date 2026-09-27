@@ -56,7 +56,7 @@ export default async function DishPage({ params }: { params: Promise<{ id: strin
       </Card>
 
       <Card>
-        <SectionHeader num="03" title="Receta" note="por porción" />
+        <SectionHeader num="03" title="Receta" note="ingredientes y cantidades" />
         <RecipeEditor dishId={id} />
       </Card>
     </div>
