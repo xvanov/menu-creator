@@ -79,7 +79,8 @@ async function main() {
   for (const d of localDishes.filter((d) => neededDishIds.has(d.id))) {
     if (cloudDishId.has(d.name)) continue;
     const { id: _id, createdAt: _c, ...rest } = d;
-    void _id, void _c;
+    void _id;
+    void _c;
     const [row] = await cloud.insert(dishes).values(rest).returning({ id: dishes.id });
     cloudDishId.set(d.name, row.id);
     dishesAdded++;

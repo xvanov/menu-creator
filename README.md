@@ -51,7 +51,10 @@ Both use a free Turso database and optional Gemini free-tier AI, and add a PIN l
 |---|---|---|
 | Claude Code CLI (default locally) | Installed by the installer, log in once | Included in your Claude subscription |
 | Gemini API | `GEMINI_API_KEY` in `.env.local` ([get a key](https://aistudio.google.com/apikey)) | Free tier (Google may use free-tier prompts to improve products) |
+| Groq | `GROQ_API_KEY` ([get a key](https://console.groq.com/keys)) | Free tier, no card (~1,000 requests/day) |
 | Anthropic API | `ANTHROPIC_API_KEY` | ≈ $0.05–0.15 / day at this usage |
+
+Several keys = automatic fallback: when one provider hits its quota (e.g. Gemini `429`), the next one is used.
 | None | `LLM_PROVIDER=none` | $0; everything manual |
 
 With no working AI, the header shows "IA no disponible" and a yellow note explains why. AI buttons fall back:

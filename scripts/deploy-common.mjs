@@ -80,8 +80,11 @@ export async function appSettings() {
   }
   console.log("AI: a Gemini key has a free tier (https://aistudio.google.com/apikey). Free-tier prompts may be reviewed by Google.");
   await ask("GEMINI_API_KEY", "Gemini API key", { optional: true });
-  if (!cfg.GEMINI_API_KEY) await ask("ANTHROPIC_API_KEY", "Anthropic API key", { optional: true });
-  const provider = cfg.LLM_PROVIDER || (cfg.ANTHROPIC_API_KEY ? "anthropic" : cfg.GEMINI_API_KEY ? "gemini" : "none");
+  console.log("Backup AI (used when Gemini's free quota runs out): Groq, free at https://console.groq.com/keys");
+  await ask("GROQ_API_KEY", "Groq API key", { optional: true });
+  if (!cfg.GEMINI_API_KEY && !cfg.GROQ_API_KEY) await ask("ANTHROPIC_API_KEY", "Anthropic API key", { optional: true });
+  const chain = [cfg.ANTHROPIC_API_KEY && "anthropic", cfg.GEMINI_API_KEY && "gemini", cfg.GROQ_API_KEY && "groq"].filter(Boolean);
+  const provider = cfg.LLM_PROVIDER || chain.join(",") || "none";
   if (provider === "none") warn("No AI key: the app works without AI (rules + history, manual recipes).");
   else ok(`AI: ${provider}`);
   return provider;
@@ -96,6 +99,7 @@ export function appEnv(provider) {
     CRON_SECRET: cfg.CRON_SECRET,
     LLM_PROVIDER: provider,
     GEMINI_API_KEY: cfg.GEMINI_API_KEY || undefined,
+    GROQ_API_KEY: cfg.GROQ_API_KEY || undefined,
     ANTHROPIC_API_KEY: cfg.ANTHROPIC_API_KEY || undefined,
   };
 }

@@ -20,7 +20,8 @@ export const geminiProvider: LlmProvider = {
   async complete<T>(req: LlmRequest<T>): Promise<T> {
     const key = process.env.GEMINI_API_KEY;
     if (!key) throw new LlmUnavailableError("Falta GEMINI_API_KEY");
-    const model = req.tier === "fast" ? (process.env.GEMINI_MODEL_FAST ?? MODELS.fast) : (process.env.GEMINI_MODEL ?? MODELS.smart);
+    const fast = process.env.GEMINI_MODEL_FAST ?? MODELS.fast;
+    let model = req.tier === "fast" ? fast : (process.env.GEMINI_MODEL ?? MODELS.smart);
     const body = JSON.stringify({
       systemInstruction: { parts: [{ text: req.system }] },
       contents: [{ role: "user", parts: [{ text: req.prompt }] }],
@@ -32,7 +33,12 @@ export const geminiProvider: LlmProvider = {
         headers: { "content-type": "application/json", "x-goog-api-key": key },
         body,
       });
-      if ((res.status === 429 || res.status >= 500) && attempt < 3) {
+      // quota on the bigger model: switch to flash-lite (much higher free limits) instead of waiting
+      if (res.status === 429 && model !== fast) {
+        model = fast;
+        continue;
+      }
+      if ((res.status === 429 || res.status >= 500) && attempt < 2) {
         await new Promise((r) => setTimeout(r, 2000 * 2 ** attempt));
         continue;
       }

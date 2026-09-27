@@ -25,7 +25,9 @@ if (!existsSync(".env.local")) {
 process.loadEnvFile(".env.local");
 
 // AI provider check: warn only
-const provider = process.env.LLM_PROVIDER || (process.env.ANTHROPIC_API_KEY ? "anthropic" : process.env.GEMINI_API_KEY ? "gemini" : "claude-cli");
+const provider =
+  (process.env.LLM_PROVIDER || "").split(",")[0].trim() ||
+  (process.env.ANTHROPIC_API_KEY ? "anthropic" : process.env.GEMINI_API_KEY ? "gemini" : process.env.GROQ_API_KEY ? "groq" : "claude-cli");
 if (provider === "none") warn("AI is off (LLM_PROVIDER=none). Everything works manually; \"Generar\" uses rules + history.");
 else if (provider === "anthropic" && !process.env.ANTHROPIC_API_KEY) warn("LLM_PROVIDER=anthropic but ANTHROPIC_API_KEY is empty: AI features will show a warning and fall back.");
 else if (provider === "gemini" && !process.env.GEMINI_API_KEY) warn("LLM_PROVIDER=gemini but GEMINI_API_KEY is empty: AI features will show a warning and fall back.");
