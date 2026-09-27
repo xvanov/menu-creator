@@ -6,6 +6,7 @@
         "setup": "node scripts/setup.mjs",
         "deploy:gcp": "node scripts/deploy-gcp.mjs",
         "deploy:vercel": "node scripts/deploy-vercel.mjs",
+        "push:cloud": "tsx scripts/push-to-cloud.ts",
         "dev": "next dev",
         "build": "next build",
         "vercel-build": "node scripts/vercel-build.mjs",
