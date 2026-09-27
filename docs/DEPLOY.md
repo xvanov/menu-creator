@@ -20,6 +20,15 @@ Without a key the app runs without AI and shows a warning.
 
 Not chosen: Render's free tier sleeps and isn't meant for production. Fly.io and Railway have no free allowance for this.
 
+## ⚠ Use one fixed database
+
+The Vercel ↔ Turso integration can create a **new database for every deployment** (hosts like
+`dpl-xxxx-vercel-icfg-….turso.io`) and point `TURSO_DATABASE_URL` at it. With that, each redeploy starts from
+a blank database: menus disappear and deleted rules come back. The app prefers `DATABASE_URL` /
+`DATABASE_AUTH_TOKEN` over `TURSO_*`, so set those two (Production) to your main Turso database
+(Storage → the database → its URL and a token). Check which database is live at `/api/admin/status`
+(behind the PIN).
+
 ## Vercel from the web UI (no local setup)
 
 1. Vercel → **Add New → Project** → import the GitHub repo `xvanov/menu-creator`. Leave the build settings as they are;

@@ -6,6 +6,7 @@ import { Badge, Button, Card, Input, Label, SectionHeader, Select, Spinner, Text
 import { describeRule, RULE_TYPE_LABELS } from "@/lib/rules/describe";
 import { ENTRADA_CATEGORIES, SEGUNDO_CATEGORIES, TAGS, WEEKDAYS, type Course, type DishFilter, type RuleParams, type Weekday } from "@/lib/types";
 import type { RuleView } from "@/lib/rules/repo";
+import { useServerSync } from "@/components/use-server-sync";
 
 interface Draft {
   id?: number;
@@ -43,6 +44,9 @@ export function RulesEditor({ initialRules, dishNames }: { initialRules: RuleVie
   const [busy, setBusy] = useState(false);
   const [deleted, setDeleted] = useState<RuleView | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+
+  // always show the saved rules (back/forward, other tabs or devices)
+  useServerSync(() => api<RuleView[]>("/api/rules"), setRules, busy, []);
 
   const [text, setText] = useState("");
   const [parsing, setParsing] = useState(false);

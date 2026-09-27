@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
+import { useServerSync } from "@/components/use-server-sync";
 import { PosterPreview, posterDateLabel } from "@/components/menu-poster";
 import { Badge, Button, Card, Input, SectionHeader, Spinner, Warning } from "@/components/ui";
 import type { Course, MenuItemView, MenuPayload } from "@/lib/types";
@@ -92,38 +93,14 @@ export function MenuEditor({ initial, settings, dishDefaults, upcoming = [] }: M
 
   // Always show what's saved: the router can restore an old copy of this page (back/forward), so re-read the
   // menu from the server when the editor mounts and whenever the tab or page becomes visible again.
-  const busyRef = useRef(busy);
+  useServerSync(() => api<MenuPayload>(base), setPayload, !!busy, [base]);
   useEffect(() => {
-    busyRef.current = busy;
-  }, [busy]);
-  useEffect(() => {
-    let cancelled = false;
-    const sync = async () => {
-      if (busyRef.current || document.visibilityState !== "visible") return;
-      try {
-        const fresh = await api<MenuPayload>(base);
-        if (!cancelled && !busyRef.current) setPayload(fresh);
-      } catch {
-        /* offline: keep what we have */
-      }
-    };
-    void sync();
     try {
       localStorage.setItem("lastMenu", JSON.stringify({ date, at: Date.now() }));
     } catch {
       /* storage unavailable */
     }
-    const onShow = () => void sync();
-    document.addEventListener("visibilitychange", onShow);
-    window.addEventListener("pageshow", onShow);
-    window.addEventListener("focus", onShow);
-    return () => {
-      cancelled = true;
-      document.removeEventListener("visibilitychange", onShow);
-      window.removeEventListener("pageshow", onShow);
-      window.removeEventListener("focus", onShow);
-    };
-  }, [base, date]);
+  }, [date]);
 
   const names = (c: Course) => byCourse(c).map((i) => i.name);
   const extras = byCourse("extra").map((i) => ({ name: i.name, price: i.price }));
