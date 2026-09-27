@@ -33,7 +33,9 @@ and the mistakes already made once (incident of 2026-09-27: the owner's custom m
    never run it against the cloud.
 4. **Local and cloud are separate databases.** `local.db` on a computer ≠ the live Turso database. Menus made at
    `localhost` are not on the live site. Copy with `npm run push:cloud` (`--list` to compare; it never overwrites
-   a cloud menu with dishes unless `--overwrite`).
+   a cloud menu with dishes unless `--overwrite`). `--recipes-only` shares recipes without touching menus: a
+   handy way to draft recipes locally with the Claude subscription when the cloud's free AI quota is used up.
+   Test data created locally (dishes, menus) goes up too, so delete test artifacts first.
 5. **Never test against real data.** Use a copy or a throwaway database (see "Testing Turso locally"). A reorder test
    once changed the owner's real local menu.
 6. **The UI must always show what's saved.** Editors use `useServerSync` (`src/components/use-server-sync.ts`) to
