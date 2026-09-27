@@ -20,7 +20,21 @@ Without a key the app runs without AI and shows a warning.
 
 Not chosen: Render's free tier sleeps and isn't meant for production. Fly.io and Railway have no free allowance for this.
 
-## Deploy
+## Vercel from the web UI (no local setup)
+
+1. Vercel → **Add New → Project** → import the GitHub repo `xvanov/menu-creator`. Leave the build settings as they are;
+   `vercel.json` sets the build command. Click **Deploy**. The first build fails with "No database configured", which is expected.
+2. Project → **Storage** → **Create / Connect Database** → pick **Turso** (in the marketplace list), create a database,
+   and connect it to the project for all environments. This adds `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN`.
+   *(No Turso there? Create the database at https://app.turso.tech and add `DATABASE_URL` + `DATABASE_AUTH_TOKEN` by hand in step 3.)*
+3. Project → **Settings → Environment Variables**, add:
+   - `APP_PIN`: the PIN the team uses to open the app
+   - `CRON_SECRET`: any long random text (Vercel Cron sends it automatically)
+   - `GEMINI_API_KEY`: optional, free at https://aistudio.google.com/apikey
+4. **Deployments** → latest → **Redeploy**. Each build creates or updates the tables and loads the missing history,
+   and it's safe to repeat. Every `git push` to `main` redeploys automatically.
+
+## Deploy with the scripts
 
 Do the local install first (`install.ps1` / `install.sh`), then run one of the commands above from the app folder.
 Both are safe to run again, and running again updates the deployment. They ask once and save the answers in

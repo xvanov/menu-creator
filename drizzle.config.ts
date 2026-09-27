@@ -8,7 +8,7 @@ export default defineConfig({
   out: "./drizzle",
   dialect: "turso", // libSQL: works for local file: URLs and hosted Turso
   dbCredentials: {
-    url: process.env.DATABASE_URL ?? "file:local.db",
-    authToken: process.env.DATABASE_AUTH_TOKEN,
+    url: process.env.DATABASE_URL ?? process.env.TURSO_DATABASE_URL ?? "file:local.db",
+    authToken: process.env.DATABASE_AUTH_TOKEN ?? process.env.TURSO_AUTH_TOKEN,
   },
 });
