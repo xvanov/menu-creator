@@ -39,7 +39,7 @@ export async function GET() {
         date: schema.menus.date,
         status: schema.menus.status,
         updatedAt: schema.menus.updatedAt,
-        items: sql<number>`(select count(*) from menu_items i where i.menu_id = ${schema.menus.id})`,
+        items: sql<number>`(select count(*) from menu_items i where i.menu_id = "menus"."id")`,
       })
       .from(schema.menus)
       .where(ne(schema.menus.source, "historial"));
