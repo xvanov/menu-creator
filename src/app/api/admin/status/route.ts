@@ -10,7 +10,8 @@ export async function GET() {
   let where: string;
   try {
     const u = new URL(url);
-    where = u.protocol === "file:" ? `file (${url})` : `${u.protocol}//${u.host.slice(0, 6)}…${u.host.slice(-22)}`;
+    // the hostname is not a secret (the auth token is); the full name identifies per-deployment databases
+    where = u.protocol === "file:" ? `file (${url})` : `${u.protocol}//${u.host}`;
   } catch {
     where = "invalid URL";
   }
