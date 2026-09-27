@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-03-18",
+    "service": "almuerzo",
+    "author": "Encargado",
+    "posted_at": "2026-03-18T07:42",
+    "portions": [
+      {
+        "dish": "Carapulcra con sopa seca",
+        "portions": 30
+      },
+      {
+        "dish": "Pollo al horno con crema de rocoto",
+        "portions": 30
+      },
+      {
+        "dish": "Saltado de atún",
+        "portions": 20,
+        "note": "Publicado como 'lomo saltado 20'; corregido a las 10:24: 'no es lomo saltado es saltado de atún'"
+      },
+      {
+        "dish": "Pollo frito con papas fritas y ensalada",
+        "portions": 20
+      }
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "service": "cena",
+    "author": "Encargado",
+    "posted_at": "2026-03-18T07:42",
+    "portions": [
+      {
+        "dish": "Arroz con pollo y papa a la huancaína",
+        "portions": 20
+      },
+      {
+        "dish": "Lomo saltado",
+        "portions": 10
+      },
+      {
+        "dish": "Carapulcra con sopa seca",
+        "portions": 10
+      },
+      {
+        "dish": "Pollo a la olla con ensalada de verduras",
+        "portions": 20,
+        "note": "Publicado como 'pollo a la olla'"
+      },
+      {
+        "dish": "Pollo frito con papas fritas y ensalada",
+        "portions": 10
+      }
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "service": "cena",
+    "author": "Encargado",
+    "posted_at": "2026-05-21T15:37",
+    "portions": [
+      {
+        "dish": "Saltado de vainita",
+        "portions": 10
+      },
+      {
+        "dish": "Cau cau con huevo frito",
+        "portions": 10
+      },
+      {
+        "dish": "Guiso de quinua con bistec",
+        "portions": 10
+      },
+      {
+        "dish": "Tallarines rojos con pollo y papa a la huancaína",
+        "portions": 20,
+        "note": "Publicado como 'tallarín con pollo'"
+      },
+      {
+        "dish": "Pollo a la olla con ensalada de verduras",
+        "portions": 20,
+        "note": "Publicado como 'pollo a la olla'"
+      },
+      {
+        "dish": "Pollo frito con papas fritas y ensalada",
+        "portions": 10
+      }
+    ]
+  }
+]

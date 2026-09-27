@@ -1,0 +1,8 @@
+# Files not uploaded by `gcloud run deploy --source .` (same as .dockerignore)
+node_modules/
+.next/
+.git/
+*.db
+*.db-*
+.env*
+!.env.example

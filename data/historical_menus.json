@@ -1,0 +1,7030 @@
+[
+  {
+    "date": "2025-12-29",
+    "weekday": "lunes",
+    "posted_at": "2025-12-29T11:43",
+    "entradas": [
+      {
+        "name": "Sopa de verduras c pollo"
+      },
+      {
+        "name": "Ensalada Mixta"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas c pescado frito"
+      },
+      {
+        "name": "Estofado de carne"
+      },
+      {
+        "name": "Salpicón de pollo"
+      },
+      {
+        "name": "Macarrones c pollo c papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2025-12-30",
+    "weekday": "martes",
+    "posted_at": "2025-12-30T12:46",
+    "entradas": [
+      {
+        "name": "Sopa a la minuta"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pallares c seco de pollo"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Arroz chaufa"
+      },
+      {
+        "name": "Pollo frito c papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-05",
+    "weekday": "lunes",
+    "posted_at": "2026-01-05T08:27",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz c pollo c papa a la huancaína"
+      },
+      {
+        "name": "Lentejas c pescado frito"
+      },
+      {
+        "name": "Adobo de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-06",
+    "weekday": "martes",
+    "posted_at": "2026-01-06T08:39",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tequeños"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo c pollo frito"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Chanfainita c tallarin y papa a la huancaína"
+      },
+      {
+        "name": "Churrasco c/ papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-07",
+    "weekday": "miércoles",
+    "posted_at": "2026-01-07T10:11",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz c chancho con zarza criolla"
+      },
+      {
+        "name": "Locro c huevo frito"
+      },
+      {
+        "name": "Milanesa frita c/ papas fritas"
+      },
+      {
+        "name": "Lomo saltado",
+        "price": 12.0
+      },
+      {
+        "name": "Pollo al horno c crema de rocoto"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-08",
+    "weekday": "jueves",
+    "posted_at": "2026-01-08T09:55",
+    "entradas": [
+      {
+        "name": "Sopa de menestron"
+      },
+      {
+        "name": "Ensalada de fideos con cabanossi"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines verdes c churrasco"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Salpicon de pollo"
+      },
+      {
+        "name": "Churrasco c papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-09",
+    "weekday": "viernes",
+    "posted_at": "2026-01-09T09:52",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles c seco a la norteña de res"
+      },
+      {
+        "name": "Puré c pollo frito"
+      },
+      {
+        "name": "Picante de carne"
+      },
+      {
+        "name": "Chuleta frita c ocopa a la arequipeña"
+      },
+      {
+        "name": "Pollo frito c papas fritas y ensalada de lechuga"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-10",
+    "weekday": "sábado",
+    "posted_at": "2026-01-10T10:58",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Wuantan c/ queso c/ salsa de tamarindo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca c/ polladita"
+      },
+      {
+        "name": "Alverjita partida c/ pollo al horno"
+      },
+      {
+        "name": "Chuleta frita c/ papas fritas"
+      },
+      {
+        "name": "Saltado de pollo"
+      },
+      {
+        "name": "Pollo frito c/ papas fritas y ensalada de lechuga"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-12",
+    "weekday": "lunes",
+    "posted_at": "2026-01-12T10:04",
+    "entradas": [
+      {
+        "name": "Sopa de pollo c verduras"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas c/ tortilla de verduras"
+      },
+      {
+        "name": "Arroz chaufa"
+      },
+      {
+        "name": "Seco de res c/ yuca"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-13",
+    "weekday": "martes",
+    "posted_at": "2026-01-13T09:18",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Ceviche"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Trigo c pollo frito"
+      },
+      {
+        "name": "Tallarines rojos c pollo c papa a la huancaína"
+      },
+      {
+        "name": "Adobo de chancho"
+      },
+      {
+        "name": "Pollo frito c papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-14",
+    "weekday": "miércoles",
+    "posted_at": "2026-01-14T09:19",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz c pollo c papa a la huancaína"
+      },
+      {
+        "name": "Pachamanca de chancho"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Alverja partida c hígado encebollado"
+      },
+      {
+        "name": "Milanesa c papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-15",
+    "weekday": "jueves",
+    "posted_at": "2026-01-15T08:48",
+    "entradas": [
+      {
+        "name": "Sopa de morón de pollo"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Yuquitas fritas"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz a la jardinera c/ pollo frito"
+      },
+      {
+        "name": "Cebiche de pollo c/ camote"
+      },
+      {
+        "name": "Lomo saltado",
+        "price": 12.0
+      },
+      {
+        "name": "Guiso de quinua c/ pollo frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-16",
+    "weekday": "viernes",
+    "posted_at": "2026-01-16T08:15",
+    "entradas": [
+      {
+        "name": "Chupe de pescado"
+      },
+      {
+        "name": "Fideos con mayonesa y cavanossi"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pollo a la cerveza"
+      },
+      {
+        "name": "Fréjoles c seco a la norteña"
+      },
+      {
+        "name": "Aeropuerto"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-17",
+    "weekday": "sábado",
+    "posted_at": "2026-01-17T09:04",
+    "entradas": [
+      {
+        "name": "Sopa de letras"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pallares c seco de pollo"
+      },
+      {
+        "name": "Ensalada rusa c pollo frito"
+      },
+      {
+        "name": "Churrasco c papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-19",
+    "weekday": "lunes",
+    "posted_at": "2026-01-19T09:18",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas c pescado frito"
+      },
+      {
+        "name": "Arroz c pollo c papa a la huancaína"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-21",
+    "weekday": "miércoles",
+    "posted_at": "2026-01-21T09:51",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines verdes c churrasco c papa a la huancaína"
+      },
+      {
+        "name": "Saltado de Atún"
+      },
+      {
+        "name": "Alverjita partida c pollo a la olla"
+      },
+      {
+        "name": "Churrasco frito c papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-23",
+    "weekday": "viernes",
+    "posted_at": "2026-01-23T10:15",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ceviche"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Salpicon de pollo"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Arroz c pollo c papa a la huancaína"
+      },
+      {
+        "name": "Fréjoles c seco a la norteña"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-24",
+    "weekday": "sábado",
+    "posted_at": "2026-01-24T09:14",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Guiso de trigo churrasco"
+      },
+      {
+        "name": "Ensalada blanca c pollo a la olla"
+      },
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-27",
+    "weekday": "martes",
+    "posted_at": "2026-01-27T09:18",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Mollejita frita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra de chancho"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Tallarines rojos c/ pollo c/ papa a la huancaína"
+      },
+      {
+        "name": "Milanesa frita c/ papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-28",
+    "weekday": "miércoles",
+    "posted_at": "2026-01-28T09:23",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pollo al horno c verduras"
+      },
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Seco de pollo c yuca"
+      },
+      {
+        "name": "Alverjita partida c hígado encebollado"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-29",
+    "weekday": "jueves",
+    "posted_at": "2026-01-29T09:44",
+    "entradas": [
+      {
+        "name": "Crema de alverja"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "wuantan"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Locro con huevo frito"
+      },
+      {
+        "name": "Aeropuerto"
+      },
+      {
+        "name": "Adobo de chancho"
+      },
+      {
+        "name": "Milanesa con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-30",
+    "weekday": "viernes",
+    "posted_at": "2026-01-30T09:22",
+    "entradas": [
+      {
+        "name": "Sopa de munición"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ceviche"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-01-31",
+    "weekday": "sábado",
+    "posted_at": "2026-01-31T09:20",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Causita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada Rusa con pollo al horno"
+      },
+      {
+        "name": "Tallarines verdes con churrasco frito y papa a la huancaína"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      },
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-02",
+    "weekday": "lunes",
+    "posted_at": "2026-02-02T09:15",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Estofado de res"
+      },
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Pollo a la olla con crema de rocoto"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-03",
+    "weekday": "martes",
+    "posted_at": "2026-02-03T08:51",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de trigo con pollo frito"
+      },
+      {
+        "name": "Saltado de atún"
+      },
+      {
+        "name": "Arroz a la jardinera con churrasco"
+      },
+      {
+        "name": "Pollo a la naranja"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-04",
+    "weekday": "miércoles",
+    "posted_at": "2026-02-04T09:52",
+    "entradas": [
+      {
+        "name": "Sopa de Shambar"
+      },
+      {
+        "name": "Wuantan"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz Chaufa"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      },
+      {
+        "name": "Pollo al sillao"
+      },
+      {
+        "name": "Puré con asado de res"
+      },
+      {
+        "name": "Chuleta o Bisteck con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-05",
+    "weekday": "jueves",
+    "posted_at": "2026-02-05T08:55",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra de chancho"
+      },
+      {
+        "name": "Pollo a la olla con ensalada de verduras"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Seco de res con yuca"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-06",
+    "weekday": "viernes",
+    "posted_at": "2026-02-06T09:25",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Ceviche"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Escabeche de pescado"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-07",
+    "weekday": "sábado",
+    "posted_at": "2026-02-07T08:12",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Quinua con pollo frito"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Bisteck a lo pobre",
+        "price": 17.0
+      },
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-09",
+    "weekday": "lunes",
+    "posted_at": "2026-02-09T09:16",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Pollo en trozos con verduras"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-10",
+    "weekday": "martes",
+    "posted_at": "2026-02-10T11:12",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con chuleta"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-11",
+    "weekday": "miércoles",
+    "posted_at": "2026-02-11T12:33",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con pescado frito"
+      },
+      {
+        "name": "Arroz chaufa con plátano frito"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-12",
+    "weekday": "jueves",
+    "posted_at": "2026-02-12T09:24",
+    "entradas": [
+      {
+        "name": "Sopa de verduras con carne"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de trigo con Adobo de pollo"
+      },
+      {
+        "name": "Tallarines verdes con churrasco con papa a la huancaína"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-13",
+    "weekday": "viernes",
+    "posted_at": "2026-02-13T11:06",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ceviche"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Adobo de chancho"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-16",
+    "weekday": "lunes",
+    "posted_at": "2026-02-16T10:46",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Ají de gallina"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-17",
+    "weekday": "martes",
+    "posted_at": "2026-02-17T09:49",
+    "entradas": [
+      {
+        "name": "Sopa"
+      },
+      {
+        "name": "Wuantan"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Aeropuerto"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Alverjita partida con pollo guisado"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-18",
+    "weekday": "miércoles",
+    "posted_at": "2026-02-18T10:04",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada rusa con churrasco"
+      },
+      {
+        "name": "Olluquito con carne"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Milanesa con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-19",
+    "weekday": "jueves",
+    "posted_at": "2026-02-19T10:42",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de fideos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Salpicón de pollo"
+      },
+      {
+        "name": "Tallarines con chanfainita con papa a la huancaína"
+      },
+      {
+        "name": "Guiso de quinua con pollo frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-20",
+    "weekday": "viernes",
+    "posted_at": "2026-02-20T10:17",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles panamito con seco de pollo"
+      },
+      {
+        "name": "Hígado encebollado"
+      },
+      {
+        "name": "Pollo en trozos con verduras"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-21",
+    "weekday": "sábado",
+    "posted_at": "2026-02-21T10:43",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ceviche"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Chicharrón de pescado con yuca y zarza criolla"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito con papa a la huancaína"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-23",
+    "weekday": "lunes",
+    "posted_at": "2026-02-23T10:17",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tequeños"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Pollo a la norteña con yuca"
+      },
+      {
+        "name": "Cau Cau"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-24",
+    "weekday": "martes",
+    "posted_at": "2026-02-24T10:13",
+    "entradas": [
+      {
+        "name": "Sopa de verduras con carne"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz a la jardinera con pollo frito"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Ensalada de brocoli con pollo al horno"
+      },
+      {
+        "name": "Garbanzo con bisteck"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-25",
+    "weekday": "miércoles",
+    "posted_at": "2026-02-25T09:06",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con hígado encebollado"
+      },
+      {
+        "name": "Arroz Chaufa"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-27",
+    "weekday": "viernes",
+    "posted_at": "2026-02-27T10:41",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Ceviche de pollo"
+      },
+      {
+        "name": "Estofado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-02-28",
+    "weekday": "sábado",
+    "posted_at": "2026-02-28T09:37",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tequeños"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Picante de carne"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Guiso de trigo con churrasco"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-03-02",
+    "weekday": "lunes",
+    "posted_at": "2026-03-02T10:37",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a huancaína"
+      },
+      {
+        "name": "Mollejita Frita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Pollo al horno con ensalada de brocoli"
+      },
+      {
+        "name": "Lomo saltado"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-03-03",
+    "weekday": "martes",
+    "posted_at": "2026-03-03T11:01",
+    "entradas": [
+      {
+        "name": "Sopa de verduras con carne"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pallares con seco de pollo"
+      },
+      {
+        "name": "Aeropuerto"
+      },
+      {
+        "name": "Olluquito con carne"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-03-04",
+    "weekday": "miércoles",
+    "posted_at": "2026-03-04T09:29",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra con sopa seca"
+      },
+      {
+        "name": "Locro de zapallo con huevo frito"
+      },
+      {
+        "name": "Ensalada blanca con pollo a la olla"
+      },
+      {
+        "name": "Milanesa de pollo con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-03-05",
+    "weekday": "jueves",
+    "posted_at": "2026-03-05T10:05",
+    "entradas": [
+      {
+        "name": "Sopa de menestron"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz a la jardinera con chuleta dorada"
+      },
+      {
+        "name": "Saltado de Atún"
+      },
+      {
+        "name": "Guiso de trigo con pollo frito"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-03-06",
+    "weekday": "viernes",
+    "posted_at": "2026-03-06T10:18",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Salchipapita"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Cebiche de pollo"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Ají de gallina"
+      }
+    ],
+    "extras": [],
+    "menu_price": null
+  },
+  {
+    "date": "2026-03-07",
+    "weekday": "sábado",
+    "posted_at": "2026-03-07T09:23",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré con asado de res"
+      },
+      {
+        "name": "Tallarines verdes con churrasco con papa a la huancaína"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaste",
+        "price": 15.0
+      }
+    ],
+    "menu_price": null
+  },
+  {
+    "date": "2026-03-09",
+    "weekday": "lunes",
+    "posted_at": "2026-03-09T10:52",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Picante de carne"
+      },
+      {
+        "name": "Pollo a la olla con crema de rocoto"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-10",
+    "weekday": "martes",
+    "posted_at": "2026-03-10T10:45",
+    "entradas": [
+      {
+        "name": "Sopa de verduras con pollo"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con chuleta dorada"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Cau Cau"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-11",
+    "weekday": "miércoles",
+    "posted_at": "2026-03-11T09:59",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de fideos con cabanossi"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con hígado encebollado"
+      },
+      {
+        "name": "Arroz chaufa con plátano frito"
+      },
+      {
+        "name": "Adobo de pollo con papa a la huancaína"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-12",
+    "weekday": "jueves",
+    "posted_at": "2026-03-12T10:26",
+    "entradas": [
+      {
+        "name": "Sopa de menestron"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Mollejita frita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con chancho"
+      },
+      {
+        "name": "Guiso de quinua con pollo frito"
+      },
+      {
+        "name": "Tallarines con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-13",
+    "weekday": "viernes",
+    "posted_at": "2026-03-13T11:09",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Tamales"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-14",
+    "weekday": "sábado",
+    "posted_at": "2026-03-14T10:32",
+    "entradas": [
+      {
+        "name": "Sopa de verduras con pollo"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Puré con asado de res"
+      },
+      {
+        "name": "Chuleta frita con papas fritas"
+      },
+      {
+        "name": "Seco de pollo con yuca"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-16",
+    "weekday": "lunes",
+    "posted_at": "2026-03-16T10:13",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Escabeche de pollo o pescado"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-17",
+    "weekday": "martes",
+    "posted_at": "2026-03-17T09:31",
+    "entradas": [
+      {
+        "name": "Sopa de sémola con carne"
+      },
+      {
+        "name": "Wuantan"
+      },
+      {
+        "name": "Ensalada de fideos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Panamito con seco de res"
+      },
+      {
+        "name": "Milanesa de pollo con papas fritas"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Aeropuerto"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-18",
+    "weekday": "miércoles",
+    "posted_at": "2026-03-18T11:55",
+    "entradas": [
+      {
+        "name": "Sopa de morón con carne"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Carapulcra de chancho con sopa seca"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-19",
+    "weekday": "jueves",
+    "posted_at": "2026-03-19T10:32",
+    "entradas": [
+      {
+        "name": "Sopa crema de alverja"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Tequeños de queso"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con chuleta dorada"
+      },
+      {
+        "name": "Tallarines con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Papas fritas con chuleta dorada"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-20",
+    "weekday": "viernes",
+    "posted_at": "2026-03-20T08:59",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Cebiche de pollo con camote"
+      },
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Olluquito con carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-21",
+    "weekday": "sábado",
+    "posted_at": "2026-03-21T10:33",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Polladita con crema de rocoto"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Guiso de quinua con pollo frito"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-23",
+    "weekday": "lunes",
+    "posted_at": "2026-03-23T11:15",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Pollo a la norteña con yuca"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-24",
+    "weekday": "martes",
+    "posted_at": "2026-03-24T09:17",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Tamal"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con pollo frito"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-25",
+    "weekday": "miércoles",
+    "posted_at": "2026-03-25T08:34",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra de chancho"
+      },
+      {
+        "name": "Pollo a la olla con ensalada de verduras"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-26",
+    "weekday": "jueves",
+    "posted_at": "2026-03-26T09:43",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con hígado encebollado"
+      },
+      {
+        "name": "Arroz c/ pollo c/ papa a la huancaína"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-27",
+    "weekday": "viernes",
+    "posted_at": "2026-03-27T11:10",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Frejoles con seco a la norteña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Milanesa frita con papas fritas"
+      },
+      {
+        "name": "Saltado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-28",
+    "weekday": "sábado",
+    "posted_at": "2026-03-28T11:03",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Tallarines verdes con churrasco con papa a la huancaína"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-30",
+    "weekday": "lunes",
+    "posted_at": "2026-03-30T09:49",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pollo a la norteña con yuca"
+      },
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Seco de res"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-03-31",
+    "weekday": "martes",
+    "posted_at": "2026-03-31T11:18",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de fideos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con pollo frito"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-01",
+    "weekday": "miércoles",
+    "posted_at": "2026-04-01T10:41",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Tamal"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré con asado de res"
+      },
+      {
+        "name": "Arroz a la jardinera con churrasco"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      },
+      {
+        "name": "Adobo de chancho con camote"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-02",
+    "weekday": "jueves",
+    "posted_at": "2026-04-02T10:43",
+    "entradas": [
+      {
+        "name": "Sopa de choros"
+      },
+      {
+        "name": "Wuantan"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Escabeche de pollo y/o de pescado"
+      },
+      {
+        "name": "Arroz Chaufa"
+      },
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Pallares con seco de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-06",
+    "weekday": "lunes",
+    "posted_at": "2026-04-06T08:25",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-07",
+    "weekday": "martes",
+    "posted_at": "2026-04-07T11:46",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con hígado encebollado"
+      },
+      {
+        "name": "Arroz Chaufa con plátano frito"
+      },
+      {
+        "name": "Cebiche de pollo con camote"
+      },
+      {
+        "name": "Seco de res con yuca"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-08",
+    "weekday": "miércoles",
+    "posted_at": "2026-04-08T09:48",
+    "entradas": [
+      {
+        "name": "Sopa deverduras"
+      },
+      {
+        "name": "Papa. La huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de trigo con churrasco"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-09",
+    "weekday": "jueves",
+    "posted_at": "2026-04-09T10:47",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Locro de zapallo con huevo frito"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      },
+      {
+        "name": "Pollo en trozos con verduras"
+      },
+      {
+        "name": "Adobo de chancho"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-10",
+    "weekday": "viernes",
+    "posted_at": "2026-04-10T09:56",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tequeños"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-11",
+    "weekday": "sábado",
+    "posted_at": "2026-04-11T10:41",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Ensalada de fideos con cabanossi"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pallares con seco de pollo"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Chuleta dorada con ocopa a la arequipeña"
+      },
+      {
+        "name": "Chuleta con papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-13",
+    "weekday": "lunes",
+    "posted_at": "2026-04-13T08:52",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Tamalitos"
+      },
+      {
+        "name": "Tequeños"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Pollo a la norteña con yuca"
+      },
+      {
+        "name": "Saltado de atún"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-14",
+    "weekday": "martes",
+    "posted_at": "2026-04-14T12:41",
+    "entradas": [
+      {
+        "name": "Sopa de verduras con pollo"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Saltado de atún"
+      },
+      {
+        "name": "Guiso de quinua con pollo"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-15",
+    "weekday": "miércoles",
+    "posted_at": "2026-04-15T08:10",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pallares con seco de res"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-16",
+    "weekday": "jueves",
+    "posted_at": "2026-04-16T10:51",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Tamal"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra con sopa seca"
+      },
+      {
+        "name": "Ensalada blanca con pollo a la olla"
+      },
+      {
+        "name": "Picante de carne"
+      },
+      {
+        "name": "Milanesa frita con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-17",
+    "weekday": "viernes",
+    "posted_at": "2026-04-17T12:23",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con secoa a la norteña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Saltado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-18",
+    "weekday": "sábado",
+    "posted_at": "2026-04-18T10:47",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Coditos con cabanossi"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Guiso de trigo con churrasco"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 16.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-20",
+    "weekday": "lunes",
+    "posted_at": "2026-04-20T09:33",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Salchipapita"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con filete de pescado frito (bonito)"
+      },
+      {
+        "name": "Adobo de pollo con ensalada de brócoli"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-21",
+    "weekday": "martes",
+    "posted_at": "2026-04-21T09:15",
+    "entradas": [
+      {
+        "name": "Sopa de Menestrón"
+      },
+      {
+        "name": "Tamalitos"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con chuleta"
+      },
+      {
+        "name": "Arroz a la jardinera con pollo frito"
+      },
+      {
+        "name": "Chuleta frita con ocopa a la arequipeña"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-22",
+    "weekday": "miércoles",
+    "posted_at": "2026-04-22T08:10",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré con asado de res"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Chuleta con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-23",
+    "weekday": "jueves",
+    "posted_at": "2026-04-23T10:05",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Locro de zapallo con huevo frito"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Guiso de trigo con churrasco"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-24",
+    "weekday": "viernes",
+    "posted_at": "2026-04-24T12:10",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ceviche"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Ají de gallina"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-25",
+    "weekday": "sábado",
+    "posted_at": "2026-04-25T08:56",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Polladita con crema de rocoto"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Trucha Frita (papa, choclo y ensalada)",
+        "price": 20.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-27",
+    "weekday": "lunes",
+    "posted_at": "2026-04-27T09:58",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Mollejitas"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Pollo a la norteña con yuca"
+      },
+      {
+        "name": "Saltado de brocoli"
+      },
+      {
+        "name": "Estofado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-28",
+    "weekday": "martes",
+    "posted_at": "2026-04-28T11:31",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Salchipapita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pachamanca de chancho"
+      },
+      {
+        "name": "Pallares con seco de pollo"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Pollo al maní"
+      },
+      {
+        "name": "Hígado encebollado"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-29",
+    "weekday": "miércoles",
+    "posted_at": "2026-04-29T09:24",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Wuantan frito"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz Chaufa con plátano frito"
+      },
+      {
+        "name": "Pollo a la olla con ensalada de verduras"
+      },
+      {
+        "name": "Guiso de quinua con bisteck"
+      },
+      {
+        "name": "Olluquito con carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-04-30",
+    "weekday": "jueves",
+    "posted_at": "2026-04-30T09:31",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de fideosb"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines verdes con pollo frito"
+      },
+      {
+        "name": "Bisteck con papas fritas"
+      },
+      {
+        "name": "Saltado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-04",
+    "weekday": "lunes",
+    "posted_at": "2026-05-04T11:08",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Tallarines con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-05",
+    "weekday": "martes",
+    "posted_at": "2026-05-05T09:42",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con chuleta"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      },
+      {
+        "name": "Cau Cau c/ huevo frito"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Salpicón de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-06",
+    "weekday": "miércoles",
+    "posted_at": "2026-05-06T08:07",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Adobo de chancho"
+      },
+      {
+        "name": "Arroz a la jardinera con pollo frito"
+      },
+      {
+        "name": "Puré de espinaca con asado de res"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-07",
+    "weekday": "jueves",
+    "posted_at": "2026-05-07T09:52",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Salchipapita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Hígado encebollado"
+      },
+      {
+        "name": "Guiso de trigo con churrasco"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito con papa a la huancaína"
+      },
+      {
+        "name": "Ensalada blanca con pollo a la olla"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-08",
+    "weekday": "viernes",
+    "posted_at": "2026-05-08T10:07",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Chuleta dorada con papas fritas"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Saltado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-09",
+    "weekday": "sábado",
+    "posted_at": "2026-05-09T11:28",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Humita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pachamanca 3 sabores",
+        "price": 35.0
+      },
+      {
+        "name": "Cuy chactado entero",
+        "price": 60.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-11",
+    "weekday": "lunes",
+    "posted_at": "2026-05-11T10:14",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-12",
+    "weekday": "martes",
+    "posted_at": "2026-05-12T10:34",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de fideos con cabanossi"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles panamito con seco de pollo o res"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Pollo frito con papas fritas y ensalada"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-13",
+    "weekday": "miércoles",
+    "posted_at": "2026-05-13T08:56",
+    "entradas": [
+      {
+        "name": "Sopa de crema de alverja"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz a la jardinera con pollo frito"
+      },
+      {
+        "name": "Ensalada rusa con bisteck"
+      },
+      {
+        "name": "Pollo en trozos con verdura"
+      },
+      {
+        "name": "Bistec encebollado con papa sancochada y arroz"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-14",
+    "weekday": "jueves",
+    "posted_at": "2026-05-14T09:58",
+    "entradas": [
+      {
+        "name": "Sopa de Menestrón"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Patita con maní"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Chuleta frita con papas fritas"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito con papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-15",
+    "weekday": "viernes",
+    "posted_at": "2026-05-15T09:20",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Saltado de atún"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-16",
+    "weekday": "sábado",
+    "posted_at": "2026-05-16T09:10",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca con pollo a la olla"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-18",
+    "weekday": "lunes",
+    "posted_at": "2026-05-18T10:32",
+    "entradas": [
+      {
+        "name": "sopa de morón"
+      },
+      {
+        "name": "salchipatita"
+      },
+      {
+        "name": "crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verdura"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "pollo al ojo con crema de rocoso"
+      },
+      {
+        "name": "picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-19",
+    "weekday": "martes",
+    "posted_at": "2026-05-19T11:06",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      },
+      {
+        "name": "Garbanzo con pollo frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-20",
+    "weekday": "miércoles",
+    "posted_at": "2026-05-20T08:48",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Mollejita frita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz chaufa con plátano frito"
+      },
+      {
+        "name": "Alverjita partida con hígado"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Estofado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-21",
+    "weekday": "jueves",
+    "posted_at": "2026-05-21T09:55",
+    "entradas": [
+      {
+        "name": "Menestrón"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Locro con zapallo con huevo"
+      },
+      {
+        "name": "Saltado de vainita"
+      },
+      {
+        "name": "Tallarines con pollo con papa a la huancaina"
+      },
+      {
+        "name": "Adobo de chancho con camote"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-22",
+    "weekday": "viernes",
+    "posted_at": "2026-05-22T10:59",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      },
+      {
+        "name": "Ceviche de pollo con camote"
+      },
+      {
+        "name": "Chuleta frita con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-23",
+    "weekday": "sábado",
+    "posted_at": "2026-05-23T10:38",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Guiso de trigo con pollo frito"
+      },
+      {
+        "name": "Lomo saltado"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-25",
+    "weekday": "lunes",
+    "posted_at": "2026-05-25T10:56",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Tallarines con chanfainita"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      },
+      {
+        "name": "Saltado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-26",
+    "weekday": "martes",
+    "posted_at": "2026-05-26T09:13",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Tamal"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarin Saltado de carne"
+      },
+      {
+        "name": "Fréjoles panamito con seco de pollo"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Milanesa de pollo con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-27",
+    "weekday": "miércoles",
+    "posted_at": "2026-05-27T08:46",
+    "entradas": [
+      {
+        "name": "Sopa de olluco"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra de chancho"
+      },
+      {
+        "name": "Salpicón de pollo"
+      },
+      {
+        "name": "Saltado de atún"
+      },
+      {
+        "name": "Arroz c pollo c papa a la huancaína"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-28",
+    "weekday": "jueves",
+    "posted_at": "2026-05-28T08:44",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Salchipapita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con hígado encebollado"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      },
+      {
+        "name": "Chuleta dorada con ocopa a la arequipeña"
+      },
+      {
+        "name": "Pollo al horno con ensalada de verduras"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-29",
+    "weekday": "viernes",
+    "posted_at": "2026-05-29T10:41",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Arroz chaufa con plátano"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-05-30",
+    "weekday": "sábado",
+    "posted_at": "2026-05-30T10:52",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines verdes con hígado frito o pollo frito"
+      },
+      {
+        "name": "Milanesa de pollo con papas fritas"
+      },
+      {
+        "name": "Puré c asado de res o hígado"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      },
+      {
+        "name": "Churrasco a lo pobre",
+        "price": 20.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-01",
+    "weekday": "lunes",
+    "posted_at": "2026-06-01T10:47",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína."
+      },
+      {
+        "name": "Picante de carne"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-02",
+    "weekday": "martes",
+    "posted_at": "2026-06-02T10:48",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tequeños"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con churrasco"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau c huevo frito"
+      },
+      {
+        "name": "Saltado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-03",
+    "weekday": "miércoles",
+    "posted_at": "2026-06-03T09:51",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Salchipapita"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Alverjita partida con Adobo de pollo"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-04",
+    "weekday": "jueves",
+    "posted_at": "2026-06-04T10:16",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de quinua con pechuga a la plancha"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Adobo de chancho"
+      },
+      {
+        "name": "Saltado de brócoli"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-05",
+    "weekday": "viernes",
+    "posted_at": "2026-06-05T10:56",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Pollo al horno con ensalada de verduras"
+      },
+      {
+        "name": "Milanesa con papas fritas"
+      },
+      {
+        "name": "Olluquito con carne"
+      }
+    ],
+    "extras": [
+      {
+        "name": "POLLO BROASTER",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-06",
+    "weekday": "sábado",
+    "posted_at": "2026-06-06T11:08",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Guiso de trigo con milanesa de pollo"
+      }
+    ],
+    "extras": [
+      {
+        "name": "POLLO BROASTER",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-08",
+    "weekday": "lunes",
+    "posted_at": "2026-06-08T11:09",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Pollo al vino con papa sancochada"
+      },
+      {
+        "name": "Macarrones con carne con papa a la huancaína"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-09",
+    "weekday": "martes",
+    "posted_at": "2026-06-09T10:27",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pallares con seco de res"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Ensalada de brocoli con pechuga a la plancha"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-10",
+    "weekday": "miércoles",
+    "posted_at": "2026-06-10T09:30",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de fideos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra de chancho"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito"
+      },
+      {
+        "name": "Patita con maní"
+      },
+      {
+        "name": "Salpicón de pollo"
+      }
+    ],
+    "extras": [
+      {
+        "name": "POLLO BROASTER",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-12",
+    "weekday": "viernes",
+    "posted_at": "2026-06-12T10:27",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Tequeños"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Churrasco con ocopa a la arequipeña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [
+      {
+        "name": "POLLO BROASTER",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-13",
+    "weekday": "sábado",
+    "posted_at": "2026-06-13T09:50",
+    "entradas": [
+      {
+        "name": "Menestrón"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Arroz c pollo c papa a la huancaína"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "POLLO BROASTER",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-15",
+    "weekday": "lunes",
+    "posted_at": "2026-06-15T10:11",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Pechuga a la plancha con ensalada de brocoli"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-17",
+    "weekday": "miércoles",
+    "posted_at": "2026-06-17T08:58",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Tequeños con queso"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pachamanca de pollo"
+      },
+      {
+        "name": "Fréjoles panamito con hígado encebollada"
+      },
+      {
+        "name": "Adobo de chancho con camote"
+      },
+      {
+        "name": "Lomo saltado"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-18",
+    "weekday": "jueves",
+    "posted_at": "2026-06-18T10:25",
+    "entradas": [
+      {
+        "name": "Sopa de olluco"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con pechuga a la plancha"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-19",
+    "weekday": "viernes",
+    "posted_at": "2026-06-19T08:19",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ensalada de fideos"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Milanesa frita con papas fritas"
+      },
+      {
+        "name": "Salpicón de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-20",
+    "weekday": "sábado",
+    "posted_at": "2026-06-20T10:57",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Polladita con crema de rocoto"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Milanesa con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-22",
+    "weekday": "lunes",
+    "posted_at": "2026-06-22T10:13",
+    "entradas": [
+      {
+        "name": "Sopa de olluco"
+      },
+      {
+        "name": "Tamalitos"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Ensalada de brocoli con pechuga a la plancha"
+      },
+      {
+        "name": "Ají de gallina"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-23",
+    "weekday": "martes",
+    "posted_at": "2026-06-23T10:44",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Salchipapita"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con chuleta"
+      },
+      {
+        "name": "Arroz a la jardinera con pollo frito"
+      },
+      {
+        "name": "Saltado de atún"
+      },
+      {
+        "name": "Estofado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-24",
+    "weekday": "miércoles",
+    "posted_at": "2026-06-24T08:17",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Wuantan frito con tamarindo"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz Chaufa con plátano frito"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Pollo al sillao"
+      },
+      {
+        "name": "Alverjita partida con hígado encebollado"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-25",
+    "weekday": "jueves",
+    "posted_at": "2026-06-25T09:48",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de trigo con churrasco"
+      },
+      {
+        "name": "Tallarines con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-26",
+    "weekday": "viernes",
+    "posted_at": "2026-06-26T11:43",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Ensalada de fideos"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Hígado encebollado"
+      },
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Pollo al horno con ensalada de verduras"
+      },
+      {
+        "name": "Ají de gallina"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-27",
+    "weekday": "sábado",
+    "posted_at": "2026-06-27T08:54",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tequeños"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines verdes c pollo frito"
+      },
+      {
+        "name": "Churrasco c papas fritas"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Milanesa c papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-06-30",
+    "weekday": "martes",
+    "posted_at": "2026-06-30T11:04",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Wuantan frito"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de quinua con pollo al horno"
+      },
+      {
+        "name": "Pollo en trozos con verduras"
+      },
+      {
+        "name": "Macarrones con carne con papa a la huancaína"
+      },
+      {
+        "name": "Churrasco frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-01",
+    "weekday": "miércoles",
+    "posted_at": "2026-07-01T08:21",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con chuleta"
+      },
+      {
+        "name": "Olluquito con carne"
+      },
+      {
+        "name": "Arroz c pollo con papa a la huancaína"
+      },
+      {
+        "name": "Estofado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-02",
+    "weekday": "jueves",
+    "posted_at": "2026-07-02T11:00",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Ensalada Mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré c pollo al vino"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-03",
+    "weekday": "viernes",
+    "posted_at": "2026-07-03T10:36",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Salchipapita"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Cebiche de pollo con camote"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-04",
+    "weekday": "sábado",
+    "posted_at": "2026-07-04T10:47",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada rusa con pollo al horno"
+      },
+      {
+        "name": "Pechuga a la plancha c verduras"
+      },
+      {
+        "name": "Lomo saltado"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-06",
+    "weekday": "lunes",
+    "posted_at": "2026-07-06T11:08",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Saltado de brocoli"
+      },
+      {
+        "name": "Macarrones c pollo c papa a la huancaína"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-07",
+    "weekday": "martes",
+    "posted_at": "2026-07-07T10:42",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Salchipapa"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Fréjoles panamito con seco de res"
+      },
+      {
+        "name": "Adobo de chancho con camote"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-08",
+    "weekday": "miércoles",
+    "posted_at": "2026-07-08T10:55",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "tamal"
+      },
+      {
+        "name": "crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con escabeche"
+      },
+      {
+        "name": "Arroz norteño con pollo frito y zarza criolla"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Picante de atun"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-09",
+    "weekday": "jueves",
+    "posted_at": "2026-07-09T10:31",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de trigo con churrasco"
+      },
+      {
+        "name": "Tallarines con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Salpicón de pollo"
+      },
+      {
+        "name": "Cayhua Rellena"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-10",
+    "weekday": "viernes",
+    "posted_at": "2026-07-10T09:53",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tequeños con queso"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster"
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-11",
+    "weekday": "sábado",
+    "posted_at": "2026-07-11T09:57",
+    "entradas": [
+      {
+        "name": "Sopa de morón"
+      },
+      {
+        "name": "Causita de pollo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines verdes con churrasco"
+      },
+      {
+        "name": "Alverjita partida con pollo al horno"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster"
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-13",
+    "weekday": "lunes",
+    "posted_at": "2026-07-13T09:02",
+    "entradas": [
+      {
+        "name": "Sopa de verdura"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pechuga a la plancha con ensalada de brócoli"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Arroz con chancho"
+      },
+      {
+        "name": "Lentejas con pescado frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-14",
+    "weekday": "martes",
+    "posted_at": "2026-07-14T10:30",
+    "entradas": [
+      {
+        "name": "Crema de alverja"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con chuleta"
+      },
+      {
+        "name": "Cau Cau"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Tallarin Saltado de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-15",
+    "weekday": "miércoles",
+    "posted_at": "2026-07-15T09:44",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Tequeños con queso"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Guiso de quinua con pollo frito"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broasther",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-16",
+    "weekday": "jueves",
+    "posted_at": "2026-07-16T08:56",
+    "entradas": [
+      {
+        "name": "Sopa de menestron"
+      },
+      {
+        "name": "Papa.a la huancaína"
+      },
+      {
+        "name": "Ceviche"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con churrasco"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-18",
+    "weekday": "sábado",
+    "posted_at": "2026-07-18T10:05",
+    "entradas": [
+      {
+        "name": "Aguadito"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ceviche"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Ensalada blanca con pollo a la olla"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-20",
+    "weekday": "lunes",
+    "posted_at": "2026-07-20T11:03",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Mollejita"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Cebiche de pollo"
+      },
+      {
+        "name": "Macarrones con carne con papa a la huancaína"
+      },
+      {
+        "name": "Pechuga a la plancha con ensalada de brócoli"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-21",
+    "weekday": "martes",
+    "posted_at": "2026-07-21T11:20",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Ensalada de fideos"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles panamito con seco de pollo"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Adobo de chancho"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-22",
+    "weekday": "miércoles",
+    "posted_at": "2026-07-22T10:58",
+    "entradas": [
+      {
+        "name": "Sopa de olluco"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Aeropuerto"
+      },
+      {
+        "name": "Puré c asado de res"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-24",
+    "weekday": "viernes",
+    "posted_at": "2026-07-24T08:37",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Chuleta con papas fritas"
+      },
+      {
+        "name": "Adobo de pollo con crema de rocoto"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-25",
+    "weekday": "sábado",
+    "posted_at": "2026-07-25T10:58",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz c pollo con papa a la huancaína"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-07-27",
+    "weekday": "lunes",
+    "posted_at": "2026-07-27T10:53",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Pollo a la norteña con yuca"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Pechuga a la plancha con ensalada de brócoli"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-03",
+    "weekday": "lunes",
+    "posted_at": "2026-08-02T22:33",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Papa a la huancaina"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Arroz c pollo con papa huancaína"
+      },
+      {
+        "name": "Pechuga a la plancha con ensalada de Brócoli"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-04",
+    "weekday": "martes",
+    "posted_at": "2026-08-04T12:07",
+    "entradas": [
+      {
+        "name": "Sopa se verduras con pollo"
+      },
+      {
+        "name": "Tamales"
+      },
+      {
+        "name": "Ocopa a la Arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con chuleta dorada"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-05",
+    "weekday": "miércoles",
+    "posted_at": "2026-08-05T10:12",
+    "entradas": [
+      {
+        "name": "Sopa de olluco"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ensalada de fideos con cabanossi"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré con asado de res"
+      },
+      {
+        "name": "Pollo al horno con ensalada de verduras"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-06",
+    "weekday": "jueves",
+    "posted_at": "2026-08-06T08:52",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Tequeños con queso"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de trigo con churrasco"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      },
+      {
+        "name": "Seco de res"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-07",
+    "weekday": "viernes",
+    "posted_at": "2026-08-07T07:47",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Tamalitos"
+      },
+      {
+        "name": "Ensalada de palta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco de res"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-08",
+    "weekday": "sábado",
+    "posted_at": "2026-08-08T09:40",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Tamalitos"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada rusa con pollo al horno"
+      },
+      {
+        "name": "Alverjita partida con chuleta"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      },
+      {
+        "name": "Lomo saltado"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-10",
+    "weekday": "lunes",
+    "posted_at": "2026-08-10T09:24",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Ceviche de pollo"
+      },
+      {
+        "name": "Saltado de pollo"
+      },
+      {
+        "name": "Macarrones con carne"
+      },
+      {
+        "name": "Estofado de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-11",
+    "weekday": "martes",
+    "posted_at": "2026-08-11T08:37",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Tequeños con queso"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles panamito con seco de pollo"
+      },
+      {
+        "name": "Hígado encebollado"
+      },
+      {
+        "name": "Arroz c pollo c papa a la huancaína"
+      },
+      {
+        "name": "Saltade Atún"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-12",
+    "weekday": "miércoles",
+    "posted_at": "2026-08-12T09:10",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra de chancho"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Ensalada de brocoli con pechuga a la plancha"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-13",
+    "weekday": "jueves",
+    "posted_at": "2026-08-13T12:22",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Yuca dorada con tartara"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Locro de Zapallo con huevo frito"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      },
+      {
+        "name": "Alverjita partida con pollo frito"
+      },
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-14",
+    "weekday": "viernes",
+    "posted_at": "2026-08-14T09:21",
+    "entradas": [
+      {
+        "name": "Sopa de olluco"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Ceviche"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Fréjoles con seco a la norteña"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "POLLO BROASTER",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-15",
+    "weekday": "sábado",
+    "posted_at": "2026-08-15T10:27",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Tamales"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Chuleta con papas fritas"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Guiso de trigo con pollo frito"
+      },
+      {
+        "name": "Arroz a la jardinera con churrasco"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-17",
+    "weekday": "lunes",
+    "posted_at": "2026-08-17T10:28",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Mollejita a la plancha Tamal"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Ensalada de brócoli con pechuga a la plancha"
+      },
+      {
+        "name": "Ají de gallina"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-18",
+    "weekday": "martes",
+    "posted_at": "2026-08-18T10:41",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con pollo frito"
+      },
+      {
+        "name": "Macarrones con carne con papa a la huancaína"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Escabeche de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-20",
+    "weekday": "jueves",
+    "posted_at": "2026-08-20T09:10",
+    "entradas": [
+      {
+        "name": "Sopa de verduras con pollo"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con pechuga a la plancha"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      },
+      {
+        "name": "Picante de carne"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-21",
+    "weekday": "viernes",
+    "posted_at": "2026-08-21T08:50",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Papa a la huancaina"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Frejoles con seco a la norteña"
+      },
+      {
+        "name": "Churrasco con papas doradas y salsa criolla"
+      },
+      {
+        "name": "Olluquito con pollo"
+      },
+      {
+        "name": "Arroz con pollo con papa a la huancaina"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-22",
+    "weekday": "sábado",
+    "posted_at": "2026-08-22T09:01",
+    "entradas": [
+      {
+        "name": "Sopa de trigo"
+      },
+      {
+        "name": "Yuquita dorada con tártara"
+      },
+      {
+        "name": "Papa a la huancaina"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarines verdes con churrasco con papa a la huancaina"
+      },
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Pollo al maní"
+      },
+      {
+        "name": "Churrasco con papas fritas y ensalada"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-24",
+    "weekday": "lunes",
+    "posted_at": "2026-08-24T08:44",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Pollo al sillao"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Pollo frito con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-25",
+    "weekday": "martes",
+    "posted_at": "2026-08-25T10:59",
+    "entradas": [
+      {
+        "name": "Sopa de menestron"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré de pallares con carne adobada"
+      },
+      {
+        "name": "Escabeche de pollo"
+      },
+      {
+        "name": "Cau Cau con huevo frito"
+      },
+      {
+        "name": "Tallarines con pollo con papa a la huancaina"
+      },
+      {
+        "name": "Chuleta con Ocopa a la arequipeña"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-26",
+    "weekday": "miércoles",
+    "posted_at": "2026-08-26T09:41",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Papa a la huancaina"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra con sopa seca"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Pollo al horno con verduras"
+      },
+      {
+        "name": "Chuleta frita con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-27",
+    "weekday": "jueves",
+    "posted_at": "2026-08-27T08:47",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Tequeños con queso con tartara"
+      },
+      {
+        "name": "Ensalada de fideos con cabanossi"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con pollo frito"
+      },
+      {
+        "name": "Hígado encebollado"
+      },
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Seco de pollo con yuca"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-28",
+    "weekday": "viernes",
+    "posted_at": "2026-08-28T08:03",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Ensalada Rusa"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz chaufa"
+      },
+      {
+        "name": "Adobo de chancho"
+      },
+      {
+        "name": "Olluquito con carne"
+      },
+      {
+        "name": "Cebiche de pollo con camote"
+      },
+      {
+        "name": "Frejoles con seco a la norteña de res"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-29",
+    "weekday": "sábado",
+    "posted_at": "2026-08-29T08:37",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Ensalada mixta"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pechuga a la plancha con papas fritas"
+      },
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Guiso de quinua con pechuga a la plancha"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-08-31",
+    "weekday": "lunes",
+    "posted_at": "2026-08-31T08:28",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ceviche"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con pollo con papa a la Huancaína"
+      },
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Seco de res con yuca"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-01",
+    "weekday": "martes",
+    "posted_at": "2026-09-01T09:07",
+    "entradas": [
+      {
+        "name": "Sancochado de res"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Crema de rocoto"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de trigo con pechuga a la plancha"
+      },
+      {
+        "name": "Tallarines con chanfainita"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Pollo al horno con ensalada de verduras"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-02",
+    "weekday": "miércoles",
+    "posted_at": "2026-09-02T08:34",
+    "entradas": [
+      {
+        "name": "Crema de Alverja"
+      },
+      {
+        "name": "Yuquita dorada con tartara"
+      },
+      {
+        "name": "Solterito arequipeño"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré de espinaca con asado de res"
+      },
+      {
+        "name": "Chuleta dorada con Ocopa a la arequipeña"
+      },
+      {
+        "name": "Milanesa con papas fritas"
+      },
+      {
+        "name": "Arroz con chancho"
+      },
+      {
+        "name": "Pollo a la naranja"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-03",
+    "weekday": "jueves",
+    "posted_at": "2026-09-03T08:47",
+    "entradas": [
+      {
+        "name": "Patasca"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamal criollo"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Guiso de quinua con pollo a las finas hierbas"
+      },
+      {
+        "name": "Escabeche de pescado"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito"
+      },
+      {
+        "name": "Cau cau con huevo frito"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-04",
+    "weekday": "viernes",
+    "posted_at": "2026-09-04T09:43",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ensalada Rusa"
+      },
+      {
+        "name": "Papa a la Huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Frejoles con seco a la norteña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Pechuga a la plancha con ensalada de brócoli"
+      },
+      {
+        "name": "Ají de gallina"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-05",
+    "weekday": "sábado",
+    "posted_at": "2026-09-05T08:12",
+    "entradas": [
+      {
+        "name": "Sopa de moron"
+      },
+      {
+        "name": "Tequeños con queso"
+      },
+      {
+        "name": "Ocopa a la Arequipeña"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Chuletas con ocopa a la arequipeña"
+      },
+      {
+        "name": "Alverjita partida con filete de pescado (bonito)"
+      },
+      {
+        "name": "Milanesa de pollo con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster"
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-07",
+    "weekday": "lunes",
+    "posted_at": "2026-09-07T08:32",
+    "entradas": [
+      {
+        "name": "Sopa de leche"
+      },
+      {
+        "name": "Causita de pollo"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Macarrones con pollo y papa a la huancaína"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-08",
+    "weekday": "martes",
+    "posted_at": "2026-09-08T08:15",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Causita de pollo"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Garbanzo con pollo frito"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Cau Cau c huevo frito"
+      },
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Pechuga a la plancha con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-09",
+    "weekday": "miércoles",
+    "posted_at": "2026-09-09T09:37",
+    "entradas": [
+      {
+        "name": "Sopa de olluco"
+      },
+      {
+        "name": "Rachi"
+      },
+      {
+        "name": "Tamalitos"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Carapulcra con sopa seca"
+      },
+      {
+        "name": "Pollo al horno con verduras"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Seco de pollo con yuca"
+      },
+      {
+        "name": "Chuleta con Ocopa a la arequipeña"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-10",
+    "weekday": "jueves",
+    "posted_at": "2026-09-10T10:35",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Wuantan frito"
+      },
+      {
+        "name": "Ensalada de palta"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con hígado encebollado"
+      },
+      {
+        "name": "Arroz chaufa"
+      },
+      {
+        "name": "Adobo de res"
+      },
+      {
+        "name": "Pachamanca de pollo"
+      },
+      {
+        "name": "Salpicón de pollo"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-11",
+    "weekday": "viernes",
+    "posted_at": "2026-09-11T08:40",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Ceviche"
+      },
+      {
+        "name": "Papa a la Huancaína"
+      },
+      {
+        "name": "Tamal criollo"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Frejoles con seco a la norteña"
+      },
+      {
+        "name": "Arroz con pollo con papa a la Huancaína"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Chuleta dorada con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Trucha frita",
+        "price": 20.0,
+        "description": "Choclo,papa dorada, ensalada y arroz"
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-12",
+    "weekday": "sábado",
+    "posted_at": "2026-09-12T08:58",
+    "entradas": [
+      {
+        "name": "Sopa"
+      },
+      {
+        "name": "Causita"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Yuquita frita con tártara"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada rusa con pollo al horno"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Tallarines verdes con pollo frito con papa a la Huancaína"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Trucha Frita",
+        "price": 20.0
+      },
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-14",
+    "weekday": "lunes",
+    "posted_at": "2026-09-14T08:29",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Papa a la Huancaína"
+      },
+      {
+        "name": "Ceviche"
+      },
+      {
+        "name": "Tequeños con guacamole"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con pescado frito"
+      },
+      {
+        "name": "Pechuga a la plancha con ensalada de brócoli"
+      },
+      {
+        "name": "Macarrones con pollo con papa a la Huancaína"
+      },
+      {
+        "name": "Seco de res con yuca"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      },
+      {
+        "name": "Trucha frita",
+        "price": 20.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-15",
+    "weekday": "martes",
+    "posted_at": "2026-09-15T08:48",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Tamal"
+      },
+      {
+        "name": "Yuquita dorada con tartara"
+      },
+      {
+        "name": "Solterito Arequipeño"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Frejoles panamito con pollo a la norteña"
+      },
+      {
+        "name": "Hígado encebollado"
+      },
+      {
+        "name": "Sudado de pescado"
+      },
+      {
+        "name": "Arroz con chancho"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Trucha Frita",
+        "price": 20.0
+      },
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-16",
+    "weekday": "miércoles",
+    "posted_at": "2026-09-16T10:00",
+    "entradas": [
+      {
+        "name": "Sopa de sémola"
+      },
+      {
+        "name": "Mollejita a la plancha"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Tamal"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Tallarín saltado"
+      },
+      {
+        "name": "Ají de gallina"
+      },
+      {
+        "name": "Ensalada blanca con pollo al horno"
+      },
+      {
+        "name": "Guiso de trigo con churrasco. Adobo de chancho c camote"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Trucha frita",
+        "price": 20.0
+      },
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-17",
+    "weekday": "jueves",
+    "posted_at": "2026-09-17T08:59",
+    "entradas": [
+      {
+        "name": "Shambar"
+      },
+      {
+        "name": "Ensalada mixta"
+      },
+      {
+        "name": "Papa a la Huancaína"
+      },
+      {
+        "name": "Tequeños con guacamole"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Puré con pollo en finas hierbas"
+      },
+      {
+        "name": "Tallarines rojos con pollo con papa a la Huancaína"
+      },
+      {
+        "name": "Cau Cau c huevo frito"
+      },
+      {
+        "name": "Lomo Saltado"
+      },
+      {
+        "name": "Pechuga a la plancha con ensalada de verduras"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-18",
+    "weekday": "viernes",
+    "posted_at": "2026-09-18T09:48",
+    "entradas": [
+      {
+        "name": "Sopa a la criolla"
+      },
+      {
+        "name": "Ensalada rusa"
+      },
+      {
+        "name": "Wuanta frito"
+      },
+      {
+        "name": "Tamal"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Frejoles con pollo a la norteña"
+      },
+      {
+        "name": "Estofado de pollo"
+      },
+      {
+        "name": "Aeropuerto"
+      },
+      {
+        "name": "Chicharrón de pollo con yuca dorada"
+      },
+      {
+        "name": "Churrasco con papas fritas"
+      }
+    ],
+    "extras": [
+      {
+        "name": "POLLO BROASTER",
+        "price": 15.0
+      },
+      {
+        "name": "TRUCHA FRITA",
+        "price": 20.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-19",
+    "weekday": "sábado",
+    "posted_at": "2026-09-19T10:40",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Ensalada de fideos"
+      },
+      {
+        "name": "Papa a la Huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Arroz con pollo con papa a la Huancaína"
+      },
+      {
+        "name": "Lomo saltado"
+      },
+      {
+        "name": "Pachamanca de chancho"
+      },
+      {
+        "name": "Pechuga a la plancha con papas fritas"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-21",
+    "weekday": "lunes",
+    "posted_at": "2026-09-21T07:55",
+    "entradas": [
+      {
+        "name": "Caldo de pollo"
+      },
+      {
+        "name": "Tequeños con guacamole"
+      },
+      {
+        "name": "Papa a la Huancaína"
+      },
+      {
+        "name": "Tamales"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Lentejas con tortilla de verduras"
+      },
+      {
+        "name": "Seco de res con yuca"
+      },
+      {
+        "name": "Pollo al sillao"
+      },
+      {
+        "name": "Pollo en trozos con verduras"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-23",
+    "weekday": "miércoles",
+    "posted_at": "2026-09-23T14:12",
+    "entradas": [
+      {
+        "name": "Sopa de casa"
+      },
+      {
+        "name": "Causa"
+      },
+      {
+        "name": "Crema de rocoto"
+      },
+      {
+        "name": "Tamales"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Pallares con seco de pollo"
+      },
+      {
+        "name": "Macarrones con carne con papa a la Huancaína"
+      },
+      {
+        "name": "Hígado encebollado"
+      },
+      {
+        "name": "Pollo al horno con crema de rocoto"
+      },
+      {
+        "name": "Saltado de atún"
+      }
+    ],
+    "extras": [],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-24",
+    "weekday": "jueves",
+    "posted_at": "2026-09-24T10:51",
+    "entradas": [
+      {
+        "name": "Caldo de mote"
+      },
+      {
+        "name": "Ocopa a la arequipeña"
+      },
+      {
+        "name": "Ensalada Mixta"
+      },
+      {
+        "name": "Tequeños con guacamole"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Alverjita partida con pechuga a la plancha"
+      },
+      {
+        "name": "Aji de gallina"
+      },
+      {
+        "name": "Adobo de chancho con camote"
+      },
+      {
+        "name": "Arroz a la jardinera con pollo frito"
+      },
+      {
+        "name": "Chuleta con ocopa a la arequipeña"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Pollo Broaster",
+        "price": 15.0
+      },
+      {
+        "name": "Arroz Chaufa",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-25",
+    "weekday": "viernes",
+    "posted_at": "2026-09-25T11:09",
+    "entradas": [
+      {
+        "name": "Sopa de verduras"
+      },
+      {
+        "name": "Ensalada de fideos"
+      },
+      {
+        "name": "Papa a la huancaína"
+      },
+      {
+        "name": "Tamalitos"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Frijoles con seco a la norteña"
+      },
+      {
+        "name": "Mondonguito a la italiana"
+      },
+      {
+        "name": "Milanesa la plancha con papas fritas"
+      },
+      {
+        "name": "Salpicón de pollo"
+      },
+      {
+        "name": "Adobo de pollo"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Trucha frita",
+        "price": 20.0
+      },
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  },
+  {
+    "date": "2026-09-26",
+    "weekday": "sábado",
+    "posted_at": "2026-09-26T09:25",
+    "entradas": [
+      {
+        "name": "Aguadito de pollo"
+      },
+      {
+        "name": "Wuantan con tamarindo"
+      },
+      {
+        "name": "Papa a la huancaína"
+      }
+    ],
+    "segundos": [
+      {
+        "name": "Ensalada rusa con pollo frito"
+      },
+      {
+        "name": "Adobo de chancho con camote"
+      },
+      {
+        "name": "Tallarines verdes con churrasco"
+      },
+      {
+        "name": "Lomo saltado"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Trucha frita",
+        "price": 20.0
+      },
+      {
+        "name": "Pollo broaster",
+        "price": 15.0
+      }
+    ],
+    "menu_price": 13.0
+  }
+]

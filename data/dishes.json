@@ -1,0 +1,3004 @@
+[
+  {
+    "name": "Papa a la huancaína",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fria",
+    "tags": [],
+    "times_served": 90,
+    "first_served": "2025-12-29",
+    "last_served": "2026-09-26",
+    "spellings_seen": [
+      "Papa a huancaína",
+      "Papa a la Huancaína",
+      "Papa a la huancaina",
+      "Papa a la huancaína",
+      "Papa. La huancaína",
+      "Papa.a la huancaína"
+    ]
+  },
+  {
+    "name": "Tamal criollo",
+    "courses": [
+      "entrada"
+    ],
+    "category": "criolla",
+    "tags": [],
+    "times_served": 69,
+    "first_served": "2025-12-30",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Mollejita a la plancha Tamal",
+      "Tamal",
+      "Tamal criollo",
+      "Tamales",
+      "Tamalitos",
+      "tamal"
+    ]
+  },
+  {
+    "name": "Pollo broaster",
+    "courses": [
+      "segundo",
+      "extra"
+    ],
+    "category": "fritura",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 53,
+    "first_served": "2026-01-24",
+    "last_served": "2026-09-26",
+    "usual_price": 15.0,
+    "spellings_seen": [
+      "POLLO BROASTER",
+      "Pollo Broaster",
+      "Pollo broaste",
+      "Pollo broaster",
+      "Pollo broasther"
+    ]
+  },
+  {
+    "name": "Crema de rocoto",
+    "courses": [
+      "entrada"
+    ],
+    "category": "crema",
+    "tags": [
+      "picante"
+    ],
+    "times_served": 45,
+    "first_served": "2026-01-06",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Crema de rocoto",
+      "crema de rocoto"
+    ]
+  },
+  {
+    "name": "Caldo de pollo",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 36,
+    "first_served": "2026-01-05",
+    "last_served": "2026-09-21",
+    "spellings_seen": [
+      "Caldo de pollo"
+    ]
+  },
+  {
+    "name": "Lomo saltado",
+    "courses": [
+      "segundo"
+    ],
+    "category": "saltado",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 36,
+    "first_served": "2025-12-30",
+    "last_served": "2026-09-26",
+    "usual_price": 12.0,
+    "spellings_seen": [
+      "Lomo Saltado",
+      "Lomo saltado"
+    ]
+  },
+  {
+    "name": "Pollo frito con papas fritas y ensalada",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 36,
+    "first_served": "2025-12-30",
+    "last_served": "2026-08-24",
+    "spellings_seen": [
+      "Pollo frito c papas fritas",
+      "Pollo frito c papas fritas y ensalada",
+      "Pollo frito c papas fritas y ensalada de lechuga",
+      "Pollo frito c/ papas fritas y ensalada de lechuga",
+      "Pollo frito con papas fritas",
+      "Pollo frito con papas fritas y ensalada"
+    ]
+  },
+  {
+    "name": "Sopa de verduras",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 33,
+    "first_served": "2025-12-29",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Sopa de pollo c verduras",
+      "Sopa de verdura",
+      "Sopa de verduras",
+      "Sopa de verduras c pollo",
+      "Sopa de verduras con carne",
+      "Sopa de verduras con pollo",
+      "Sopa deverduras",
+      "Sopa se verduras con pollo"
+    ]
+  },
+  {
+    "name": "Ají de gallina",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 32,
+    "first_served": "2026-01-14",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Aji de gallina",
+      "Ají de gallina"
+    ]
+  },
+  {
+    "name": "Frijoles con seco a la norteña",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Frijoles",
+    "protein": "Res",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 32,
+    "first_served": "2026-01-09",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Frejoles con seco a la norteña",
+      "Frejoles con seco a la norteña de res",
+      "Frijoles con seco a la norteña",
+      "Fréjoles c seco a la norteña",
+      "Fréjoles c seco a la norteña de res",
+      "Fréjoles con seco a la norteña",
+      "Fréjoles con seco de res",
+      "Fréjoles con secoa a la norteña"
+    ]
+  },
+  {
+    "name": "Estofado de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 31,
+    "first_served": "2026-01-08",
+    "last_served": "2026-09-18",
+    "spellings_seen": [
+      "Estofado de pollo"
+    ]
+  },
+  {
+    "name": "Ensalada mixta",
+    "courses": [
+      "entrada"
+    ],
+    "category": "ensalada",
+    "tags": [],
+    "times_served": 30,
+    "first_served": "2025-12-29",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Ensalada Mixta",
+      "Ensalada mixta"
+    ]
+  },
+  {
+    "name": "Arroz con pollo y papa a la huancaína",
+    "courses": [
+      "segundo"
+    ],
+    "category": "arroz",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 29,
+    "first_served": "2026-01-05",
+    "last_served": "2026-09-19",
+    "spellings_seen": [
+      "Arroz c pollo c papa a la huancaína",
+      "Arroz c pollo con papa a la huancaína",
+      "Arroz c pollo con papa huancaína",
+      "Arroz c/ pollo c/ papa a la huancaína",
+      "Arroz con pollo con papa a la Huancaína",
+      "Arroz con pollo con papa a la huancaina",
+      "Arroz con pollo con papa a la huancaína",
+      "Arroz con pollo con papa a la huancaína."
+    ]
+  },
+  {
+    "name": "Ensalada de palta",
+    "courses": [
+      "entrada"
+    ],
+    "category": "ensalada",
+    "tags": [],
+    "times_served": 27,
+    "first_served": "2026-01-05",
+    "last_served": "2026-09-10",
+    "spellings_seen": [
+      "Ensalada de palta"
+    ]
+  },
+  {
+    "name": "Ocopa arequipeña",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fria",
+    "tags": [],
+    "times_served": 26,
+    "first_served": "2026-01-09",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Ocopa a la Arequipeña",
+      "Ocopa a la arequipeña"
+    ]
+  },
+  {
+    "name": "Escabeche de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 25,
+    "first_served": "2026-01-06",
+    "last_served": "2026-08-25",
+    "spellings_seen": [
+      "Escabeche de pollo"
+    ]
+  },
+  {
+    "name": "Cau cau con huevo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Mondongo",
+    "tags": [
+      "menudencia"
+    ],
+    "times_served": 24,
+    "first_served": "2026-01-30",
+    "last_served": "2026-09-17",
+    "spellings_seen": [
+      "Cau Cau",
+      "Cau Cau c huevo frito",
+      "Cau Cau c/ huevo frito",
+      "Cau Cau con huevo frito",
+      "Cau cau con huevo frito"
+    ]
+  },
+  {
+    "name": "Tallarines rojos con pollo y papa a la huancaína",
+    "courses": [
+      "segundo"
+    ],
+    "category": "pasta",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 23,
+    "first_served": "2026-01-13",
+    "last_served": "2026-09-17",
+    "spellings_seen": [
+      "Tallarines con pollo con papa a la huancaina",
+      "Tallarines con pollo con papa a la huancaína",
+      "Tallarines rojos c pollo c papa a la huancaína",
+      "Tallarines rojos c/ pollo c/ papa a la huancaína",
+      "Tallarines rojos con pollo con papa a la Huancaína",
+      "Tallarines rojos con pollo con papa a la huancaína"
+    ]
+  },
+  {
+    "name": "Tequeños de queso",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 23,
+    "first_served": "2026-01-06",
+    "last_served": "2026-09-05",
+    "spellings_seen": [
+      "Tequeños",
+      "Tequeños con queso",
+      "Tequeños con queso con tartara",
+      "Tequeños de queso"
+    ]
+  },
+  {
+    "name": "Sopa de casa",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 22,
+    "first_served": "2026-01-09",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Sopa de casa"
+    ]
+  },
+  {
+    "name": "Lentejas con tortilla de verduras",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Lentejas",
+    "protein": "Huevo",
+    "tags": [
+      "legumbre"
+    ],
+    "times_served": 20,
+    "first_served": "2026-01-12",
+    "last_served": "2026-09-21",
+    "spellings_seen": [
+      "Lentejas c/ tortilla de verduras",
+      "Lentejas con tortilla de verdura",
+      "Lentejas con tortilla de verduras"
+    ]
+  },
+  {
+    "name": "Chuleta frita con ocopa arequipeña",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Cerdo",
+    "tags": [
+      "frito",
+      "cerdo"
+    ],
+    "times_served": 19,
+    "first_served": "2026-01-09",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Chuleta con Ocopa a la arequipeña",
+      "Chuleta con ocopa a la arequipeña",
+      "Chuleta dorada con Ocopa a la arequipeña",
+      "Chuleta dorada con ocopa a la arequipeña",
+      "Chuleta frita c ocopa a la arequipeña",
+      "Chuleta frita con ocopa a la arequipeña",
+      "Chuletas con ocopa a la arequipeña"
+    ]
+  },
+  {
+    "name": "Seco de res con yuca",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 19,
+    "first_served": "2026-01-12",
+    "last_served": "2026-09-21",
+    "spellings_seen": [
+      "Seco de res",
+      "Seco de res c/ yuca",
+      "Seco de res con yuca"
+    ]
+  },
+  {
+    "name": "Wantán frito con tamarindo",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 19,
+    "first_served": "2025-12-30",
+    "last_served": "2026-09-26",
+    "spellings_seen": [
+      "Wuanta frito",
+      "Wuantan",
+      "Wuantan c/ queso c/ salsa de tamarindo",
+      "Wuantan con tamarindo",
+      "Wuantan frito",
+      "Wuantan frito con tamarindo",
+      "wuantan"
+    ]
+  },
+  {
+    "name": "Ensalada de fideos con cabanossi",
+    "courses": [
+      "entrada"
+    ],
+    "category": "ensalada",
+    "tags": [],
+    "times_served": 18,
+    "first_served": "2026-01-08",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Coditos con cabanossi",
+      "Ensalada de fideos",
+      "Ensalada de fideos con cabanossi",
+      "Ensalada de fideosb",
+      "Fideos con mayonesa y cavanossi"
+    ]
+  },
+  {
+    "name": "Sopa de sémola",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 18,
+    "first_served": "2026-01-27",
+    "last_served": "2026-09-16",
+    "spellings_seen": [
+      "Sopa de sémola",
+      "Sopa de sémola con carne"
+    ]
+  },
+  {
+    "name": "Churrasco con papas fritas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Res",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 17,
+    "first_served": "2026-01-06",
+    "last_served": "2026-09-18",
+    "spellings_seen": [
+      "Churrasco c papas fritas",
+      "Churrasco c/ papas fritas",
+      "Churrasco con papas doradas y salsa criolla",
+      "Churrasco con papas fritas",
+      "Churrasco con papas fritas y ensalada",
+      "Churrasco frito c papas fritas y ensalada",
+      "Churrasco frito con papas fritas"
+    ]
+  },
+  {
+    "name": "Lentejas con pescado frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Lentejas",
+    "protein": "Pescado",
+    "tags": [
+      "legumbre",
+      "frito",
+      "pescado"
+    ],
+    "times_served": 17,
+    "first_served": "2025-12-29",
+    "last_served": "2026-09-14",
+    "spellings_seen": [
+      "Lentejas c pescado frito",
+      "Lentejas con filete de pescado frito (bonito)",
+      "Lentejas con pescado frito"
+    ]
+  },
+  {
+    "name": "Milanesa de pollo con papas fritas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 17,
+    "first_served": "2026-01-07",
+    "last_served": "2026-09-05",
+    "spellings_seen": [
+      "Milanesa c papas fritas",
+      "Milanesa con papas fritas",
+      "Milanesa de pollo con papas fritas",
+      "Milanesa frita c/ papas fritas",
+      "Milanesa frita con papas fritas"
+    ]
+  },
+  {
+    "name": "Saltado de atún",
+    "courses": [
+      "segundo"
+    ],
+    "category": "saltado",
+    "protein": "Pescado",
+    "tags": [
+      "pescado"
+    ],
+    "times_served": 17,
+    "first_served": "2026-01-21",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Saltade Atún",
+      "Saltado de Atún",
+      "Saltado de atún"
+    ]
+  },
+  {
+    "name": "Sopa de morón",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 17,
+    "first_served": "2026-01-06",
+    "last_served": "2026-09-05",
+    "spellings_seen": [
+      "Sopa de moron",
+      "Sopa de morón",
+      "Sopa de morón con carne",
+      "Sopa de morón de pollo",
+      "sopa de morón"
+    ]
+  },
+  {
+    "name": "Adobo de chancho con camote",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Cerdo",
+    "tags": [
+      "cerdo"
+    ],
+    "times_served": 15,
+    "first_served": "2026-01-13",
+    "last_served": "2026-09-26",
+    "spellings_seen": [
+      "Adobo de chancho",
+      "Adobo de chancho con camote",
+      "Guiso de trigo con churrasco. Adobo de chancho c camote"
+    ]
+  },
+  {
+    "name": "Arroz chaufa con plátano frito",
+    "courses": [
+      "segundo",
+      "extra"
+    ],
+    "category": "arroz",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 15,
+    "first_served": "2025-12-30",
+    "last_served": "2026-09-24",
+    "usual_price": 15.0,
+    "spellings_seen": [
+      "Arroz Chaufa",
+      "Arroz Chaufa con plátano frito",
+      "Arroz chaufa",
+      "Arroz chaufa con plátano",
+      "Arroz chaufa con plátano frito"
+    ]
+  },
+  {
+    "name": "Mollejitas a la plancha",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "menudencia"
+    ],
+    "times_served": 15,
+    "first_served": "2026-03-20",
+    "last_served": "2026-09-16",
+    "spellings_seen": [
+      "Mollejita",
+      "Mollejita a la plancha",
+      "Mollejita a la plancha Tamal",
+      "Mollejitas"
+    ]
+  },
+  {
+    "name": "Sopa a la criolla",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 15,
+    "first_served": "2026-01-10",
+    "last_served": "2026-09-18",
+    "spellings_seen": [
+      "Sopa a la criolla"
+    ]
+  },
+  {
+    "name": "Picante de carne",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Res",
+    "tags": [
+      "picante"
+    ],
+    "times_served": 14,
+    "first_served": "2026-01-09",
+    "last_served": "2026-08-20",
+    "spellings_seen": [
+      "Picante de carne",
+      "picante de carne"
+    ]
+  },
+  {
+    "name": "Aguadito de pollo",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 13,
+    "first_served": "2026-01-31",
+    "last_served": "2026-09-26",
+    "spellings_seen": [
+      "Aguadito",
+      "Aguadito de pollo"
+    ]
+  },
+  {
+    "name": "Causa de pollo",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fria",
+    "tags": [],
+    "times_served": 13,
+    "first_served": "2026-01-14",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Causa",
+      "Causita",
+      "Causita de pollo"
+    ]
+  },
+  {
+    "name": "Ceviche",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fria",
+    "tags": [
+      "pescado"
+    ],
+    "times_served": 13,
+    "first_served": "2026-01-13",
+    "last_served": "2026-09-14",
+    "spellings_seen": [
+      "Ceviche"
+    ]
+  },
+  {
+    "name": "Mondonguito a la italiana",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Mondongo",
+    "tags": [
+      "menudencia"
+    ],
+    "times_served": 13,
+    "first_served": "2026-01-08",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Mondonguito a la italiana"
+    ]
+  },
+  {
+    "name": "Chuleta frita con papas fritas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Cerdo",
+    "tags": [
+      "frito",
+      "cerdo"
+    ],
+    "times_served": 12,
+    "first_served": "2026-01-10",
+    "last_served": "2026-09-11",
+    "spellings_seen": [
+      "Chuleta con papas fritas",
+      "Chuleta con papas fritas y ensalada",
+      "Chuleta dorada con papas fritas",
+      "Chuleta frita c/ papas fritas",
+      "Chuleta frita con papas fritas",
+      "Papas fritas con chuleta dorada"
+    ]
+  },
+  {
+    "name": "Macarrones con pollo y papa a la huancaína",
+    "courses": [
+      "segundo"
+    ],
+    "category": "pasta",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 12,
+    "first_served": "2025-12-29",
+    "last_served": "2026-09-14",
+    "spellings_seen": [
+      "Macarrones c pollo c papa a la huancaína",
+      "Macarrones con pollo con papa a la Huancaína",
+      "Macarrones con pollo con papa a la huancaína",
+      "Macarrones con pollo y papa a la huancaína"
+    ]
+  },
+  {
+    "name": "Carapulcra con sopa seca",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Cerdo",
+    "tags": [
+      "pesado",
+      "cerdo"
+    ],
+    "times_served": 11,
+    "first_served": "2026-01-27",
+    "last_served": "2026-09-09",
+    "spellings_seen": [
+      "Carapulcra con sopa seca",
+      "Carapulcra de chancho",
+      "Carapulcra de chancho con sopa seca"
+    ]
+  },
+  {
+    "name": "Pachamanca de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 11,
+    "first_served": "2026-02-04",
+    "last_served": "2026-09-10",
+    "spellings_seen": [
+      "Pachamanca de pollo"
+    ]
+  },
+  {
+    "name": "Salpicón de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "frio",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 11,
+    "first_served": "2025-12-29",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Salpicon de pollo",
+      "Salpicón de pollo"
+    ]
+  },
+  {
+    "name": "Sancochado de res",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 11,
+    "first_served": "2026-01-13",
+    "last_served": "2026-09-01",
+    "spellings_seen": [
+      "Sancochado de res"
+    ]
+  },
+  {
+    "name": "Sopa de leche",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 11,
+    "first_served": "2026-01-24",
+    "last_served": "2026-09-07",
+    "spellings_seen": [
+      "Sopa de leche"
+    ]
+  },
+  {
+    "name": "Arvejita partida con hígado encebollado",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Hígado",
+    "tags": [
+      "legumbre",
+      "menudencia"
+    ],
+    "times_served": 10,
+    "first_served": "2026-01-14",
+    "last_served": "2026-09-10",
+    "spellings_seen": [
+      "Alverja partida c hígado encebollado",
+      "Alverjita partida c hígado encebollado",
+      "Alverjita partida con hígado",
+      "Alverjita partida con hígado encebollado"
+    ]
+  },
+  {
+    "name": "Ceviche de pollo con camote",
+    "courses": [
+      "segundo"
+    ],
+    "category": "frio",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 10,
+    "first_served": "2026-01-15",
+    "last_served": "2026-08-28",
+    "spellings_seen": [
+      "Cebiche de pollo",
+      "Cebiche de pollo c/ camote",
+      "Cebiche de pollo con camote",
+      "Ceviche de pollo",
+      "Ceviche de pollo con camote"
+    ]
+  },
+  {
+    "name": "Ensalada blanca con pollo al horno",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 10,
+    "first_served": "2026-02-07",
+    "last_served": "2026-09-16",
+    "spellings_seen": [
+      "Ensalada blanca con pollo al horno"
+    ]
+  },
+  {
+    "name": "Guiso de trigo con churrasco",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de trigo",
+    "protein": "Res",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 10,
+    "first_served": "2026-01-24",
+    "last_served": "2026-09-16",
+    "spellings_seen": [
+      "Guiso de trigo churrasco",
+      "Guiso de trigo con churrasco",
+      "Guiso de trigo con churrasco. Adobo de chancho c camote"
+    ]
+  },
+  {
+    "name": "Pollo al horno con crema de rocoto",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [
+      "picante"
+    ],
+    "times_served": 10,
+    "first_served": "2026-01-07",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Pollo al horno c crema de rocoto",
+      "Pollo al horno con crema de rocoto",
+      "pollo al ojo con crema de rocoso"
+    ]
+  },
+  {
+    "name": "Salchipapa",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 10,
+    "first_served": "2026-03-06",
+    "last_served": "2026-07-07",
+    "spellings_seen": [
+      "Salchipapa",
+      "Salchipapita",
+      "salchipatita"
+    ]
+  },
+  {
+    "name": "Tallarines verdes con pollo frito y papa a la huancaína",
+    "courses": [
+      "segundo"
+    ],
+    "category": "pasta",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 10,
+    "first_served": "2026-02-21",
+    "last_served": "2026-09-12",
+    "spellings_seen": [
+      "Tallarines verdes c pollo frito",
+      "Tallarines verdes con pollo frito",
+      "Tallarines verdes con pollo frito con papa a la Huancaína",
+      "Tallarines verdes con pollo frito con papa a la huancaína"
+    ]
+  },
+  {
+    "name": "Menestrón",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 9,
+    "first_served": "2026-01-08",
+    "last_served": "2026-08-25",
+    "spellings_seen": [
+      "Menestrón",
+      "Sopa de Menestrón",
+      "Sopa de menestron"
+    ]
+  },
+  {
+    "name": "Tallarines verdes con churrasco y papa a la huancaína",
+    "courses": [
+      "segundo"
+    ],
+    "category": "pasta",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 9,
+    "first_served": "2026-01-08",
+    "last_served": "2026-09-26",
+    "spellings_seen": [
+      "Tallarines verdes c churrasco",
+      "Tallarines verdes c churrasco c papa a la huancaína",
+      "Tallarines verdes con churrasco",
+      "Tallarines verdes con churrasco con papa a la huancaina",
+      "Tallarines verdes con churrasco con papa a la huancaína",
+      "Tallarines verdes con churrasco frito y papa a la huancaína"
+    ]
+  },
+  {
+    "name": "Trucha frita",
+    "courses": [
+      "extra"
+    ],
+    "category": "fritura",
+    "protein": "Pescado",
+    "tags": [
+      "frito",
+      "pescado"
+    ],
+    "times_served": 9,
+    "first_served": "2026-04-25",
+    "last_served": "2026-09-26",
+    "usual_price": 20.0,
+    "spellings_seen": [
+      "TRUCHA FRITA",
+      "Trucha Frita",
+      "Trucha Frita (papa, choclo y ensalada)",
+      "Trucha frita"
+    ]
+  },
+  {
+    "name": "Hígado encebollado",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Hígado",
+    "tags": [
+      "menudencia"
+    ],
+    "times_served": 8,
+    "first_served": "2026-02-20",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Hígado encebollado"
+    ]
+  },
+  {
+    "name": "Pollo al horno con ensalada de verduras",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 8,
+    "first_served": "2026-01-28",
+    "last_served": "2026-09-09",
+    "spellings_seen": [
+      "Pollo al horno c verduras",
+      "Pollo al horno con ensalada de verduras",
+      "Pollo al horno con verduras"
+    ]
+  },
+  {
+    "name": "Puré con asado de res",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Puré de papa",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 8,
+    "first_served": "2026-02-04",
+    "last_served": "2026-08-05",
+    "spellings_seen": [
+      "Puré c asado de res",
+      "Puré c asado de res o hígado",
+      "Puré con asado de res"
+    ]
+  },
+  {
+    "name": "Saltado de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "saltado",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 8,
+    "first_served": "2026-01-10",
+    "last_served": "2026-08-10",
+    "spellings_seen": [
+      "Saltado de pollo"
+    ]
+  },
+  {
+    "name": "Sudado de pescado",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pescado",
+    "tags": [
+      "pescado"
+    ],
+    "times_served": 8,
+    "first_served": "2026-01-28",
+    "last_served": "2026-09-15",
+    "spellings_seen": [
+      "Sudado de pescado"
+    ]
+  },
+  {
+    "name": "Aeropuerto",
+    "courses": [
+      "segundo"
+    ],
+    "category": "arroz",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 7,
+    "first_served": "2026-01-16",
+    "last_served": "2026-09-18",
+    "spellings_seen": [
+      "Aeropuerto"
+    ]
+  },
+  {
+    "name": "Arroz a la jardinera con pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "arroz",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 7,
+    "first_served": "2026-01-15",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Arroz a la jardinera c/ pollo frito",
+      "Arroz a la jardinera con pollo frito"
+    ]
+  },
+  {
+    "name": "Garbanzo con chuleta frita",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Garbanzo",
+    "protein": "Cerdo",
+    "tags": [
+      "legumbre",
+      "pesado",
+      "frito",
+      "cerdo"
+    ],
+    "times_served": 7,
+    "first_served": "2026-02-10",
+    "last_served": "2026-08-04",
+    "spellings_seen": [
+      "Garbanzo con chuleta",
+      "Garbanzo con chuleta dorada"
+    ]
+  },
+  {
+    "name": "Locro de zapallo con huevo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Huevo",
+    "tags": [],
+    "times_served": 7,
+    "first_served": "2026-01-07",
+    "last_served": "2026-08-13",
+    "spellings_seen": [
+      "Locro c huevo frito",
+      "Locro con huevo frito",
+      "Locro con zapallo con huevo",
+      "Locro de Zapallo con huevo frito",
+      "Locro de zapallo con huevo frito"
+    ]
+  },
+  {
+    "name": "Olluquito con carne",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 7,
+    "first_served": "2026-02-18",
+    "last_served": "2026-08-28",
+    "spellings_seen": [
+      "Olluquito con carne"
+    ]
+  },
+  {
+    "name": "Pallares con seco de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Pallares",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 7,
+    "first_served": "2025-12-30",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Pallares c seco de pollo",
+      "Pallares con seco de pollo"
+    ]
+  },
+  {
+    "name": "Pechuga a la plancha con ensalada de brócoli",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 7,
+    "first_served": "2026-06-15",
+    "last_served": "2026-09-14",
+    "spellings_seen": [
+      "Pechuga a la plancha con ensalada de Brócoli",
+      "Pechuga a la plancha con ensalada de brocoli",
+      "Pechuga a la plancha con ensalada de brócoli"
+    ]
+  },
+  {
+    "name": "Sopa de olluco",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 7,
+    "first_served": "2026-05-27",
+    "last_served": "2026-09-09",
+    "spellings_seen": [
+      "Sopa de olluco"
+    ]
+  },
+  {
+    "name": "Ensalada blanca con pollo a la olla",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 6,
+    "first_served": "2026-01-24",
+    "last_served": "2026-07-18",
+    "spellings_seen": [
+      "Ensalada blanca c pollo a la olla",
+      "Ensalada blanca con pollo a la olla"
+    ]
+  },
+  {
+    "name": "Garbanzo con pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Garbanzo",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre",
+      "pesado",
+      "frito"
+    ],
+    "times_served": 6,
+    "first_served": "2026-01-06",
+    "last_served": "2026-09-08",
+    "spellings_seen": [
+      "Garbanzo c pollo frito",
+      "Garbanzo con pollo frito"
+    ]
+  },
+  {
+    "name": "Guiso de quinua con pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de quinua",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 6,
+    "first_served": "2026-01-15",
+    "last_served": "2026-07-15",
+    "spellings_seen": [
+      "Guiso de quinua c/ pollo frito",
+      "Guiso de quinua con pollo frito",
+      "Quinua con pollo frito"
+    ]
+  },
+  {
+    "name": "Macarrones con carne y papa a la huancaína",
+    "courses": [
+      "segundo"
+    ],
+    "category": "pasta",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 6,
+    "first_served": "2026-06-08",
+    "last_served": "2026-09-23",
+    "spellings_seen": [
+      "Macarrones con carne",
+      "Macarrones con carne con papa a la Huancaína",
+      "Macarrones con carne con papa a la huancaína"
+    ]
+  },
+  {
+    "name": "Pollo a la norteña con yuca",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 6,
+    "first_served": "2026-02-23",
+    "last_served": "2026-07-27",
+    "spellings_seen": [
+      "Pollo a la norteña con yuca"
+    ]
+  },
+  {
+    "name": "Pollo en trozos con verduras",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 6,
+    "first_served": "2026-02-09",
+    "last_served": "2026-09-21",
+    "spellings_seen": [
+      "Pollo en trozos con verdura",
+      "Pollo en trozos con verduras"
+    ]
+  },
+  {
+    "name": "Yuca frita con tártara",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 6,
+    "first_served": "2026-01-15",
+    "last_served": "2026-09-15",
+    "spellings_seen": [
+      "Yuca dorada con tartara",
+      "Yuquita dorada con tartara",
+      "Yuquita dorada con tártara",
+      "Yuquita frita con tártara",
+      "Yuquitas fritas"
+    ]
+  },
+  {
+    "name": "Adobo de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 5,
+    "first_served": "2026-01-05",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Adobo de pollo",
+      "Adobo de pollo con crema de rocoto",
+      "Adobo de pollo con ensalada de brócoli",
+      "Adobo de pollo con papa a la huancaína"
+    ]
+  },
+  {
+    "name": "Arroz con chancho con salsa criolla",
+    "courses": [
+      "segundo"
+    ],
+    "category": "arroz",
+    "protein": "Cerdo",
+    "tags": [
+      "cerdo"
+    ],
+    "times_served": 5,
+    "first_served": "2026-01-07",
+    "last_served": "2026-09-15",
+    "spellings_seen": [
+      "Arroz c chancho con zarza criolla",
+      "Arroz con chancho"
+    ]
+  },
+  {
+    "name": "Crema de arveja",
+    "courses": [
+      "entrada"
+    ],
+    "category": "crema",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 5,
+    "first_served": "2026-01-29",
+    "last_served": "2026-09-02",
+    "spellings_seen": [
+      "Crema de Alverja",
+      "Crema de alverja",
+      "Sopa crema de alverja",
+      "Sopa de crema de alverja"
+    ]
+  },
+  {
+    "name": "Frijoles panamito con seco de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Frijoles panamito",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 5,
+    "first_served": "2026-02-20",
+    "last_served": "2026-08-11",
+    "spellings_seen": [
+      "Fréjoles panamito con seco de pollo",
+      "Fréjoles panamito con seco de pollo o res"
+    ]
+  },
+  {
+    "name": "Guiso de trigo con pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de trigo",
+    "protein": "Pollo",
+    "tags": [
+      "pesado",
+      "frito"
+    ],
+    "times_served": 5,
+    "first_served": "2026-01-13",
+    "last_served": "2026-08-15",
+    "spellings_seen": [
+      "Guiso de trigo con pollo frito",
+      "Trigo c pollo frito"
+    ]
+  },
+  {
+    "name": "Ensalada de brócoli con pechuga a la plancha",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 4,
+    "first_served": "2026-06-09",
+    "last_served": "2026-08-17",
+    "spellings_seen": [
+      "Ensalada de brocoli con pechuga a la plancha",
+      "Ensalada de brócoli con pechuga a la plancha"
+    ]
+  },
+  {
+    "name": "Ensalada rusa con pollo al horno",
+    "courses": [
+      "segundo"
+    ],
+    "category": "frio",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 4,
+    "first_served": "2026-01-31",
+    "last_served": "2026-09-12",
+    "spellings_seen": [
+      "Ensalada Rusa con pollo al horno",
+      "Ensalada rusa con pollo al horno"
+    ]
+  },
+  {
+    "name": "Mollejitas fritas",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "menudencia",
+      "frito"
+    ],
+    "times_served": 4,
+    "first_served": "2026-01-27",
+    "last_served": "2026-05-20",
+    "spellings_seen": [
+      "Mollejita Frita",
+      "Mollejita frita"
+    ]
+  },
+  {
+    "name": "Pollo al sillao",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 4,
+    "first_served": "2026-02-04",
+    "last_served": "2026-09-21",
+    "spellings_seen": [
+      "Pollo al sillao"
+    ]
+  },
+  {
+    "name": "Seco de pollo con yuca",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 4,
+    "first_served": "2026-01-28",
+    "last_served": "2026-09-09",
+    "spellings_seen": [
+      "Seco de pollo c yuca",
+      "Seco de pollo con yuca"
+    ]
+  },
+  {
+    "name": "Tallarines con chanfainita y papa a la huancaína",
+    "courses": [
+      "segundo"
+    ],
+    "category": "pasta",
+    "protein": "Menudencia",
+    "tags": [
+      "menudencia"
+    ],
+    "times_served": 4,
+    "first_served": "2026-01-06",
+    "last_served": "2026-09-01",
+    "spellings_seen": [
+      "Chanfainita c tallarin y papa a la huancaína",
+      "Tallarines con chanfainita",
+      "Tallarines con chanfainita con papa a la huancaína"
+    ]
+  },
+  {
+    "name": "Tequeños con guacamole",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 4,
+    "first_served": "2026-09-14",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Tequeños con guacamole"
+    ]
+  },
+  {
+    "name": "Arroz a la jardinera con churrasco",
+    "courses": [
+      "segundo"
+    ],
+    "category": "arroz",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 3,
+    "first_served": "2026-02-03",
+    "last_served": "2026-08-15",
+    "spellings_seen": [
+      "Arroz a la jardinera con churrasco"
+    ]
+  },
+  {
+    "name": "Arvejita partida con chuleta frita",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Cerdo",
+    "tags": [
+      "legumbre",
+      "frito",
+      "cerdo"
+    ],
+    "times_served": 3,
+    "first_served": "2026-03-19",
+    "last_served": "2026-08-08",
+    "spellings_seen": [
+      "Alverjita partida con chuleta",
+      "Alverjita partida con chuleta dorada"
+    ]
+  },
+  {
+    "name": "Arvejita partida con pechuga a la plancha",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre"
+    ],
+    "times_served": 3,
+    "first_served": "2026-06-18",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Alverjita partida con pechuga a la plancha"
+    ]
+  },
+  {
+    "name": "Ensalada rusa",
+    "courses": [
+      "entrada"
+    ],
+    "category": "ensalada",
+    "tags": [],
+    "times_served": 3,
+    "first_served": "2026-08-28",
+    "last_served": "2026-09-18",
+    "spellings_seen": [
+      "Ensalada Rusa",
+      "Ensalada rusa"
+    ]
+  },
+  {
+    "name": "Pachamanca de chancho",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Cerdo",
+    "tags": [
+      "pesado",
+      "cerdo"
+    ],
+    "times_served": 3,
+    "first_served": "2026-01-14",
+    "last_served": "2026-09-19",
+    "spellings_seen": [
+      "Pachamanca de chancho"
+    ]
+  },
+  {
+    "name": "Pechuga a la plancha con papas fritas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 3,
+    "first_served": "2026-08-29",
+    "last_served": "2026-09-19",
+    "spellings_seen": [
+      "Pechuga a la plancha con papas fritas"
+    ]
+  },
+  {
+    "name": "Polladita con crema de rocoto",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [
+      "picante"
+    ],
+    "times_served": 3,
+    "first_served": "2026-03-21",
+    "last_served": "2026-06-20",
+    "spellings_seen": [
+      "Polladita con crema de rocoto"
+    ]
+  },
+  {
+    "name": "Pollo a la olla con ensalada de verduras",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 3,
+    "first_served": "2026-02-05",
+    "last_served": "2026-04-29",
+    "spellings_seen": [
+      "Pollo a la olla con ensalada de verduras"
+    ]
+  },
+  {
+    "name": "Saltado de brócoli",
+    "courses": [
+      "segundo"
+    ],
+    "category": "saltado",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 3,
+    "first_served": "2026-04-27",
+    "last_served": "2026-07-06",
+    "spellings_seen": [
+      "Saltado de brocoli",
+      "Saltado de brócoli"
+    ]
+  },
+  {
+    "name": "Tallarín saltado de carne",
+    "courses": [
+      "segundo"
+    ],
+    "category": "saltado",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 3,
+    "first_served": "2026-05-26",
+    "last_served": "2026-09-16",
+    "spellings_seen": [
+      "Tallarin Saltado de carne",
+      "Tallarín saltado"
+    ]
+  },
+  {
+    "name": "Arvejita partida con pescado frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Pescado",
+    "tags": [
+      "legumbre",
+      "frito",
+      "pescado"
+    ],
+    "times_served": 2,
+    "first_served": "2026-02-11",
+    "last_served": "2026-09-05",
+    "spellings_seen": [
+      "Alverjita partida con filete de pescado (bonito)",
+      "Alverjita partida con pescado frito"
+    ]
+  },
+  {
+    "name": "Arvejita partida con pollo a la olla",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre"
+    ],
+    "times_served": 2,
+    "first_served": "2026-01-21",
+    "last_served": "2026-02-17",
+    "spellings_seen": [
+      "Alverjita partida c pollo a la olla",
+      "Alverjita partida con pollo guisado"
+    ]
+  },
+  {
+    "name": "Arvejita partida con pollo al horno",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre"
+    ],
+    "times_served": 2,
+    "first_served": "2026-01-10",
+    "last_served": "2026-07-11",
+    "spellings_seen": [
+      "Alverjita partida c/ pollo al horno",
+      "Alverjita partida con pollo al horno"
+    ]
+  },
+  {
+    "name": "Arvejita partida con pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre",
+      "frito"
+    ],
+    "times_served": 2,
+    "first_served": "2026-08-13",
+    "last_served": "2026-08-27",
+    "spellings_seen": [
+      "Alverjita partida con pollo frito"
+    ]
+  },
+  {
+    "name": "Bistec con papas fritas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Res",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 2,
+    "first_served": "2026-02-04",
+    "last_served": "2026-04-30",
+    "spellings_seen": [
+      "Bisteck con papas fritas",
+      "Chuleta o Bisteck con papas fritas"
+    ]
+  },
+  {
+    "name": "Ensalada rusa con pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "frio",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 2,
+    "first_served": "2026-01-17",
+    "last_served": "2026-09-26",
+    "spellings_seen": [
+      "Ensalada rusa c pollo frito",
+      "Ensalada rusa con pollo frito"
+    ]
+  },
+  {
+    "name": "Escabeche de pescado",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pescado",
+    "tags": [
+      "pescado"
+    ],
+    "times_served": 2,
+    "first_served": "2026-02-06",
+    "last_served": "2026-09-03",
+    "spellings_seen": [
+      "Escabeche de pescado"
+    ]
+  },
+  {
+    "name": "Escabeche de pollo o pescado",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-03-16",
+    "last_served": "2026-04-02",
+    "spellings_seen": [
+      "Escabeche de pollo o pescado",
+      "Escabeche de pollo y/o de pescado"
+    ]
+  },
+  {
+    "name": "Estofado de res",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2025-12-29",
+    "last_served": "2026-02-02",
+    "spellings_seen": [
+      "Estofado de carne",
+      "Estofado de res"
+    ]
+  },
+  {
+    "name": "Frijoles con pollo a la norteña",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Frijoles",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 2,
+    "first_served": "2026-09-15",
+    "last_served": "2026-09-18",
+    "spellings_seen": [
+      "Frejoles con pollo a la norteña",
+      "Frejoles panamito con pollo a la norteña"
+    ]
+  },
+  {
+    "name": "Frijoles panamito con seco de res",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Frijoles panamito",
+    "protein": "Res",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 2,
+    "first_served": "2026-03-17",
+    "last_served": "2026-07-07",
+    "spellings_seen": [
+      "Fréjoles panamito con seco de res",
+      "Panamito con seco de res"
+    ]
+  },
+  {
+    "name": "Guiso de quinua con pechuga a la plancha",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de quinua",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-06-04",
+    "last_served": "2026-08-29",
+    "spellings_seen": [
+      "Guiso de quinua con pechuga a la plancha"
+    ]
+  },
+  {
+    "name": "Guiso de quinua con pollo a las finas hierbas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de quinua",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-04-14",
+    "last_served": "2026-09-03",
+    "spellings_seen": [
+      "Guiso de quinua con pollo",
+      "Guiso de quinua con pollo a las finas hierbas"
+    ]
+  },
+  {
+    "name": "Pallares con seco de res",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Pallares",
+    "protein": "Res",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 2,
+    "first_served": "2026-04-15",
+    "last_served": "2026-06-09",
+    "spellings_seen": [
+      "Pallares con seco de res"
+    ]
+  },
+  {
+    "name": "Patita con maní",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Cerdo",
+    "tags": [
+      "pesado",
+      "cerdo",
+      "menudencia"
+    ],
+    "times_served": 2,
+    "first_served": "2026-05-14",
+    "last_served": "2026-06-10",
+    "spellings_seen": [
+      "Patita con maní"
+    ]
+  },
+  {
+    "name": "Pechuga a la plancha con ensalada de verduras",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-07-04",
+    "last_served": "2026-09-17",
+    "spellings_seen": [
+      "Pechuga a la plancha c verduras",
+      "Pechuga a la plancha con ensalada de verduras"
+    ]
+  },
+  {
+    "name": "Pollo a la naranja",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-02-03",
+    "last_served": "2026-09-02",
+    "spellings_seen": [
+      "Pollo a la naranja"
+    ]
+  },
+  {
+    "name": "Pollo a la olla con crema de rocoto",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [
+      "picante"
+    ],
+    "times_served": 2,
+    "first_served": "2026-02-02",
+    "last_served": "2026-03-09",
+    "spellings_seen": [
+      "Pollo a la olla con crema de rocoto"
+    ]
+  },
+  {
+    "name": "Pollo al maní",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-04-28",
+    "last_served": "2026-08-22",
+    "spellings_seen": [
+      "Pollo al maní"
+    ]
+  },
+  {
+    "name": "Puré de espinaca con asado de res",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Puré de espinaca",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-05-06",
+    "last_served": "2026-09-02",
+    "spellings_seen": [
+      "Puré de espinaca con asado de res"
+    ]
+  },
+  {
+    "name": "Shambar",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "legumbre",
+      "pesado",
+      "cerdo"
+    ],
+    "times_served": 2,
+    "first_served": "2026-02-04",
+    "last_served": "2026-09-17",
+    "spellings_seen": [
+      "Shambar",
+      "Sopa de Shambar"
+    ]
+  },
+  {
+    "name": "Solterito arequipeño",
+    "courses": [
+      "entrada"
+    ],
+    "category": "ensalada",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-09-02",
+    "last_served": "2026-09-15",
+    "spellings_seen": [
+      "Solterito Arequipeño",
+      "Solterito arequipeño"
+    ]
+  },
+  {
+    "name": "Sopa",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 2,
+    "first_served": "2026-02-17",
+    "last_served": "2026-09-12",
+    "spellings_seen": [
+      "Sopa"
+    ]
+  },
+  {
+    "name": "Adobo de res",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-09-10",
+    "last_served": "2026-09-10",
+    "spellings_seen": [
+      "Adobo de res"
+    ]
+  },
+  {
+    "name": "Arroz a la jardinera con chuleta frita",
+    "courses": [
+      "segundo"
+    ],
+    "category": "arroz",
+    "protein": "Cerdo",
+    "tags": [
+      "frito",
+      "cerdo"
+    ],
+    "times_served": 1,
+    "first_served": "2026-03-05",
+    "last_served": "2026-03-05",
+    "spellings_seen": [
+      "Arroz a la jardinera con chuleta dorada"
+    ]
+  },
+  {
+    "name": "Arroz norteño con pollo frito y salsa criolla",
+    "courses": [
+      "segundo"
+    ],
+    "category": "arroz",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-07-08",
+    "last_served": "2026-07-08",
+    "spellings_seen": [
+      "Arroz norteño con pollo frito y zarza criolla"
+    ]
+  },
+  {
+    "name": "Arvejita partida con adobo de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre"
+    ],
+    "times_served": 1,
+    "first_served": "2026-06-03",
+    "last_served": "2026-06-03",
+    "spellings_seen": [
+      "Alverjita partida con Adobo de pollo"
+    ]
+  },
+  {
+    "name": "Arvejita partida con churrasco",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Res",
+    "tags": [
+      "legumbre"
+    ],
+    "times_served": 1,
+    "first_served": "2026-07-16",
+    "last_served": "2026-07-16",
+    "spellings_seen": [
+      "Alverjita partida con churrasco"
+    ]
+  },
+  {
+    "name": "Arvejita partida con escabeche",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Arvejita partida",
+    "protein": "Pollo",
+    "tags": [
+      "legumbre"
+    ],
+    "times_served": 1,
+    "first_served": "2026-07-08",
+    "last_served": "2026-07-08",
+    "spellings_seen": [
+      "Alverjita partida con escabeche"
+    ]
+  },
+  {
+    "name": "Bistec a lo pobre",
+    "courses": [
+      "extra"
+    ],
+    "category": "fritura",
+    "protein": "Res",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-02-07",
+    "last_served": "2026-02-07",
+    "usual_price": 17.0,
+    "spellings_seen": [
+      "Bisteck a lo pobre"
+    ]
+  },
+  {
+    "name": "Bistec encebollado con papa sancochada",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-05-13",
+    "last_served": "2026-05-13",
+    "spellings_seen": [
+      "Bistec encebollado con papa sancochada y arroz"
+    ]
+  },
+  {
+    "name": "Caldo de mote",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-09-24",
+    "last_served": "2026-09-24",
+    "spellings_seen": [
+      "Caldo de mote"
+    ]
+  },
+  {
+    "name": "Cayhua rellena",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-07-09",
+    "last_served": "2026-07-09",
+    "spellings_seen": [
+      "Cayhua Rellena"
+    ]
+  },
+  {
+    "name": "Chicharrón de pescado con yuca y salsa criolla",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Pescado",
+    "tags": [
+      "frito",
+      "pescado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-02-21",
+    "last_served": "2026-02-21",
+    "spellings_seen": [
+      "Chicharrón de pescado con yuca y zarza criolla"
+    ]
+  },
+  {
+    "name": "Chicharrón de pollo con yuca frita",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-09-18",
+    "last_served": "2026-09-18",
+    "spellings_seen": [
+      "Chicharrón de pollo con yuca dorada"
+    ]
+  },
+  {
+    "name": "Chupe de pescado",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pescado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-01-16",
+    "last_served": "2026-01-16",
+    "spellings_seen": [
+      "Chupe de pescado"
+    ]
+  },
+  {
+    "name": "Churrasco a lo pobre",
+    "courses": [
+      "extra"
+    ],
+    "category": "fritura",
+    "protein": "Res",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-05-30",
+    "last_served": "2026-05-30",
+    "usual_price": 20.0,
+    "spellings_seen": [
+      "Churrasco a lo pobre"
+    ]
+  },
+  {
+    "name": "Churrasco con ocopa arequipeña",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Res",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-06-12",
+    "last_served": "2026-06-12",
+    "spellings_seen": [
+      "Churrasco con ocopa a la arequipeña"
+    ]
+  },
+  {
+    "name": "Cuy chactado entero",
+    "courses": [
+      "extra"
+    ],
+    "category": "fritura",
+    "protein": "Cuy",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-05-09",
+    "last_served": "2026-05-09",
+    "usual_price": 60.0,
+    "spellings_seen": [
+      "Cuy chactado entero"
+    ]
+  },
+  {
+    "name": "Ensalada blanca con polladita",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-01-10",
+    "last_served": "2026-01-10",
+    "spellings_seen": [
+      "Ensalada blanca c/ polladita"
+    ]
+  },
+  {
+    "name": "Ensalada de brócoli con pollo al horno",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-02-24",
+    "last_served": "2026-02-24",
+    "spellings_seen": [
+      "Ensalada de brocoli con pollo al horno"
+    ]
+  },
+  {
+    "name": "Ensalada rusa con bistec",
+    "courses": [
+      "segundo"
+    ],
+    "category": "frio",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-05-13",
+    "last_served": "2026-05-13",
+    "spellings_seen": [
+      "Ensalada rusa con bisteck"
+    ]
+  },
+  {
+    "name": "Ensalada rusa con churrasco",
+    "courses": [
+      "segundo"
+    ],
+    "category": "frio",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-02-18",
+    "last_served": "2026-02-18",
+    "spellings_seen": [
+      "Ensalada rusa con churrasco"
+    ]
+  },
+  {
+    "name": "Frijoles panamito con hígado encebollado",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Frijoles panamito",
+    "protein": "Hígado",
+    "tags": [
+      "legumbre",
+      "pesado",
+      "menudencia"
+    ],
+    "times_served": 1,
+    "first_served": "2026-06-17",
+    "last_served": "2026-06-17",
+    "spellings_seen": [
+      "Fréjoles panamito con hígado encebollada"
+    ]
+  },
+  {
+    "name": "Garbanzo con bistec",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Garbanzo",
+    "protein": "Res",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-02-24",
+    "last_served": "2026-02-24",
+    "spellings_seen": [
+      "Garbanzo con bisteck"
+    ]
+  },
+  {
+    "name": "Garbanzo con churrasco",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Garbanzo",
+    "protein": "Res",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-06-02",
+    "last_served": "2026-06-02",
+    "spellings_seen": [
+      "Garbanzo con churrasco"
+    ]
+  },
+  {
+    "name": "Guiso de quinua con bistec",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de quinua",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-04-29",
+    "last_served": "2026-04-29",
+    "spellings_seen": [
+      "Guiso de quinua con bisteck"
+    ]
+  },
+  {
+    "name": "Guiso de quinua con pollo al horno",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de quinua",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-06-30",
+    "last_served": "2026-06-30",
+    "spellings_seen": [
+      "Guiso de quinua con pollo al horno"
+    ]
+  },
+  {
+    "name": "Guiso de trigo con adobo de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de trigo",
+    "protein": "Pollo",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-02-12",
+    "last_served": "2026-02-12",
+    "spellings_seen": [
+      "Guiso de trigo con Adobo de pollo"
+    ]
+  },
+  {
+    "name": "Guiso de trigo con milanesa de pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de trigo",
+    "protein": "Pollo",
+    "tags": [
+      "pesado",
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-06-06",
+    "last_served": "2026-06-06",
+    "spellings_seen": [
+      "Guiso de trigo con milanesa de pollo"
+    ]
+  },
+  {
+    "name": "Guiso de trigo con pechuga a la plancha",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Guiso de trigo",
+    "protein": "Pollo",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-09-01",
+    "last_served": "2026-09-01",
+    "spellings_seen": [
+      "Guiso de trigo con pechuga a la plancha"
+    ]
+  },
+  {
+    "name": "Humita",
+    "courses": [
+      "entrada"
+    ],
+    "category": "criolla",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-05-09",
+    "last_served": "2026-05-09",
+    "spellings_seen": [
+      "Humita"
+    ]
+  },
+  {
+    "name": "Milanesa a la plancha con papas fritas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "fritura",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-09-25",
+    "last_served": "2026-09-25",
+    "spellings_seen": [
+      "Milanesa la plancha con papas fritas"
+    ]
+  },
+  {
+    "name": "Olluquito con pollo",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-08-21",
+    "last_served": "2026-08-21",
+    "spellings_seen": [
+      "Olluquito con pollo"
+    ]
+  },
+  {
+    "name": "Pachamanca 3 sabores",
+    "courses": [
+      "extra"
+    ],
+    "category": "guiso",
+    "protein": "Mixto",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-05-09",
+    "last_served": "2026-05-09",
+    "usual_price": 35.0,
+    "spellings_seen": [
+      "Pachamanca 3 sabores"
+    ]
+  },
+  {
+    "name": "Patasca",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pesado",
+      "menudencia"
+    ],
+    "times_served": 1,
+    "first_served": "2026-09-03",
+    "last_served": "2026-09-03",
+    "spellings_seen": [
+      "Patasca"
+    ]
+  },
+  {
+    "name": "Picante de atún",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pescado",
+    "tags": [
+      "picante",
+      "pescado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-07-08",
+    "last_served": "2026-07-08",
+    "spellings_seen": [
+      "Picante de atun"
+    ]
+  },
+  {
+    "name": "Pollo a la cerveza",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-01-16",
+    "last_served": "2026-01-16",
+    "spellings_seen": [
+      "Pollo a la cerveza"
+    ]
+  },
+  {
+    "name": "Pollo al horno con ensalada de brócoli",
+    "courses": [
+      "segundo"
+    ],
+    "category": "verduras",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-03-02",
+    "last_served": "2026-03-02",
+    "spellings_seen": [
+      "Pollo al horno con ensalada de brocoli"
+    ]
+  },
+  {
+    "name": "Pollo al vino con papa sancochada",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-06-08",
+    "last_served": "2026-06-08",
+    "spellings_seen": [
+      "Pollo al vino con papa sancochada"
+    ]
+  },
+  {
+    "name": "Puré con pollo a las finas hierbas",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Puré de papa",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-09-17",
+    "last_served": "2026-09-17",
+    "spellings_seen": [
+      "Puré con pollo en finas hierbas"
+    ]
+  },
+  {
+    "name": "Puré con pollo al vino",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Puré de papa",
+    "protein": "Pollo",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-07-02",
+    "last_served": "2026-07-02",
+    "spellings_seen": [
+      "Puré c pollo al vino"
+    ]
+  },
+  {
+    "name": "Puré con pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "guiso",
+    "base": "Puré de papa",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-01-09",
+    "last_served": "2026-01-09",
+    "spellings_seen": [
+      "Puré c pollo frito"
+    ]
+  },
+  {
+    "name": "Puré de pallares con carne adobada",
+    "courses": [
+      "segundo"
+    ],
+    "category": "menestra",
+    "base": "Pallares",
+    "protein": "Res",
+    "tags": [
+      "legumbre",
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-08-25",
+    "last_served": "2026-08-25",
+    "spellings_seen": [
+      "Puré de pallares con carne adobada"
+    ]
+  },
+  {
+    "name": "Rachi",
+    "courses": [
+      "entrada"
+    ],
+    "category": "fritura",
+    "tags": [
+      "menudencia"
+    ],
+    "times_served": 1,
+    "first_served": "2026-09-09",
+    "last_served": "2026-09-09",
+    "spellings_seen": [
+      "Rachi"
+    ]
+  },
+  {
+    "name": "Saltado de vainita",
+    "courses": [
+      "segundo"
+    ],
+    "category": "saltado",
+    "protein": "Res",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-05-21",
+    "last_served": "2026-05-21",
+    "spellings_seen": [
+      "Saltado de vainita"
+    ]
+  },
+  {
+    "name": "Sopa a la minuta",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2025-12-30",
+    "last_served": "2025-12-30",
+    "spellings_seen": [
+      "Sopa a la minuta"
+    ]
+  },
+  {
+    "name": "Sopa de choros",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pescado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-04-02",
+    "last_served": "2026-04-02",
+    "spellings_seen": [
+      "Sopa de choros"
+    ]
+  },
+  {
+    "name": "Sopa de letras",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [],
+    "times_served": 1,
+    "first_served": "2026-01-17",
+    "last_served": "2026-01-17",
+    "spellings_seen": [
+      "Sopa de letras"
+    ]
+  },
+  {
+    "name": "Sopa de munición",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-01-30",
+    "last_served": "2026-01-30",
+    "spellings_seen": [
+      "Sopa de munición"
+    ]
+  },
+  {
+    "name": "Sopa de trigo",
+    "courses": [
+      "entrada"
+    ],
+    "category": "sopa",
+    "tags": [
+      "pesado"
+    ],
+    "times_served": 1,
+    "first_served": "2026-08-22",
+    "last_served": "2026-08-22",
+    "spellings_seen": [
+      "Sopa de trigo"
+    ]
+  },
+  {
+    "name": "Tallarines verdes con hígado o pollo frito",
+    "courses": [
+      "segundo"
+    ],
+    "category": "pasta",
+    "protein": "Pollo",
+    "tags": [
+      "frito"
+    ],
+    "times_served": 1,
+    "first_served": "2026-05-30",
+    "last_served": "2026-05-30",
+    "spellings_seen": [
+      "Tallarines verdes con hígado frito o pollo frito"
+    ]
+  }
+]

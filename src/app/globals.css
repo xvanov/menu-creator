@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Palette taken from design/menu-del-dia.template.html */
+:root {
+  --page: #f3e3be; /* body background */
+  --paper: #fff3d6; /* menu card */
+  --ink: #3b1d0e; /* text */
+  --ink-soft: rgba(90, 45, 20, 0.6);
+  --line: rgba(90, 45, 20, 0.18);
+  --red: #c4201a; /* labels, prices, links */
+  --red-strong: #d7261e; /* price box */
+  --orange: #f08a12; /* rules, bullets, numbers */
+  --yellow: #ffc93c; /* banner */
+  --gold: #ffd04a; /* text on red */
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-red: var(--red);
+  --color-red-strong: var(--red-strong);
+  --color-orange: var(--orange);
+  --color-yellow: var(--yellow);
+  --color-gold: var(--gold);
+  --font-heading: var(--font-oswald);
+  --font-body: var(--font-barlow);
+}
+
+/* in the base layer so Tailwind utilities (e.g. text-paper on a link) win */
+@layer base {
+  body {
+    background: var(--page);
+    color: var(--ink);
+    font-family: var(--font-body), system-ui, sans-serif;
+  }
+
+  a {
+    color: var(--red);
+  }
+}
+
+/* "blueprint" corner marks from the template */
+.blueprint {
+  position: relative;
+}
+.blueprint > .corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: var(--ink);
+  border-style: solid;
+  border-width: 0;
+}
+.blueprint > .corner.tl { top: -5px; left: -5px; border-top-width: 2px; border-left-width: 2px; }
+.blueprint > .corner.tr { top: -5px; right: -5px; border-top-width: 2px; border-right-width: 2px; }
+.blueprint > .corner.bl { bottom: -5px; left: -5px; border-bottom-width: 2px; border-left-width: 2px; }
+.blueprint > .corner.br { bottom: -5px; right: -5px; border-bottom-width: 2px; border-right-width: 2px; }
+
+/* diamond bullet used in menu rows */
+.diamond {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  flex: none;
+  background: var(--orange);
+  transform: translateY(-2px) rotate(45deg);
+}

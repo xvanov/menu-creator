@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+*.db
+*.db-*
+.env*
+!.env.example
+scripts/__pycache__

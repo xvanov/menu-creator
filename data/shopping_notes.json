@@ -1,0 +1,9215 @@
+[
+ {
+  "ts": "2026-01-06T07:37",
+  "author": "Cocinera A",
+  "service_date": "2026-01-06",
+  "menu_date": "2026-01-06",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": 10,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": 10,
+    "unit": "kg",
+    "note": "traer más"
+   }
+  ],
+  "dish": null,
+  "raw": "10 kilos de papa  canchan\nTraer mas cebolla 10 kilos"
+ },
+ {
+  "ts": "2026-01-06T20:13",
+  "author": "Cocinera A",
+  "service_date": "2026-01-07",
+  "menu_date": "2026-01-07",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": 15,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": 20,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": 10,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": 3,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": 4,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": 6,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Pepino",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": 3,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": 2,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "15 kilos cebolla \n20 kilos papa yungay\n10 kilos de papa canchan \n3 kilos de limón \n4 kilos papa amarillo \n2 lechugas americanas \n6 kilos de zanahoria\n1 pepino\n3 kilos de aji amarillo\n2 kilos de tomate"
+ },
+ {
+  "ts": "2026-01-06T20:20",
+  "author": "Cocinera A",
+  "service_date": "2026-01-07",
+  "menu_date": "2026-01-07",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga orgánica",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "ninguna harina"
+   },
+   {
+    "ingredient": "Chuño",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer azucar , arveja, lechuga organica\nNo traer nada de harinas , ni chuño"
+ },
+ {
+  "ts": "2026-01-30T10:02",
+  "author": "Cocinera A",
+  "service_date": "2026-01-30",
+  "menu_date": "2026-01-30",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Papa",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay papa; solo alcanza para el arroz con pollo"
+   }
+  ],
+  "dish": "Papa a la huancaína",
+  "raw": "No hay oapa\nSolo para arroz con pollo\nHuancaina no habra"
+ },
+ {
+  "ts": "2026-02-05T04:14",
+  "author": "Cocinera A",
+  "service_date": "2026-02-05",
+  "menu_date": "2026-02-05",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Papa",
+    "quantity": null,
+    "unit": null,
+    "note": "hay todas las papas"
+   }
+  ],
+  "dish": null,
+  "raw": "No traer limón, aji amarillo, rocoto , lechuga , tomate, ni nada de papa porque hay todas las papas"
+ },
+ {
+  "ts": "2026-02-05T05:10",
+  "author": "Cocinera A",
+  "service_date": "2026-02-05",
+  "menu_date": "2026-02-05",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Azucar tampoco traigas"
+ },
+ {
+  "ts": "2026-02-05T21:33",
+  "author": "Cocinera A",
+  "service_date": "2026-02-06",
+  "menu_date": "2026-02-06",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer azucar ni limón"
+ },
+ {
+  "ts": "2026-02-10T20:26",
+  "author": "Cocinera A",
+  "service_date": "2026-02-11",
+  "menu_date": "2026-02-11",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Verduras para sopa",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Lechuga",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 0.5,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "En la refria hay verduras para sopa, hay papa canchan, 3 lechugas , aji amarillo, 1/2 kilo ajos"
+ },
+ {
+  "ts": "2026-02-11T19:57",
+  "author": "Cocinera A",
+  "service_date": "2026-02-12",
+  "menu_date": "2026-02-12",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hierba",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": "comprada por S/ 1"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 7,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 2,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Verduras para sopa",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay el refri hay  ajos , esa hierba que dijiste que pediste un sol y te dio un paquete, tengo 7 aceites , dos paquetes de sal ,  hay dos paquetes de galletas , una leche, aji amarillo, azucar,  hay verduras para sopa, papa canchay, lechuga americana 3 , limón. Todo esto hay\nTambién hay papa amarillo"
+ },
+ {
+  "ts": "2026-02-13T09:47",
+  "author": "Cocinera A",
+  "service_date": "2026-02-13",
+  "menu_date": "2026-02-13",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Papa para sancochar",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay papa para sancochar"
+ },
+ {
+  "ts": "2026-02-13T10:36",
+  "author": "Cocinera A",
+  "service_date": "2026-02-13",
+  "menu_date": "2026-02-13",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pepino",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Si compra tomate y pepino"
+ },
+ {
+  "ts": "2026-02-13T10:36",
+  "author": "Cocinera A",
+  "service_date": "2026-02-13",
+  "menu_date": "2026-02-13",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres lechuga americana"
+ },
+ {
+  "ts": "2026-02-16T10:26",
+  "author": "Encargado",
+  "service_date": "2026-02-16",
+  "menu_date": "2026-02-16",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Palta",
+    "quantity": null,
+    "unit": null,
+    "note": "S/ 15 de palta"
+   }
+  ],
+  "dish": null,
+  "raw": "habrá ensalada de palta. compras 2 lechugas americanas y 15 so de palta"
+ },
+ {
+  "ts": "2026-02-19T11:05",
+  "author": "Encargado",
+  "service_date": "2026-02-19",
+  "menu_date": "2026-02-19",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Vainita",
+    "quantity": 0.25,
+    "unit": "kg",
+    "note": "un cuarto"
+   },
+   {
+    "ingredient": "Brócoli",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Atención te compras un cuarto de vainita y un brócoli"
+ },
+ {
+  "ts": "2026-02-24T08:28",
+  "author": "Encargado",
+  "service_date": "2026-02-24",
+  "menu_date": "2026-02-24",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": "para refresco, si no hay cebada"
+   }
+  ],
+  "dish": null,
+  "raw": "voy a traer maracuyá si es que no hay cebada"
+ },
+ {
+  "ts": "2026-02-28T10:20",
+  "author": "Cocinera A",
+  "service_date": "2026-02-28",
+  "menu_date": "2026-02-28",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Queso",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": "Tequeños",
+  "raw": "Mo hay queso\nNo hay queso , manden para los tequeños"
+ },
+ {
+  "ts": "2026-03-02T07:09",
+  "author": "Cocinera A",
+  "service_date": "2026-02-28",
+  "menu_date": "2026-02-28",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Pollo frito",
+    "quantity": 10,
+    "unit": "presa",
+    "note": "sugerencia: reutilizar como pollo norteño"
+   }
+  ],
+  "dish": "Pollo frito con papas fritas",
+  "raw": "El sábado sobro 10 pollos fritos , porque mejor uno de los platos lo cambias por pollo norteño"
+ },
+ {
+  "ts": "2026-03-10T09:26",
+  "author": "Encargado",
+  "service_date": "2026-03-10",
+  "menu_date": "2026-03-10",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Palta",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Atención vienes rápido porque no hay tamales vas a comprar palta lechuga y botella chica"
+ },
+ {
+  "ts": "2026-03-14T08:08",
+  "author": "Cocinera A",
+  "service_date": "2026-03-14",
+  "menu_date": "2026-03-14",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas limón"
+ },
+ {
+  "ts": "2026-04-02T07:15",
+  "author": "Cocinera A",
+  "service_date": "2026-04-02",
+  "menu_date": "2026-04-02",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer zanahoria\nCebolla no compres\nNi azucar\nAji amarillo tampoco"
+ },
+ {
+  "ts": "2026-04-02T07:31",
+  "author": "Cocinera A",
+  "service_date": "2026-04-02",
+  "menu_date": "2026-04-02",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": null,
+    "unit": null,
+    "note": "bastante"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay papa para freir bastante"
+ },
+ {
+  "ts": "2026-04-02T07:32",
+  "author": "Cocinera A",
+  "service_date": "2026-04-02",
+  "menu_date": "2026-04-02",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Tomate no traigas\nKion no traigas"
+ },
+ {
+  "ts": "2026-04-06T07:23",
+  "author": "Cocinera A",
+  "service_date": "2026-04-06",
+  "menu_date": "2026-04-06",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": "para refresco (en vez de exprimir limón)"
+   }
+  ],
+  "dish": null,
+  "raw": "Traes maracuyá porque la mano me esta doliendo de tanto explimir limón"
+ },
+ {
+  "ts": "2026-04-16T07:22",
+  "author": "Cocinera A",
+  "service_date": "2026-04-16",
+  "menu_date": "2026-04-16",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": "ni hoy ni mañana"
+   }
+  ],
+  "dish": null,
+  "raw": "No traer maracuyá ni mañana"
+ },
+ {
+  "ts": "2026-04-18T07:25",
+  "author": "Cocinera A",
+  "service_date": "2026-04-18",
+  "menu_date": "2026-04-18",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No te olvides lechuga"
+ },
+ {
+  "ts": "2026-04-19T15:46",
+  "author": "Cocinera A",
+  "service_date": "2026-04-20",
+  "menu_date": "2026-04-20",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Milanesa",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Milanesa hay"
+ },
+ {
+  "ts": "2026-04-20T08:10",
+  "author": "Encargado",
+  "service_date": "2026-04-20",
+  "menu_date": "2026-04-20",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Choclo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay, para la sopa"
+   }
+  ],
+  "dish": "Sopa",
+  "raw": "las verduras para la sopa son grandes \nhay choclo también para la sopa"
+ },
+ {
+  "ts": "2026-04-27T10:01",
+  "author": "Encargado",
+  "service_date": "2026-04-27",
+  "menu_date": "2026-04-27",
+  "type": "regla",
+  "items": [
+   {
+    "ingredient": "Chuleta",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "rule": "La chuleta y el churrasco son de reserva: se usan solo cuando faltan presas de pollo.",
+  "raw": "La chuleta y el churrasco es para cuando falte presas"
+ },
+ {
+  "ts": "2026-04-28T07:15",
+  "author": "Cocinera B",
+  "service_date": "2026-04-28",
+  "menu_date": "2026-04-28",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Mostaza",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Mostaza no hay"
+ },
+ {
+  "ts": "2026-04-28T07:18",
+  "author": "Cocinera A",
+  "service_date": "2026-04-28",
+  "menu_date": "2026-04-28",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay en stock"
+   }
+  ],
+  "dish": null,
+  "raw": "No me traigas papa canchan tengo"
+ },
+ {
+  "ts": "2026-04-28T11:11",
+  "author": "Cocinera A",
+  "service_date": "2026-04-28",
+  "menu_date": "2026-04-28",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Lechuga",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Falta lechuga pues"
+ },
+ {
+  "ts": "2026-04-28T19:00",
+  "author": "Encargado",
+  "service_date": "2026-04-29",
+  "menu_date": "2026-04-29",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Huevo",
+    "quantity": 15,
+    "unit": "unidad",
+    "note": "mínimo; para el caldo y el chaufa; verificar stock antes"
+   }
+  ],
+  "dish": null,
+  "raw": "fíjense si hay huevo para mañana necesito para el caldo y para chaufa mínimo 15 huevos\nfíjese cuántos huevos hay para no comprar mañana o para comprar"
+ },
+ {
+  "ts": "2026-04-28T19:02",
+  "author": "Cocinera A",
+  "service_date": "2026-04-29",
+  "menu_date": "2026-04-29",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "hay aceite?\nSi hay"
+ },
+ {
+  "ts": "2026-04-28T19:03",
+  "author": "Cocinera A",
+  "service_date": "2026-04-29",
+  "menu_date": "2026-04-29",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Pepino",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres pepino\nNo compres"
+ },
+ {
+  "ts": "2026-04-28T19:08",
+  "author": "Cocinera A",
+  "service_date": "2026-04-29",
+  "menu_date": "2026-04-29",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Pimienta",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pomarola",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Dice Cocinera B que compres doña gusta, pimienta ,comino, pomarola, palillo\nlo que sí voy a traer es pimienta y comino"
+ },
+ {
+  "ts": "2026-05-05T09:38",
+  "author": "Encargado",
+  "service_date": "2026-05-04",
+  "menu_date": "2026-05-04",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": null,
+    "unit": null,
+    "note": "sobró; se cambió la comida de la cena"
+   }
+  ],
+  "dish": null,
+  "raw": "su lista de Cocinera B para que cocine. ayer me sobró pollo por eso va a haber cambio en la comida de la cena."
+ },
+ {
+  "ts": "2026-05-12T07:35",
+  "author": "Cocinera B",
+  "service_date": "2026-05-11",
+  "menu_date": "2026-05-11",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 20,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "cuántas presas de pollo sobró\n20"
+ },
+ {
+  "ts": "2026-05-12T20:44",
+  "author": "Cocinera A",
+  "service_date": "2026-05-13",
+  "menu_date": "2026-05-13",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 10,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "alcanza para mañana y tarde"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay tomate , papa yungay, papa canchan, limón\nArroz 10 kilos\nHay 10 kilos de arroz, azucar hay para la mañana y tarde"
+ },
+ {
+  "ts": "2026-05-12T20:48",
+  "author": "Cocinera A",
+  "service_date": "2026-05-13",
+  "menu_date": "2026-05-13",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay churrasco"
+ },
+ {
+  "ts": "2026-05-14T17:18",
+  "author": "Cocinera A",
+  "service_date": "2026-05-15",
+  "menu_date": "2026-05-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 7.5,
+    "unit": "botella",
+    "note": "7 y media"
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay (foto)"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 7 y uno mitad de aceite, dos sal, rocoto , aji amarillo\nKion también hay\nPapa amarillo\nAlberja hay\nAji amarillo\nAji amarillo y rocoto"
+ },
+ {
+  "ts": "2026-05-14T18:58",
+  "author": "Cocinera B",
+  "service_date": "2026-05-15",
+  "menu_date": "2026-05-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pomarola",
+    "quantity": 6,
+    "unit": "unidad",
+    "note": "aprox."
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 2,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Hierbas para sopa",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay como 6  pomarolas y 2 kg de ajos y también \nLlervas para sopa"
+ },
+ {
+  "ts": "2026-05-14T19:00",
+  "author": "Cocinera B",
+  "service_date": "2026-05-15",
+  "menu_date": "2026-05-15",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Hongo laurel",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Trae hongo laurel"
+ },
+ {
+  "ts": "2026-05-15T19:07",
+  "author": "Cocinera A",
+  "service_date": "2026-05-16",
+  "menu_date": "2026-05-16",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay (foto)"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "mucho"
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Papa canchan\nHay mucho ajos\nSal hay"
+ },
+ {
+  "ts": "2026-05-15T19:08",
+  "author": "Cocinera A",
+  "service_date": "2026-05-16",
+  "menu_date": "2026-05-16",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Rocoto mo traer"
+ },
+ {
+  "ts": "2026-05-15T20:33",
+  "author": "Cocinera B",
+  "service_date": "2026-05-16",
+  "menu_date": "2026-05-16",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pomarola",
+    "quantity": 6,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay seis pomarolas\nDoña gusta no hay"
+ },
+ {
+  "ts": "2026-05-16T07:24",
+  "author": "Cocinera A",
+  "service_date": "2026-05-16",
+  "menu_date": "2026-05-16",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas tomate"
+ },
+ {
+  "ts": "2026-05-16T07:30",
+  "author": "Cocinera A",
+  "service_date": "2026-05-16",
+  "menu_date": "2026-05-16",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Si hay pollo"
+ },
+ {
+  "ts": "2026-05-16T07:37",
+  "author": "Cocinera A",
+  "service_date": "2026-05-15",
+  "menu_date": "2026-05-15",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 3,
+    "unit": null,
+    "note": "respuesta '3' a '¿sobró arroz?'; unidad no indicada (probablemente kg)"
+   }
+  ],
+  "dish": null,
+  "raw": "sobró arroz?\n3"
+ },
+ {
+  "ts": "2026-05-18T10:37",
+  "author": "Cocinera A",
+  "service_date": "2026-05-18",
+  "menu_date": "2026-05-18",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Zanahoria",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Lechuga",
+    "quantity": 0,
+    "unit": null,
+    "note": "para la salchipapa"
+   },
+   {
+    "ingredient": "Yuca",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay zanahoria\nLechuga para la salchichapapa\nNo hay\nYuca tampoco"
+ },
+ {
+  "ts": "2026-05-18T10:52",
+  "author": "Cocinera A",
+  "service_date": "2026-05-18",
+  "menu_date": "2026-05-18",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Menudencia de pollo",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": "Sopa",
+  "raw": "Asi también a faltado las menudencias para la sopa"
+ },
+ {
+  "ts": "2026-05-18T11:52",
+  "author": "Cocinera A",
+  "service_date": "2026-05-18",
+  "menu_date": "2026-05-18",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay azucar😡😡😡😡😡"
+ },
+ {
+  "ts": "2026-05-19T07:26",
+  "author": "Cocinera B",
+  "service_date": "2026-05-19",
+  "menu_date": "2026-05-19",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 25,
+    "unit": "presa",
+    "note": "aprox."
+   }
+  ],
+  "dish": null,
+  "raw": "Hay pollo como 25 presas"
+ },
+ {
+  "ts": "2026-05-19T07:28",
+  "author": "Cocinera B",
+  "service_date": "2026-05-19",
+  "menu_date": "2026-05-19",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Trae doña gusta pimienta cominos"
+ },
+ {
+  "ts": "2026-05-19T07:32",
+  "author": "Cocinera B",
+  "service_date": "2026-05-19",
+  "menu_date": "2026-05-19",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 40,
+    "unit": "presa",
+    "note": "para la cena (hay 25 en stock)"
+   }
+  ],
+  "dish": null,
+  "raw": "Para la cena solo trae 40 pollos"
+ },
+ {
+  "ts": "2026-05-20T07:42",
+  "author": "Cocinera B",
+  "service_date": "2026-05-20",
+  "menu_date": "2026-05-20",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 20,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Pomarola",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Ya te dije que hay pollo 20 presas\nNo hay ajinomoto\nPomarola sí hay\nHay perejil y hierbabuena"
+ },
+ {
+  "ts": "2026-05-21T07:23",
+  "author": "Cocinera A",
+  "service_date": "2026-05-21",
+  "menu_date": "2026-05-21",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Comprar tenedor, vaso, servilletas, papel rollo, solo bolsa con asa, botellitas, limon azucar"
+ },
+ {
+  "ts": "2026-05-21T19:52",
+  "author": "Cocinera B",
+  "service_date": "2026-05-22",
+  "menu_date": "2026-05-22",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Trae ajino moto"
+ },
+ {
+  "ts": "2026-05-23T07:13",
+  "author": "Cocinera A",
+  "service_date": "2026-05-23",
+  "menu_date": "2026-05-23",
+  "type": "regla",
+  "items": [],
+  "dish": "Arroz con pollo",
+  "rule": "Arroz con pollo: preparar solo unas 25 porciones (recomendación de Cocinera A, sábado 23/05).",
+  "raw": "Arroz con pollo te aconsejo solo 25"
+ },
+ {
+  "ts": "2026-05-23T13:26",
+  "author": "Cocinera A",
+  "service_date": "2026-05-23",
+  "menu_date": "2026-05-23",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Crema huancaína",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": "Papa a la huancaína",
+  "raw": "Falta crema huancaína"
+ },
+ {
+  "ts": "2026-05-26T20:38",
+  "author": "Cocinera A",
+  "service_date": "2026-05-27",
+  "menu_date": "2026-05-27",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pepino",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Comprar tomate, pepino, lechuga"
+ },
+ {
+  "ts": "2026-05-26T20:38",
+  "author": "Cocinera A",
+  "service_date": "2026-05-27",
+  "menu_date": "2026-05-27",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa única",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No comprar papa unica"
+ },
+ {
+  "ts": "2026-05-27T07:26",
+  "author": "Cocinera A",
+  "service_date": "2026-05-27",
+  "menu_date": "2026-05-27",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": 1,
+    "unit": "kg",
+    "note": "aprox."
+   }
+  ],
+  "dish": null,
+  "raw": "hay papa para freír?\nComo 1 kilo"
+ },
+ {
+  "ts": "2026-05-28T17:20",
+  "author": "Cocinera A",
+  "service_date": "2026-05-28",
+  "menu_date": "2026-05-28",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Chuleta",
+    "quantity": 7,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Milanesa",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 2,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Tallarín con pollo",
+    "quantity": 4,
+    "unit": "presa",
+    "note": "presas para tallarines"
+   }
+  ],
+  "dish": null,
+  "raw": "7 chuletas,3 milanesa , 2 presas de pollo, 4 presas de tallarines"
+ },
+ {
+  "ts": "2026-05-28T17:22",
+  "author": "Cocinera A",
+  "service_date": "2026-05-29",
+  "menu_date": "2026-05-29",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "bastante"
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga para decorar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 4,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 3,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay limon , arveja bastante, una lechuga americana, lechuga para decorar, azúcar no traigas nada\nTomate hay\n4 aceites donde yo estoy\n3 kilos de arroz"
+ },
+ {
+  "ts": "2026-05-28T17:22",
+  "author": "Cocinera A",
+  "service_date": "2026-05-29",
+  "menu_date": "2026-05-29",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay limon , arveja bastante, una lechuga americana, lechuga para decorar, azúcar no traigas nada"
+ },
+ {
+  "ts": "2026-05-28T18:26",
+  "author": "Cocinera A",
+  "service_date": "2026-05-29",
+  "menu_date": "2026-05-29",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Huevo",
+    "quantity": 46,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "46 huevos\nNo traer nada  de huevo"
+ },
+ {
+  "ts": "2026-05-28T18:27",
+  "author": "Cocinera A",
+  "service_date": "2026-05-29",
+  "menu_date": "2026-05-29",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer nada  de huevo\nRocoto no traigad"
+ },
+ {
+  "ts": "2026-05-28T20:21",
+  "author": "Cocinera B",
+  "service_date": "2026-05-29",
+  "menu_date": "2026-05-29",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Mostaza",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Vinagre tinto",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Aceite de ajonjolí",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Cosas que no hay: \nMostaza \nVinagre tinto \nChicha de jora \nAceite de ajonjolí"
+ },
+ {
+  "ts": "2026-05-28T20:22",
+  "author": "Cocinera B",
+  "service_date": "2026-05-29",
+  "menu_date": "2026-05-29",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas ají amarillo y ajos  porque hay"
+ },
+ {
+  "ts": "2026-05-29T23:11",
+  "author": "Cocinera B",
+  "service_date": "2026-05-30",
+  "menu_date": "2026-05-30",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pomarola",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Fideo linguini",
+    "quantity": 1,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Hígado",
+    "quantity": 7,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Milanesa",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 13,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 1,
+    "unit": "kg",
+    "note": "aprox."
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": 7,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay cebolla de cabeza"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": 5,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "como para la sopa"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Estas son las cosas que hay :\n3 pomarolas \nUn kilo de fideos lenguni \n7 hígado \n3 milanesas\n13 pollos \nAjí amarillo \nAjos como un kilo \n2 tarros de leche \nUn paquete de galleta\n2 bolsas de sal\n7 Tomate \nCebolla de cabeza \n5 zanahorias\n5 kg de arroz\nPerejil como para la sopa \nHierbabuena"
+ },
+ {
+  "ts": "2026-05-30T07:24",
+  "author": "Cocinera A",
+  "service_date": "2026-05-30",
+  "menu_date": "2026-05-30",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Canchan puedes traer 5 kilos"
+ },
+ {
+  "ts": "2026-05-30T07:24",
+  "author": "Cocinera B",
+  "service_date": "2026-05-30",
+  "menu_date": "2026-05-30",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz molido",
+    "quantity": 0.25,
+    "unit": "kg",
+    "note": "aprox. un cuarto, en la olla"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 10,
+    "unit": "kg",
+    "note": "9 kg donde Cocinera A + 1 kg en el otro puesto"
+   }
+  ],
+  "dish": null,
+  "raw": "En la olla vi guardado como un cuarto de arroz molido\nCocinera A tiene 9 kg de arroz y en el otro puesto hay un kilo de arroz en la olla"
+ },
+ {
+  "ts": "2026-05-30T07:24",
+  "author": "Cocinera A",
+  "service_date": "2026-05-30",
+  "menu_date": "2026-05-30",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Papa yungay no traigas nada\nNi cebolla\nNi zanahoria\nAzucar no traigad"
+ },
+ {
+  "ts": "2026-05-30T07:25",
+  "author": "Cocinera A",
+  "service_date": "2026-05-30",
+  "menu_date": "2026-05-30",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Harina para apanar",
+    "quantity": null,
+    "unit": null,
+    "note": "para el broaster"
+   }
+  ],
+  "dish": null,
+  "raw": "Compra harinas para wl briste tido lo q entra"
+ },
+ {
+  "ts": "2026-05-30T07:25",
+  "author": "Cocinera A",
+  "service_date": "2026-05-30",
+  "menu_date": "2026-05-30",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 9,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Mantequilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 9 kilos de arroz\nAceite no tengo nada\nLimon tengo\nHay mantequilla"
+ },
+ {
+  "ts": "2026-05-30T07:34",
+  "author": "Cocinera A",
+  "service_date": "2026-05-30",
+  "menu_date": "2026-05-30",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Rocoto no traigas\nNo huevo\nAji amarillo no traigas\nNo traigas ajos\nNo traigas ajos"
+ },
+ {
+  "ts": "2026-06-01T21:31",
+  "author": "Cocinera B",
+  "service_date": "2026-06-02",
+  "menu_date": "2026-06-02",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 10,
+    "unit": "presa",
+    "note": "crudo"
+   },
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 7,
+    "unit": "presa",
+    "note": "condimentado, aprox."
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 4,
+    "unit": "presa",
+    "note": "amarillas, para ceviche de pollo"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": "aprox."
+   },
+   {
+    "ingredient": "Hierbas para sopa",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Cosas que hay en el refrigerador \n10 presas de pollo crudo \nAy cómo 7 presas de pollo condimentado para broaster\nHay cuatro presas de color amarillo como para ceviche de pollo\nAjí amarillo hay como tres\nHay hierba para la sopa"
+ },
+ {
+  "ts": "2026-06-02T07:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-02",
+  "menu_date": "2026-06-02",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": "solo hay 2"
+   }
+  ],
+  "dish": null,
+  "raw": "Traes huevo dolo hay2"
+ },
+ {
+  "ts": "2026-06-02T07:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-02",
+  "menu_date": "2026-06-02",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Huevo",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Traes huevo dolo hay2"
+ },
+ {
+  "ts": "2026-06-02T07:03",
+  "author": "Cocinera A",
+  "service_date": "2026-06-02",
+  "menu_date": "2026-06-02",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas nada de lechuga"
+ },
+ {
+  "ts": "2026-06-02T07:04",
+  "author": "Cocinera B",
+  "service_date": "2026-06-02",
+  "menu_date": "2026-06-02",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Pescado",
+    "quantity": null,
+    "unit": null,
+    "note": "un poco más de lo habitual"
+   }
+  ],
+  "dish": null,
+  "raw": "Trae un poco más de pescado de lo que siempre traes"
+ },
+ {
+  "ts": "2026-06-02T20:23",
+  "author": "Cocinera B",
+  "service_date": "2026-06-03",
+  "menu_date": "2026-06-03",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Mostaza",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Cosas que faltan en el puesto :\nMostaza \nAjí amarillo"
+ },
+ {
+  "ts": "2026-06-02T20:36",
+  "author": "Cocinera B",
+  "service_date": "2026-06-03",
+  "menu_date": "2026-06-03",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají mono",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": 7,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Lo que hay en el puesto: \nRocoto \nAjí mono \nChicha \nVinagre \nSillao \nHay 7 presas de churrasco"
+ },
+ {
+  "ts": "2026-06-03T07:05",
+  "author": "Cocinera A",
+  "service_date": "2026-06-03",
+  "menu_date": "2026-06-03",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer limón"
+ },
+ {
+  "ts": "2026-06-03T19:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-04",
+  "menu_date": "2026-06-04",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 7,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 4,
+    "unit": "tarro",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 7 aceites, dos sal, azucar no traigas nada, hay 4 leches"
+ },
+ {
+  "ts": "2026-06-03T19:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-04",
+  "menu_date": "2026-06-04",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 7 aceites, dos sal, azucar no traigas nada, hay 4 leches"
+ },
+ {
+  "ts": "2026-06-04T19:23",
+  "author": "Cocinera A",
+  "service_date": "2026-06-05",
+  "menu_date": "2026-06-05",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 3.5,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": 1,
+    "unit": "kg",
+    "note": "como para la tarde"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 5 kilos de arroz, hay cebolla, 2 leches , 3y 1/2 de aceite, azucar un kilo como para la tarde, hay limón"
+ },
+ {
+  "ts": "2026-06-05T07:20",
+  "author": "Encargado",
+  "service_date": "2026-06-05",
+  "menu_date": "2026-06-05",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": "para refresco"
+   }
+  ],
+  "dish": null,
+  "raw": "traere maracuya"
+ },
+ {
+  "ts": "2026-06-05T19:06",
+  "author": "Cocinera A",
+  "service_date": "2026-06-06",
+  "menu_date": "2026-06-06",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Cebada",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Milanesa",
+    "quantity": 10,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 2,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay papa canchan, yungay, zanahoria, tomate , cebada, alverja, , rocoto, 10 milanesa, dos aceites\nAzucar hay, aji amarillo hay, hay 2 kilos de arroz"
+ },
+ {
+  "ts": "2026-06-05T20:21",
+  "author": "Cocinera B",
+  "service_date": "2026-06-06",
+  "menu_date": "2026-06-06",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ablandador de carne",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pimentón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "como para estofado"
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "poco"
+   }
+  ],
+  "dish": null,
+  "raw": "Ay doña gusta \nAblandador \nSal \nPimentón\nHay poco ajinomoto\nCulandro como para estofado"
+ },
+ {
+  "ts": "2026-06-06T06:51",
+  "author": "Cocinera A",
+  "service_date": "2026-06-06",
+  "menu_date": "2026-06-06",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Compra papa amarillo"
+ },
+ {
+  "ts": "2026-06-06T06:52",
+  "author": "Cocinera A",
+  "service_date": "2026-06-06",
+  "menu_date": "2026-06-06",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 3,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Pollo brosther hay3"
+ },
+ {
+  "ts": "2026-06-06T07:07",
+  "author": "Cocinera A",
+  "service_date": "2026-06-06",
+  "menu_date": "2026-06-06",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": null,
+    "unit": null,
+    "note": "sí alcanza (lo que quedó ayer)"
+   }
+  ],
+  "dish": null,
+  "raw": "la papa para freír va alcanzar?\nSi\nBueno como deje ayer si va alcanzar"
+ },
+ {
+  "ts": "2026-06-06T07:13",
+  "author": "Cocinera A",
+  "service_date": "2026-06-06",
+  "menu_date": "2026-06-06",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "más"
+   }
+  ],
+  "dish": null,
+  "raw": "Compra mas papa canchan"
+ },
+ {
+  "ts": "2026-06-06T07:16",
+  "author": "Cocinera A",
+  "service_date": "2026-06-06",
+  "menu_date": "2026-06-06",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Ajo",
+    "quantity": 2,
+    "unit": "kg",
+    "note": "bastante"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay ajos\nBastante\n2 kilos"
+ },
+ {
+  "ts": "2026-06-08T07:33",
+  "author": "Cocinera A",
+  "service_date": "2026-06-08",
+  "menu_date": "2026-06-08",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas ajos\nNi sal"
+ },
+ {
+  "ts": "2026-06-09T07:18",
+  "author": "Cocinera A",
+  "service_date": "2026-06-09",
+  "menu_date": "2026-06-09",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "más"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": null,
+    "unit": null,
+    "note": "más"
+   }
+  ],
+  "dish": null,
+  "raw": "Comprar mas limon\nComprar mas arroz"
+ },
+ {
+  "ts": "2026-06-09T10:29",
+  "author": "Encargado",
+  "service_date": "2026-06-09",
+  "menu_date": "2026-06-09",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Milanesa",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "y milanesa con papas fritas hay 2 no más"
+ },
+ {
+  "ts": "2026-06-10T07:17",
+  "author": "Cocinera A",
+  "service_date": "2026-06-10",
+  "menu_date": "2026-06-10",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Fideos",
+    "quantity": null,
+    "unit": null,
+    "note": "hay fideos"
+   }
+  ],
+  "dish": "Ensalada de fideos",
+  "raw": "Para la ensalada de fideos no traigas\nHay fideos"
+ },
+ {
+  "ts": "2026-06-10T07:20",
+  "author": "Cocinera A",
+  "service_date": "2026-06-10",
+  "menu_date": "2026-06-10",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga orgánica",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Traer botellitas, servilletas, papel toalla, tenedor, lechuga americana y orgánico"
+ },
+ {
+  "ts": "2026-06-10T07:20",
+  "author": "Cocinera A",
+  "service_date": "2026-06-10",
+  "menu_date": "2026-06-10",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Mantequilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 0.5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "alcanza para el almuerzo, no para la cena"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay galletas un paquete\nHay lo mantequilla, hay rocoto, 1/2 de ajos, alberja también hay\nNo hay kion\nPerejil\nTengo azucar para el almuerzo pero no para la cena"
+ },
+ {
+  "ts": "2026-06-10T21:06",
+  "author": "Cocinera B",
+  "service_date": "2026-06-11",
+  "menu_date": null,
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": "alcanza hasta el sábado"
+   },
+   {
+    "ingredient": "Ablandador de carne",
+    "quantity": 2,
+    "unit": "paquete",
+    "note": "dos tiras"
+   },
+   {
+    "ingredient": "Doña Gusto de pescado",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 1,
+    "unit": "bolsa",
+    "note": "más la abierta"
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite de ajonjolí",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Salsa de ostión",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre tinto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre blanco",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0.5,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Mostaza",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Las cosas que hay :\nDoña gusta hay hasta el sábado \nAblandador dos tiras \nDoña gusta de pescado \nSal hay una bolsa más \nAparte de lo que ya está abierto de hoy \nSillao \nAceite ajonjolí \nSalsa de ostión \nVinagre tinto \nVinagre blanco \nChicha de jora media botella\nAjos \nAjí especial\nMostaza\nPimienta y comino"
+ },
+ {
+  "ts": "2026-06-10T21:09",
+  "author": "Cocinera B",
+  "service_date": "2026-06-10",
+  "menu_date": "2026-06-10",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": "al estofado le faltó zanahoria; se usó la poca que había"
+   }
+  ],
+  "dish": "Estofado",
+  "raw": "No me digas nada del estofado que le falta zanahoria porque no has traído tú poquito nada más le eche porque fue lo que había"
+ },
+ {
+  "ts": "2026-06-10T21:10",
+  "author": "Cocinera A",
+  "service_date": "2026-06-11",
+  "menu_date": null,
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Ajo",
+    "quantity": 2,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": 5,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 4,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": 4,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "bastante"
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "bastante"
+   },
+   {
+    "ingredient": "Mantequilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pimentón",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": 5,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 7,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": 7,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay:\n_ 2 k de ajos\n_ aji amarillo \n_kion\n_5 tomates\n_4 aceites\n_ 4 k de papa canchan\n_1 lechuga americana \n_ hay bastante alberja\n_ cebolla bastante \n_mantequilla\n_ 2 pimentón \n_5 rocotos\n_ 7 k de arroz\n_ 7 churrasco"
+ },
+ {
+  "ts": "2026-06-12T07:15",
+  "author": "Cocinera A",
+  "service_date": "2026-06-12",
+  "menu_date": "2026-06-12",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": "para el refresco"
+   }
+  ],
+  "dish": null,
+  "raw": "Traes maracuyá para el refresco"
+ },
+ {
+  "ts": "2026-06-13T07:45",
+  "author": "Cocinera A",
+  "service_date": "2026-06-13",
+  "menu_date": "2026-06-13",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Alberja hay"
+ },
+ {
+  "ts": "2026-06-17T19:11",
+  "author": "Cocinera A",
+  "service_date": "2026-06-18",
+  "menu_date": "2026-06-18",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Loche",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Choclo",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "lo que se trajo hoy"
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 1,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Pasas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Mantequilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": 10,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Harina para apanar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 1.5,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 7,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 1,
+    "unit": "bolsa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay  todo esto:\n_un loche\n_ dos choclos\n_ alberjita lo que trajiste hoy\n_ una lechuga americana \n_1kde ajos\n_pasas\n_mantequilla\n_hierba buena\n_ 10 tomates\n_ azucar \n_ harinas para apanar \n_ azucar\n _ papa canchan\n_ papa yungay \n_ papa amarillo \n_ limón \n_ 1 y 1/2 de aceite \n_7 kilos de arroz \n_ 1 sal"
+ },
+ {
+  "ts": "2026-06-17T21:37",
+  "author": "Cocinera B",
+  "service_date": "2026-06-18",
+  "menu_date": "2026-06-18",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pomarola",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Salsa de ostión",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Maní entero",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Maní molido",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Harina para apanar",
+    "quantity": null,
+    "unit": null,
+    "note": "para pescado"
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ablandador de carne",
+    "quantity": 10,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto de pescado",
+    "quantity": 5,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto de gallina",
+    "quantity": 4,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite de ajonjolí",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Mostaza",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hongo laurel",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Orégano molido",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Bueno en el otro lado hay :\n*Tres pomarolas \n*Dos botellas sillao \n*Salsa de ostión \n*Un tarro de leche \n*Maní entero \n*Maní molido \n*Harina para empanar pescado \n*Azúcar \n*Ajinomoto \n*Ablandador 10\n*Doña gusta de pescado 5\n*Doña gusta de gallina 4\n*Aceite de ajonjolí \n*Mostaza\n*Hongo laurel \n*Palillos \n*Sibaritas \n*Tuco tallarín \n*Orégano molido\n*Ají especial"
+ },
+ {
+  "ts": "2026-06-17T21:42",
+  "author": "Cocinera B",
+  "service_date": "2026-06-18",
+  "menu_date": "2026-06-18",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Orégano bebé",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Vinagre tinto",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Qué falta: \n- orégano bebé \n- vinagre tinto \n- pimienta \n- comino"
+ },
+ {
+  "ts": "2026-06-18T07:05",
+  "author": "Cocinera A",
+  "service_date": "2026-06-18",
+  "menu_date": "2026-06-18",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Canela",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Clavo de olor",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Compra canela y clavo"
+ },
+ {
+  "ts": "2026-06-18T08:12",
+  "author": "Cocinera A",
+  "service_date": "2026-06-18",
+  "menu_date": "2026-06-18",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay; compras temprano"
+   }
+  ],
+  "dish": null,
+  "raw": "Temprano las compras no hay cebolla ni"
+ },
+ {
+  "ts": "2026-06-19T06:32",
+  "author": "Cocinera B",
+  "service_date": "2026-06-19",
+  "menu_date": "2026-06-19",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "hay (escrito '[culantro]', autocorrector)"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay :\n- perejil \n- hierbabuena \n- [culantro]\nNO HAY:\n~ ajos \n~  coto \n~ doña cómo está \n,~ ajino moto"
+ },
+ {
+  "ts": "2026-06-19T07:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-19",
+  "menu_date": "2026-06-19",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "más; no hay nada"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "más"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay nada de papa yungay, traer  comprar mas papa yungay y canchan\nNo traer limon\nComprar botellitas, servilletas, papel toalla, bolsa con asa , bolsa para tapar , tenedor \nComprar"
+ },
+ {
+  "ts": "2026-06-19T07:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-19",
+  "menu_date": "2026-06-19",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No hay nada de papa yungay, traer  comprar mas papa yungay y canchan\nNo traer limon\nComprar botellitas, servilletas, papel toalla, bolsa con asa , bolsa para tapar , tenedor \nComprar"
+ },
+ {
+  "ts": "2026-06-19T07:20",
+  "author": "Cocinera A",
+  "service_date": "2026-06-19",
+  "menu_date": "2026-06-19",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Comprar huevo no te olvides"
+ },
+ {
+  "ts": "2026-06-19T08:25",
+  "author": "Encargado",
+  "service_date": "2026-06-19",
+  "menu_date": "2026-06-19",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Cabanossi",
+    "quantity": null,
+    "unit": null,
+    "note": "probablemente hay"
+   }
+  ],
+  "dish": null,
+  "raw": "me parece que hay cavanossi"
+ },
+ {
+  "ts": "2026-06-19T15:23",
+  "author": "Encargado",
+  "service_date": "2026-06-20",
+  "menu_date": "2026-06-20",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": null,
+    "unit": null,
+    "note": "pollos sobrantes para completar"
+   }
+  ],
+  "dish": null,
+  "raw": "alcánzale los pollos que ha sobrado para que complete"
+ },
+ {
+  "ts": "2026-06-20T07:21",
+  "author": "Cocinera A",
+  "service_date": "2026-06-20",
+  "menu_date": "2026-06-20",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Milanesa",
+    "quantity": 10,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Pasas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay \n10 milanesas\nPasas\nAlberja \nRocoto \nLimón"
+ },
+ {
+  "ts": "2026-06-20T07:22",
+  "author": "Cocinera A",
+  "service_date": "2026-06-20",
+  "menu_date": "2026-06-20",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres rocoto"
+ },
+ {
+  "ts": "2026-06-20T08:11",
+  "author": "Cocinera A",
+  "service_date": "2026-06-20",
+  "menu_date": "2026-06-20",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Espinaca",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Aqui hay espinaca\nHay lechuga no traigas ninguna"
+ },
+ {
+  "ts": "2026-06-20T08:11",
+  "author": "Cocinera A",
+  "service_date": "2026-06-20",
+  "menu_date": "2026-06-20",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay lechuga no traigas ninguna"
+ },
+ {
+  "ts": "2026-06-23T06:28",
+  "author": "Cocinera B",
+  "service_date": "2026-06-23",
+  "menu_date": "2026-06-23",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 6,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "como S/ 1"
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "como para la sopa"
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Esto es lo que hay:\n• 6 kg de arroz\n• un tarro de leche \n• ajos \n• ají amarillo \n• culantro como un sol \n• dos bolsas de sal \n• sillao \n• hierbabuena como para la sopa\n•ajinomoto\n• doña Augusto"
+ },
+ {
+  "ts": "2026-06-23T07:00",
+  "author": "Cocinera A",
+  "service_date": "2026-06-23",
+  "menu_date": "2026-06-23",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "más"
+   }
+  ],
+  "dish": null,
+  "raw": "Las comprar botellitas , vasos, bolsa con asa , bolsa para tapar, mas limón"
+ },
+ {
+  "ts": "2026-06-23T07:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-23",
+  "menu_date": "2026-06-23",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 6,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 6 kilos de arroz\nLechuga no hay nada"
+ },
+ {
+  "ts": "2026-06-23T07:02",
+  "author": "Cocinera A",
+  "service_date": "2026-06-23",
+  "menu_date": "2026-06-23",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres nada de papa canchan"
+ },
+ {
+  "ts": "2026-06-23T17:23",
+  "author": "Cocinera B",
+  "service_date": "2026-06-24",
+  "menu_date": "2026-06-24",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Vinagre tinto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vino",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre blanco",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Salsa de ostión",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pomarola",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 2,
+    "unit": "kg",
+    "note": "aprox."
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": 0.25,
+    "unit": "kg",
+    "note": "como un cuarto"
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Orégano bebé",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ablandador de carne",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Lo que hay en el puesto: \nVinagre pinto \nVino \nVinagre blanco \nSillao \nSalsa de ostión \nTres pomarolas \nDos bolsas de sal \nAjos como 2 kg \nAjí especial como un cuarto \nDoña gusta \nOrégano bebé \nPimienta \nComino \nAblandador \nSibarita \nPalillos \nTu papaya bien\nAjino moto"
+ },
+ {
+  "ts": "2026-06-23T18:26",
+  "author": "Cocinera A",
+  "service_date": "2026-06-24",
+  "menu_date": "2026-06-24",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 4,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 4 k de arroz \n3 aceites\nBolsa de aji"
+ },
+ {
+  "ts": "2026-06-25T07:25",
+  "author": "Cocinera B",
+  "service_date": "2026-06-25",
+  "menu_date": "2026-06-25",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay ajinomoto"
+ },
+ {
+  "ts": "2026-06-25T07:26",
+  "author": "Cocinera A",
+  "service_date": "2026-06-25",
+  "menu_date": "2026-06-25",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 7,
+    "unit": "presa",
+    "note": "'creo hay 7'"
+   }
+  ],
+  "dish": null,
+  "raw": "pollo quiero saber si hay pollo\nCreo hay 7"
+ },
+ {
+  "ts": "2026-06-25T21:14",
+  "author": "Cocinera B",
+  "service_date": "2026-06-26",
+  "menu_date": "2026-06-26",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Espinaca",
+    "quantity": 0.25,
+    "unit": "kg",
+    "note": "como un cuarto"
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas \nAjos \nPimienta \nComino \nPalillos \nSibarita \nToco tallarín \nHongo laurel \nManí entero \nManí molido \nSillao \nVinagre \nQuinoa \nUna pomarola \nDoña gusta\nPasas\nAjí panca\nHay como un cuarto de espinaca"
+ },
+ {
+  "ts": "2026-06-25T21:14",
+  "author": "Cocinera B",
+  "service_date": "2026-06-26",
+  "menu_date": "2026-06-26",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Hongo laurel",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Maní entero",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Maní molido",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Quinua",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pomarola",
+    "quantity": null,
+    "unit": null,
+    "note": "hay una"
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pasas",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ají panca",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas \nAjos \nPimienta \nComino \nPalillos \nSibarita \nToco tallarín \nHongo laurel \nManí entero \nManí molido \nSillao \nVinagre \nQuinoa \nUna pomarola \nDoña gusta\nPasas\nAjí panca\nHay como un cuarto de espinaca"
+ },
+ {
+  "ts": "2026-06-25T21:16",
+  "author": "Cocinera B",
+  "service_date": "2026-06-26",
+  "menu_date": "2026-06-26",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Traer \nChicha de jora \nSal"
+ },
+ {
+  "ts": "2026-06-25T21:18",
+  "author": "Cocinera B",
+  "service_date": "2026-06-26",
+  "menu_date": "2026-06-26",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": 6,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Hígado",
+    "quantity": 7,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay seis presas de churrasco \nSiete presas de hígado"
+ },
+ {
+  "ts": "2026-06-26T07:00",
+  "author": "Cocinera A",
+  "service_date": "2026-06-26",
+  "menu_date": "2026-06-26",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 4,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Arroz hay 4 kilos\nAzucar hay\nAceites hay 2"
+ },
+ {
+  "ts": "2026-06-26T07:00",
+  "author": "Cocinera A",
+  "service_date": "2026-06-26",
+  "menu_date": "2026-06-26",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres ni alberja , ni limón"
+ },
+ {
+  "ts": "2026-06-26T07:10",
+  "author": "Encargado",
+  "service_date": "2026-06-26",
+  "menu_date": "2026-06-26",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": "para refresco del almuerzo"
+   }
+  ],
+  "dish": null,
+  "raw": "maracuya voy a traer"
+ },
+ {
+  "ts": "2026-06-26T19:20",
+  "author": "Cocinera A",
+  "service_date": "2026-06-27",
+  "menu_date": "2026-06-27",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 11,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pimentón",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 1,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 2.5,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pasas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Espinaca",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Loche",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Lechuga para decorar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Carne para lomo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 8,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": 5,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Milanesa",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 11k de arroz, azucar, limón, tomate, 1 pimentón, 1 sal, 2 1/2 de aceite, una galleta, aji amarillo, pasas, alberja, perejil, espinaca, loche, lechuga para decorar, 1 lechuga americana, papa canchan, rocoto, carne para lomo, 8 pollo brosther, 5 churrasco, 2 milanesas"
+ },
+ {
+  "ts": "2026-06-26T20:46",
+  "author": "Cocinera B",
+  "service_date": "2026-06-27",
+  "menu_date": "2026-06-27",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Lo que falta  :\nDoña gusta \nAjos \nChicha de jora"
+ },
+ {
+  "ts": "2026-06-26T20:49",
+  "author": "Cocinera B",
+  "service_date": "2026-06-27",
+  "menu_date": "2026-06-27",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Galleta",
+    "quantity": 3,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Pomarola",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hongo laurel",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Lo que hay :\n3 paquetes de galletas  2tarros de leche \n2 pomarolas\nPalillo \nSibarita \nTuco \nHongo laurel \nVinagre \nSillao"
+ },
+ {
+  "ts": "2026-06-27T07:56",
+  "author": "Encargado",
+  "service_date": "2026-06-27",
+  "menu_date": "2026-06-27",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": 5,
+    "unit": "kg",
+    "note": "por si acaso, para las frituras"
+   }
+  ],
+  "dish": null,
+  "raw": "Cocinera A la papa para freír va a alcanzar para las frituras,\nPorsiaca traes 5 kilos"
+ },
+ {
+  "ts": "2026-06-27T07:58",
+  "author": "Encargado",
+  "service_date": "2026-06-27",
+  "menu_date": "2026-06-27",
+  "type": "regla",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "rule": "Con la papa para freír es preferible que sobre a que falte.",
+  "raw": "preferible que sobre a que falte"
+ },
+ {
+  "ts": "2026-06-29T22:45",
+  "author": "Cocinera A",
+  "service_date": "2026-06-30",
+  "menu_date": "2026-06-30",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pasas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "todas menos chuño"
+   },
+   {
+    "ingredient": "Chuño",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Lechuga para decorar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay broaster, churrasco, cebolla, limón, tomate, papa canchan, papa yungay, pasas, hay todas las harinas menos chuño\nLechuga para decorar"
+ },
+ {
+  "ts": "2026-07-01T06:02",
+  "author": "Cocinera B",
+  "service_date": "2026-07-01",
+  "menu_date": "2026-07-01",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 2,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": 10,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 8,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Esto es lo que hay en el puesto: \nDos tarros de leche \nDos paquetes de galleta \nAjí especial \nPalillo \nSibarita \nToco tallarín \nVinagre \nAjinomoto\n10 presas de churrasco\n8  presas de pollo"
+ },
+ {
+  "ts": "2026-07-01T06:04",
+  "author": "Cocinera B",
+  "service_date": "2026-07-01",
+  "menu_date": "2026-07-01",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Sal",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Aceite de ajonjolí",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Salsa de ostión",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Tienes que comprar las siguientes cosas: \nSal \nChicha \nSillao \nPimienta \nComino\nAceite de ajonjolí \nSalsa de ostión \nDoña gusta \nUna esponja para lavar \nLejía no te vayas a olvidar de traer"
+ },
+ {
+  "ts": "2026-07-02T01:47",
+  "author": "Cocinera B",
+  "service_date": "2026-07-02",
+  "menu_date": "2026-07-02",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 9,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Chuleta",
+    "quantity": 14,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ají panca",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 2,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 9,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Quinua",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay en el puesto \n9 presas de pollo \n14 de chuletas \nAjí panca \nAjos \n2 paquetes de galleta \n1 un tarro de leche \n9 kilos de arroz \nAjino moto \nSillao \nVinagre\nAlberja\nQuinua"
+ },
+ {
+  "ts": "2026-07-02T01:49",
+  "author": "Cocinera B",
+  "service_date": "2026-07-02",
+  "menu_date": "2026-07-02",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Traer:\nChicha de jora \nDoña gusta"
+ },
+ {
+  "ts": "2026-07-02T04:06",
+  "author": "Cocinera A",
+  "service_date": "2026-07-02",
+  "menu_date": "2026-07-02",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer limón\nNo traer papa canchan"
+ },
+ {
+  "ts": "2026-07-02T21:34",
+  "author": "Cocinera B",
+  "service_date": "2026-07-03",
+  "menu_date": "2026-07-03",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Ají panca",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Maní entero",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Maní molido",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Chuño",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 9,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pasas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "En el puesto hay: \nAjí panca \nUn tarro de leche \nAjino moto \nUn paquetes de galleta \n5 kg de arroz \nVinagre \nSillao \nManí entero y molido \nHay chuño \nNueve presas de pollo\nSibarita, palillo, tuco tallarín\nPasas"
+ },
+ {
+  "ts": "2026-07-02T21:35",
+  "author": "Cocinera B",
+  "service_date": "2026-07-03",
+  "menu_date": "2026-07-03",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Lo que falta es: \nChicha de jora \nDoña gusta"
+ },
+ {
+  "ts": "2026-07-02T21:36",
+  "author": "Cocinera B",
+  "service_date": "2026-07-02",
+  "menu_date": "2026-07-02",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Rocoto",
+    "quantity": 0,
+    "unit": null,
+    "note": "no se trajo hoy"
+   }
+  ],
+  "dish": null,
+  "raw": "Hoy No trajiste rocoto"
+ },
+ {
+  "ts": "2026-07-03T03:30",
+  "author": "Cocinera A",
+  "service_date": "2026-07-03",
+  "menu_date": "2026-07-03",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 5,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 5 broaster\nHay azucar\n5 kilos de arroz\n3 aceites"
+ },
+ {
+  "ts": "2026-07-03T08:15",
+  "author": "Cocinera A",
+  "service_date": "2026-07-03",
+  "menu_date": "2026-07-03",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres alberja"
+ },
+ {
+  "ts": "2026-07-03T10:13",
+  "author": "Cocinera B",
+  "service_date": "2026-07-03",
+  "menu_date": "2026-07-03",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Espinaca",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": 0,
+    "unit": null,
+    "note": "no se trajo"
+   }
+  ],
+  "dish": "Arroz con pollo",
+  "raw": "No trajiste zanahoria\nNo hay espinaca para el arroz con pollo \nCompra tenedores y zanahoria eso es todo"
+ },
+ {
+  "ts": "2026-07-03T10:19",
+  "author": "Cocinera B",
+  "service_date": "2026-07-03",
+  "menu_date": "2026-07-03",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No hay espinaca para el arroz con pollo \nCompra tenedores y zanahoria eso es todo"
+ },
+ {
+  "ts": "2026-07-03T19:25",
+  "author": "Cocinera B",
+  "service_date": "2026-07-04",
+  "menu_date": "2026-07-04",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": 2,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 3,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Ají panca",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Quinua",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Chuño",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Esencia de vainilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Canela china",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": 30,
+    "unit": "unidad",
+    "note": "aprox."
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": 20,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto de pescado",
+    "quantity": 6,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ablandador de carne",
+    "quantity": 8,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Doña Gusto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Esto es lo que hay en la olla:\n2 kg de azúcar \n2 tarros de leche \n3 bolsas de sal \nAjí panca \nEn el tupper naranja hay:\nQuinua\nChuño \nEsencia de vainilla \nCanela China \nY en el tupper verde :\nComo 30 palillos \nSibarita 20 \nTuco 3\nHay doña gusta de pescado 6\nAblandador de carne 8\nPara mañana hay \nDoña gusta \nAjos"
+ },
+ {
+  "ts": "2026-07-03T19:26",
+  "author": "Cocinera A",
+  "service_date": "2026-07-04",
+  "menu_date": "2026-07-04",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 3,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 3k de arroz\nHay alberja\nHay rocoto"
+ },
+ {
+  "ts": "2026-07-04T07:33",
+  "author": "Cocinera A",
+  "service_date": "2026-07-04",
+  "menu_date": "2026-07-04",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 7,
+    "unit": "presa",
+    "note": "'creo 7'"
+   }
+  ],
+  "dish": null,
+  "raw": "Pollo creo 7"
+ },
+ {
+  "ts": "2026-07-04T07:33",
+  "author": "Cocinera A",
+  "service_date": "2026-07-04",
+  "menu_date": "2026-07-04",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas azúcar"
+ },
+ {
+  "ts": "2026-07-04T09:44",
+  "author": "Encargado",
+  "service_date": "2026-07-04",
+  "menu_date": "2026-07-04",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "no hay pollo broaster"
+ },
+ {
+  "ts": "2026-07-06T07:19",
+  "author": "Cocinera A",
+  "service_date": "2026-07-06",
+  "menu_date": "2026-07-06",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay bastante, no hay sitio"
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "también hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Canchan no traigas hay bastante\nyungay también hay"
+ },
+ {
+  "ts": "2026-07-06T07:20",
+  "author": "Cocinera A",
+  "service_date": "2026-07-06",
+  "menu_date": "2026-07-06",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa para sancochar",
+    "quantity": 10,
+    "unit": "kg",
+    "note": "referente inferido del contexto: respuesta a '¿papa para sancochar también hay?'"
+   }
+  ],
+  "dish": null,
+  "raw": "para papa para sancochar también hay\nSi pero eso traes\n10 kilos"
+ },
+ {
+  "ts": "2026-07-06T07:20",
+  "author": "Cocinera A",
+  "service_date": "2026-07-06",
+  "menu_date": "2026-07-06",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 4,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay cuatro aceites"
+ },
+ {
+  "ts": "2026-07-06T07:22",
+  "author": "Cocinera C",
+  "service_date": "2026-07-06",
+  "menu_date": "2026-07-06",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Orégano",
+    "quantity": null,
+    "unit": null,
+    "note": "suelto"
+   }
+  ],
+  "dish": null,
+  "raw": "Traes oregano  suelto"
+ },
+ {
+  "ts": "2026-07-06T07:24",
+  "author": "Cocinera C",
+  "service_date": "2026-07-06",
+  "menu_date": "2026-07-06",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traegas  ajinomoto ni especial ay 2 sal"
+ },
+ {
+  "ts": "2026-07-06T07:24",
+  "author": "Cocinera C",
+  "service_date": "2026-07-06",
+  "menu_date": "2026-07-06",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traegas  ajinomoto ni especial ay 2 sal"
+ },
+ {
+  "ts": "2026-07-07T04:01",
+  "author": "Cocinera A",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 7,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 3,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pepino",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 7 aceites, 3 kilos de arroz, cebolla, 2 pepinos, limón"
+ },
+ {
+  "ts": "2026-07-07T04:02",
+  "author": "Cocinera A",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Hierba para refresco",
+    "quantity": null,
+    "unit": null,
+    "note": "para la tarde"
+   }
+  ],
+  "dish": null,
+  "raw": "Comprar solo tenedor, hierba para la tarde"
+ },
+ {
+  "ts": "2026-07-07T07:06",
+  "author": "Cocinera A",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Chuño",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres nada de harina solo chulo"
+ },
+ {
+  "ts": "2026-07-07T07:06",
+  "author": "Cocinera A",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "ninguna salvo chuño"
+   }
+  ],
+  "dish": null,
+  "raw": "No compres huevo\nNo compres nada de harina solo chulo"
+ },
+ {
+  "ts": "2026-07-07T07:11",
+  "author": "Encargado",
+  "service_date": "2026-07-06",
+  "menu_date": "2026-07-06",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": "cena: sobró como dos bolsas, solo se usó una"
+   }
+  ],
+  "dish": "Arroz blanco (cena)",
+  "raw": "para la noche ayer me ha sobrado arroz como dos bolsas solamente utilicé una bolsa calcular de acuerdo a la cantidad que estamos haciendo en la noche"
+ },
+ {
+  "ts": "2026-07-07T07:16",
+  "author": "Cocinera A",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "hay papa para freír?\nNo"
+ },
+ {
+  "ts": "2026-07-07T07:16",
+  "author": "Cocinera A",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "regla",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 3,
+    "unit": "kg",
+    "note": "si hay tallarín/arroz con pollo/chaufa/jardinera"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": "en los demás casos"
+   }
+  ],
+  "dish": "Arroz blanco",
+  "rule": "Cuando en el menú hay tallarín, arroz con pollo, chaufa o arroz a la jardinera, en el puesto de al frente solo hacer 3 kg de arroz blanco; cuando no hay ninguno de estos, preparar 5 kg.",
+  "raw": "Cuando hay tallarin, arroz con pollo, o chaufa o jardinera. Al frente solo hacer 3 kilos de arroz\nCuando no hay nada de esto preparar 5 kilos"
+ },
+ {
+  "ts": "2026-07-07T07:18",
+  "author": "Cocinera A",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa yungay",
+    "quantity": 5,
+    "unit": "kg",
+    "note": "solo 5 kilos"
+   }
+  ],
+  "dish": null,
+  "raw": "Yungay solo traer 5 kilos"
+ },
+ {
+  "ts": "2026-07-07T19:30",
+  "author": "Cocinera A",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 4,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 1,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 4 aceites , 1 sal, cebolla,"
+ },
+ {
+  "ts": "2026-07-07T19:31",
+  "author": "Cocinera B",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Sal",
+    "quantity": 3,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Orégano",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Chuño",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 11,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "En la olla hay \nTres bolsas de sal \nUn tarro de leche \nOrégano \nChuño\nEn la refrigeradora quedó 11 presas de pollo"
+ },
+ {
+  "ts": "2026-07-07T19:32",
+  "author": "Cocinera B",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Hongo laurel",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Comino",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Falta chicha de jora \nHongo laurel \nPimienta comino"
+ },
+ {
+  "ts": "2026-07-07T19:33",
+  "author": "Cocinera A",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Mostaza",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "También falta bolsa negra no has traido hoy, falta mostaza, tenedor, vasos, bolsa para tapar"
+ },
+ {
+  "ts": "2026-07-08T01:43",
+  "author": "Encargado",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "regla",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": null,
+    "unit": null,
+    "note": "un cooler lleno + una bolsa llena"
+   }
+  ],
+  "dish": "Arroz blanco (cena)",
+  "rule": "Para la cena, de arroz blanco preparar solo un cooler lleno y una bolsa llena.",
+  "raw": "por favor en la noche solo quiero de arroz blanco un cooler lleno y una bolsa llena de arroz nada más"
+ },
+ {
+  "ts": "2026-07-08T03:52",
+  "author": "Cocinera A",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 7,
+    "unit": "kg",
+    "note": "arroz blanco"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay arroz blanco 7 kilos"
+ },
+ {
+  "ts": "2026-07-08T07:11",
+  "author": "Cocinera A",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Lechuga",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Te traes lechuga"
+ },
+ {
+  "ts": "2026-07-08T07:11",
+  "author": "Cocinera A",
+  "service_date": "2026-07-08",
+  "menu_date": "2026-07-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pepino",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Pepino hay 1"
+ },
+ {
+  "ts": "2026-07-08T07:12",
+  "author": "Encargado",
+  "service_date": "2026-07-07",
+  "menu_date": "2026-07-07",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Pollo frito",
+    "quantity": null,
+    "unit": null,
+    "note": "toda la olla"
+   }
+  ],
+  "dish": null,
+  "raw": "sobró pollo frito toda la ollla está dentro de la carreta"
+ },
+ {
+  "ts": "2026-07-08T21:54",
+  "author": "Cocinera B",
+  "service_date": "2026-07-09",
+  "menu_date": "2026-07-09",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 16,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 16 presas de pollo \nPara mañana hay ajos no compres"
+ },
+ {
+  "ts": "2026-07-08T21:54",
+  "author": "Cocinera B",
+  "service_date": "2026-07-09",
+  "menu_date": "2026-07-09",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Falta chicha de jora"
+ },
+ {
+  "ts": "2026-07-08T21:54",
+  "author": "Cocinera B",
+  "service_date": "2026-07-09",
+  "menu_date": "2026-07-09",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 16 presas de pollo \nPara mañana hay ajos no compres"
+ },
+ {
+  "ts": "2026-07-09T03:50",
+  "author": "Cocinera A",
+  "service_date": "2026-07-09",
+  "menu_date": "2026-07-09",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 12,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 1.5,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 12 kilos de arroz \nHay azucar\nHay 1 y 1/2 de aceite"
+ },
+ {
+  "ts": "2026-07-09T05:43",
+  "author": "Cocinera A",
+  "service_date": "2026-07-09",
+  "menu_date": "2026-07-09",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Brócoli",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": "Ensalada mixta",
+  "raw": "No traigas brócoli para la ensalada mixta"
+ },
+ {
+  "ts": "2026-07-09T18:11",
+  "author": "Cocinera B",
+  "service_date": "2026-07-10",
+  "menu_date": "2026-07-10",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 30,
+    "unit": "presa",
+    "note": "crudo"
+   },
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Quedan 30 pollos crudos\nFalta chicha de jora"
+ },
+ {
+  "ts": "2026-07-10T06:45",
+  "author": "Cocinera A",
+  "service_date": "2026-07-10",
+  "menu_date": "2026-07-10",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 1,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "1 brosther hay"
+ },
+ {
+  "ts": "2026-07-10T06:45",
+  "author": "Cocinera A",
+  "service_date": "2026-07-10",
+  "menu_date": "2026-07-10",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas nada de cebolla"
+ },
+ {
+  "ts": "2026-07-11T05:15",
+  "author": "Cocinera A",
+  "service_date": "2026-07-11",
+  "menu_date": "2026-07-11",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Papa",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No compres cebolla, limon,\nNo compres papa"
+ },
+ {
+  "ts": "2026-07-11T06:59",
+  "author": "Cocinera B",
+  "service_date": "2026-07-11",
+  "menu_date": "2026-07-11",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 19,
+    "unit": "presa",
+    "note": "crudo"
+   }
+  ],
+  "dish": null,
+  "raw": "Quedaron pollo crudo  19"
+ },
+ {
+  "ts": "2026-07-11T07:11",
+  "author": "Cocinera A",
+  "service_date": "2026-07-11",
+  "menu_date": "2026-07-11",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 3,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Wantán",
+    "quantity": 2,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Pasas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 5,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay tres broasther \nHay rocoto\nHay alberjita\nHay wantan 2\nHay pasas\nHay  azucar\nHay harinas\nHay 5 aceite\nHay 5 k de arroz\nHay limon\nHay sal"
+ },
+ {
+  "ts": "2026-07-11T07:11",
+  "author": "Cocinera A",
+  "service_date": "2026-07-11",
+  "menu_date": "2026-07-11",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas cebolla\nHay maracuyá no traigas"
+ },
+ {
+  "ts": "2026-07-11T07:47",
+  "author": "Cocinera A",
+  "service_date": "2026-07-11",
+  "menu_date": "2026-07-11",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay bastante"
+   }
+  ],
+  "dish": null,
+  "raw": "Pero igual no vallas a traer harina tengo bastante"
+ },
+ {
+  "ts": "2026-07-13T03:56",
+  "author": "Cocinera A",
+  "service_date": "2026-07-13",
+  "menu_date": "2026-07-13",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer tomate, limón"
+ },
+ {
+  "ts": "2026-07-13T03:57",
+  "author": "Cocinera A",
+  "service_date": "2026-07-13",
+  "menu_date": "2026-07-13",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Hierba para refresco",
+    "quantity": null,
+    "unit": null,
+    "note": "para el almuerzo"
+   }
+  ],
+  "dish": null,
+  "raw": "Si comprar bolsa para basura, tenedor , bolsa con asa , para tapar, taper para sopa, te, hierba, para el almuerzo"
+ },
+ {
+  "ts": "2026-07-13T21:52",
+  "author": "Cocinera A",
+  "service_date": "2026-07-14",
+  "menu_date": "2026-07-14",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 3,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 3 aceites, 3 k de arroz,"
+ },
+ {
+  "ts": "2026-07-13T22:00",
+  "author": "Cocinera B",
+  "service_date": "2026-07-14",
+  "menu_date": "2026-07-14",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Trae chicha de jora"
+ },
+ {
+  "ts": "2026-07-13T22:00",
+  "author": "Cocinera B",
+  "service_date": "2026-07-14",
+  "menu_date": "2026-07-14",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 14,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": 7,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 14 presas de pollo \nY siete presas de churrasco"
+ },
+ {
+  "ts": "2026-07-14T14:23",
+  "author": "Cocinera A",
+  "service_date": "2026-07-15",
+  "menu_date": "2026-07-15",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Para mañana traer vasos, \nNo traer limón"
+ },
+ {
+  "ts": "2026-07-14T21:04",
+  "author": "Cocinera B",
+  "service_date": "2026-07-15",
+  "menu_date": "2026-07-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Falta esto:\nJora\nVinagre"
+ },
+ {
+  "ts": "2026-07-14T21:09",
+  "author": "Cocinera B",
+  "service_date": "2026-07-15",
+  "menu_date": "2026-07-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": 7,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Chancho cocinado",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "En la refrigeradora hay \n7 churrascos\n Chancho cocinado\nTambién hay \nUna  leche\n1 paquete de galleta\nHay ajos también"
+ },
+ {
+  "ts": "2026-07-14T22:26",
+  "author": "Cocinera A",
+  "service_date": "2026-07-15",
+  "menu_date": "2026-07-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 5,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 5 aceite , hay limón"
+ },
+ {
+  "ts": "2026-07-18T08:19",
+  "author": "Cocinera B",
+  "service_date": "2026-07-18",
+  "menu_date": "2026-07-18",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 10,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "En la refri quedó 10 presas de pollo"
+ },
+ {
+  "ts": "2026-07-20T07:11",
+  "author": "Cocinera A",
+  "service_date": "2026-07-20",
+  "menu_date": "2026-07-20",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Chuño",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 7 kilos de arroz \n1 bueno ksa de sal\nDos aceites \nHay axucar\nHay harinas solo traer chuño"
+ },
+ {
+  "ts": "2026-07-20T07:11",
+  "author": "Cocinera A",
+  "service_date": "2026-07-20",
+  "menu_date": "2026-07-20",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 7,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 1,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay, salvo chuño"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 7 kilos de arroz \n1 bueno ksa de sal\nDos aceites \nHay axucar\nHay harinas solo traer chuño\nHay rocoto\nHay ajos"
+ },
+ {
+  "ts": "2026-07-21T05:24",
+  "author": "Cocinera B",
+  "service_date": "2026-07-21",
+  "menu_date": "2026-07-21",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Vinagre",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Pimienta",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay vinagre y pimienta"
+ },
+ {
+  "ts": "2026-07-21T20:23",
+  "author": "Cocinera B",
+  "service_date": "2026-07-22",
+  "menu_date": "2026-07-22",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pomarola",
+    "quantity": 8,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Arveja partida",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 1,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Maní entero",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Maní molido",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Fideo tallarín delgado",
+    "quantity": 0.5,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "En el puesto hay \n8 pomarolas \nAlverjita partida \nUn tarro de leche \nDos bolsas de sal \nUn paquete de galleta\nAy maní entero \nManí molido \nMedio kilo de fideos tallarín Delgado"
+ },
+ {
+  "ts": "2026-07-21T22:14",
+  "author": "Cocinera A",
+  "service_date": "2026-07-22",
+  "menu_date": "2026-07-22",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay papa para freir\nNo hay nada de zanahoria"
+ },
+ {
+  "ts": "2026-07-22T17:22",
+  "author": "Cocinera B",
+  "service_date": "2026-07-23",
+  "menu_date": null,
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Orégano",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Ayudante compra orégano"
+ },
+ {
+  "ts": "2026-07-24T04:27",
+  "author": "Cocinera A",
+  "service_date": "2026-07-24",
+  "menu_date": "2026-07-24",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Chuleta",
+    "quantity": null,
+    "unit": null,
+    "note": "hay bastante"
+   }
+  ],
+  "dish": null,
+  "raw": "No compres chuleta porque hay bastante"
+ },
+ {
+  "ts": "2026-07-24T15:06",
+  "author": "Cocinera A",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 8,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Maracuyá",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 10,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 1,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Pepino",
+    "quantity": 1,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 8 aceites , maracuyá, 10 kilos de arroz, una sal, zanahoria, alberjita, cebolla , papa canchan, yungay , papa amarillo osea no traer nada de papa aji amarillo hay limón, hay azucar , rocoto\nKion también hay\nNo hay tomate , pero si tengo un pepino"
+ },
+ {
+  "ts": "2026-07-24T15:06",
+  "author": "Cocinera A",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa",
+    "quantity": null,
+    "unit": null,
+    "note": "nada de papa"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 8 aceites , maracuyá, 10 kilos de arroz, una sal, zanahoria, alberjita, cebolla , papa canchan, yungay , papa amarillo osea no traer nada de papa aji amarillo hay limón, hay azucar , rocoto\nNda de papa escucha bien"
+ },
+ {
+  "ts": "2026-07-24T15:32",
+  "author": "Cocinera B",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pomarola",
+    "quantity": 6,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": "corregido: hay 2"
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sillao",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Chicha de jora",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Mostaza",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Palillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sémola",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Galleta de vainilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "En la olla hay \n6 pomarolas \n1 leche \nAjinomoto \nVinagre \nSillao \nChicha de jora \nAjos \nAjí especial \nAjí amarillo \nCulando \nPerejil \nMostaza \nTuco \nPalio \nSibarita \nSémola\nGalleta vainilla\nNo había visto bien \nHay 2 tarros de leche"
+ },
+ {
+  "ts": "2026-07-24T19:21",
+  "author": "Cocinera A",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Verduras para sopa",
+    "quantity": null,
+    "unit": null,
+    "note": "todas menos zanahoria"
+   }
+  ],
+  "dish": "Sopa de verduras",
+  "raw": "Para la sopa de verduras faltaria todas las verduras menos zanahoria\nFaltaria el churrasco, 2 lechugas  americanas . \nPara el arroz con pollo faltaria   culandro y espinaca \nPorque alverjita y zanahoria hay\nFaltaria quinua, y pollo"
+ },
+ {
+  "ts": "2026-07-24T19:21",
+  "author": "Cocinera A",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Espinaca",
+    "quantity": null,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": "Arroz con pollo",
+  "raw": "Para la sopa de verduras faltaria todas las verduras menos zanahoria\nFaltaria el churrasco, 2 lechugas  americanas . \nPara el arroz con pollo faltaria   culandro y espinaca \nPorque alverjita y zanahoria hay\nFaltaria quinua, y pollo"
+ },
+ {
+  "ts": "2026-07-24T19:21",
+  "author": "Cocinera A",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": null,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Quinua",
+    "quantity": null,
+    "unit": null,
+    "note": "falta"
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": null,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Para la sopa de verduras faltaria todas las verduras menos zanahoria\nFaltaria el churrasco, 2 lechugas  americanas . \nPara el arroz con pollo faltaria   culandro y espinaca \nPorque alverjita y zanahoria hay\nFaltaria quinua, y pollo"
+ },
+ {
+  "ts": "2026-07-24T19:21",
+  "author": "Cocinera A",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Arroz nk pedir nada\nNada de limón\nAjos hay no traer\nNo traer kion"
+ },
+ {
+  "ts": "2026-07-24T19:22",
+  "author": "Cocinera A",
+  "service_date": "2026-07-25",
+  "menu_date": "2026-07-25",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "poquito"
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Tengo azucar\nCulandro hay pero poquito\nHuevo también tengo"
+ },
+ {
+  "ts": "2026-07-27T06:34",
+  "author": "Cocinera A",
+  "service_date": "2026-07-27",
+  "menu_date": "2026-07-27",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 5,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Pimentón",
+    "quantity": 4,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Alberjita hay, aji amarillo hy\nAceite no traigas\nHay 5\nPimentón hay 4"
+ },
+ {
+  "ts": "2026-07-27T06:34",
+  "author": "Cocinera A",
+  "service_date": "2026-07-27",
+  "menu_date": "2026-07-27",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Aceite no traigas"
+ },
+ {
+  "ts": "2026-07-27T07:06",
+  "author": "Cocinera A",
+  "service_date": "2026-07-27",
+  "menu_date": "2026-07-27",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Mantequilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 7,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay mantequilla\nHay 7 kilos de arroz"
+ },
+ {
+  "ts": "2026-07-27T07:07",
+  "author": "Cocinera A",
+  "service_date": "2026-07-27",
+  "menu_date": "2026-07-27",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": 4,
+    "unit": "kg",
+    "note": "solo 4 kilos (luego corregido: no traer)"
+   }
+  ],
+  "dish": null,
+  "raw": "Cebolla solo te traes 4 kilos"
+ },
+ {
+  "ts": "2026-07-27T08:33",
+  "author": "Cocinera A",
+  "service_date": "2026-07-27",
+  "menu_date": "2026-07-27",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas cebolla"
+ },
+ {
+  "ts": "2026-08-03T09:24",
+  "author": "Cocinera A",
+  "service_date": "2026-08-03",
+  "menu_date": "2026-08-03",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": "Arroz con pollo",
+  "raw": "No hay alberja para el arroz con pollo"
+ },
+ {
+  "ts": "2026-08-04T04:57",
+  "author": "Cocinera A",
+  "service_date": "2026-08-04",
+  "menu_date": "2026-08-04",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 10,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay en el puesto 10 k de arroz"
+ },
+ {
+  "ts": "2026-08-04T06:58",
+  "author": "Cocinera A",
+  "service_date": "2026-08-03",
+  "menu_date": "2026-08-03",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Pechuga de pollo",
+    "quantity": 3,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Que ha sobredo\nDe pollos\nSobro 3 pechugas"
+ },
+ {
+  "ts": "2026-08-04T07:38",
+  "author": "Cocinera A",
+  "service_date": "2026-08-04",
+  "menu_date": "2026-08-04",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay azucar\nNo hay nada de limón"
+ },
+ {
+  "ts": "2026-08-04T09:45",
+  "author": "Cocinera A",
+  "service_date": "2026-08-04",
+  "menu_date": "2026-08-04",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Pechuga de pollo",
+    "quantity": 0,
+    "unit": null,
+    "note": "el proveedor no mandó pecho"
+   }
+  ],
+  "dish": "Ají de gallina",
+  "raw": "No ha mandado pecho para el aji d gallina"
+ },
+ {
+  "ts": "2026-08-04T20:53",
+  "author": "Cocinera A",
+  "service_date": "2026-08-05",
+  "menu_date": "2026-08-05",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 13,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 13 k de arroz \n        Azucar\n        Rocoto"
+ },
+ {
+  "ts": "2026-08-04T20:54",
+  "author": "Cocinera B",
+  "service_date": "2026-08-05",
+  "menu_date": "2026-08-05",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pomarola",
+    "quantity": 5,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ajinomoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Sémola",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Mira con tu ojo 👀 hay:\nPerejil \nHierbabuena \nHuevo \nAjos \n5 pomarolas \nAjinomoto \nSémola\n2 tarros de leche"
+ },
+ {
+  "ts": "2026-08-04T20:55",
+  "author": "Cocinera B",
+  "service_date": "2026-08-05",
+  "menu_date": "2026-08-05",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Hierbas para sopa",
+    "quantity": null,
+    "unit": null,
+    "note": "la refri está llena"
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas hierba para la sopa la refri está llena no entra más cosas."
+ },
+ {
+  "ts": "2026-08-04T20:57",
+  "author": "Cocinera B",
+  "service_date": "2026-08-05",
+  "menu_date": "2026-08-05",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite de ajonjolí",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay aceite de ajonjolí porque se comió la rata"
+ },
+ {
+  "ts": "2026-08-05T09:51",
+  "author": "Encargado",
+  "service_date": "2026-08-05",
+  "menu_date": "2026-08-05",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 0,
+    "unit": null,
+    "note": "el pollero no mandó broaster"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay broaster el pollero no me ha mandado broaster"
+ },
+ {
+  "ts": "2026-08-06T10:34",
+  "author": "Cocinera A",
+  "service_date": "2026-08-06",
+  "menu_date": "2026-08-06",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Yuca",
+    "quantity": 0,
+    "unit": null,
+    "note": "se reemplaza por papa"
+   }
+  ],
+  "dish": "Seco de res con yuca",
+  "raw": "Seco se res con yuca\nNo hay yuca\nPongo papa"
+ },
+ {
+  "ts": "2026-08-07T07:32",
+  "author": "Cocinera A",
+  "service_date": "2026-08-07",
+  "menu_date": "2026-08-07",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Mantequilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 29,
+    "unit": "presa",
+    "note": "crudo"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay azucar , alberjita , cebolla , zanahoria, mantequilla, ajo amarillo , ajos , huevo , rocoto\nTambién hay aceite\nHay pollo crudo 29 presas"
+ },
+ {
+  "ts": "2026-08-07T18:36",
+  "author": "Cocinera A",
+  "service_date": "2026-08-08",
+  "menu_date": "2026-08-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 6,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 8,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay (foto)"
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": "hay (foto)"
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "bastante"
+   },
+   {
+    "ingredient": "Lechuga para decorar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay (foto)"
+   },
+   {
+    "ingredient": "Pollo",
+    "quantity": 30,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 6 aceites\nArroz 8 kilos , azúcar también hay\nHay kion\nPapa amarillo\nPapa yungay\nCebolla hay bastante\nLechuga para decorar hay , también huevo\nQca hay mas ajos, ají especial, alberjita, rocoto\nAji amarillo\nPollo 30"
+ },
+ {
+  "ts": "2026-08-07T20:37",
+  "author": "Cocinera C",
+  "service_date": "2026-08-08",
+  "menu_date": "2026-08-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Tuco para tallarín",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Sibarita",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No ay tuco cibarita"
+ },
+ {
+  "ts": "2026-08-08T06:58",
+  "author": "Cocinera A",
+  "service_date": "2026-08-08",
+  "menu_date": "2026-08-08",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Chuleta",
+    "quantity": 9,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Papa para freír",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 2,
+    "unit": "presa",
+    "note": "2 pechos"
+   }
+  ],
+  "dish": null,
+  "raw": "Chuleta hay 9\nPapa para freír no hay\nBroaster hay 2 pechos"
+ },
+ {
+  "ts": "2026-08-09T21:58",
+  "author": "Cocinera A",
+  "service_date": "2026-08-10",
+  "menu_date": "2026-08-10",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa para freír",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay aceites, hay 5k de arroz , hay azucar, hay cebolla no traigas , hay aji amarillo\nHay papa para freír"
+ },
+ {
+  "ts": "2026-08-09T21:58",
+  "author": "Cocinera A",
+  "service_date": "2026-08-10",
+  "menu_date": "2026-08-10",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay aceites, hay 5k de arroz , hay azucar, hay cebolla no traigas , hay aji amarillo"
+ },
+ {
+  "ts": "2026-08-10T20:53",
+  "author": "Cocinera B",
+  "service_date": "2026-08-11",
+  "menu_date": "2026-08-11",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Para mañana traer ajos"
+ },
+ {
+  "ts": "2026-08-11T07:05",
+  "author": "Cocinera A",
+  "service_date": "2026-08-11",
+  "menu_date": "2026-08-11",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": null,
+    "unit": null,
+    "note": "hay; el sábado no se vendió nada"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay broaster el sabado no se vendio nada"
+ },
+ {
+  "ts": "2026-08-11T07:06",
+  "author": "Encargado",
+  "service_date": "2026-08-11",
+  "menu_date": "2026-08-11",
+  "type": "regla",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 1,
+    "unit": "kg",
+    "note": "un cooler lleno + 1 kg en bolsa"
+   }
+  ],
+  "dish": "Arroz blanco (cena)",
+  "rule": "Para la cena, de arroz blanco preparar un cooler lleno y 1 kg en bolsa. En general, la cantidad de arroz se decide según la cantidad de comida que se prepara.",
+  "raw": "Un favor en la cena de arroz blanco voy a querer 1 cooler lleno y un kilo en bolsa\nEl arroz se hace dependiendo de la cantidad de comida que se prepara. En el puesto hablaremos al respecto."
+ },
+ {
+  "ts": "2026-08-14T07:55",
+  "author": "Cocinera A",
+  "service_date": "2026-08-14",
+  "menu_date": "2026-08-14",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No traer nada de papa yungay , hay alberjita, zanahoria"
+ },
+ {
+  "ts": "2026-08-14T07:55",
+  "author": "Cocinera A",
+  "service_date": "2026-08-14",
+  "menu_date": "2026-08-14",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer nada de papa yungay , hay alberjita, zanahoria"
+ },
+ {
+  "ts": "2026-08-14T08:18",
+  "author": "Cocinera A",
+  "service_date": "2026-08-14",
+  "menu_date": "2026-08-14",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Pollo brosther hay\nHay 5 kilos de arroz\nTres aceite"
+ },
+ {
+  "ts": "2026-08-14T08:18",
+  "author": "Cocinera A",
+  "service_date": "2026-08-14",
+  "menu_date": "2026-08-14",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer nada de zanahoria , papa yungay, cebolla, alberja\nCebolla también"
+ },
+ {
+  "ts": "2026-08-14T20:18",
+  "author": "Cocinera B",
+  "service_date": "2026-08-15",
+  "menu_date": "2026-08-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Galleta",
+    "quantity": 2,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 1.5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay para mañana"
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Para mañana hay: \n2 paquetes de galleta \n2 de leche Gloria \n2 bolsas de sal \nKilo y medio de arroz \nAjos para mañana hay\nNo hay nada de ají amarillo"
+ },
+ {
+  "ts": "2026-08-14T20:19",
+  "author": "Cocinera C",
+  "service_date": "2026-08-15",
+  "menu_date": "2026-08-15",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Papa yungay",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ají mono",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Notraer rocoto\nDice Cocinera A: \nNo traer las siguientes cosas \nZanahoria \nTomate \nCebolla \nLimón \nKion\nPapa yungay \nAjí mono"
+ },
+ {
+  "ts": "2026-08-14T21:43",
+  "author": "Cocinera A",
+  "service_date": "2026-08-15",
+  "menu_date": "2026-08-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 7,
+    "unit": "kg",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay arroz 7 kilos"
+ },
+ {
+  "ts": "2026-08-15T08:06",
+  "author": "Cocinera A",
+  "service_date": "2026-08-15",
+  "menu_date": "2026-08-15",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 43,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Pechuga de pollo",
+    "quantity": 14,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Chuleta",
+    "quantity": 12,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": 11,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 3,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Carne para lomo",
+    "quantity": null,
+    "unit": null,
+    "note": "como para 10 platos"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay en la refri 43 pollos, 14 pechugas, 12 chuletas, 11 churrascos, 3 broaster , carne para lomo pero como para diez platos"
+ },
+ {
+  "ts": "2026-08-15T08:57",
+  "author": "Cocinera A",
+  "service_date": "2026-08-15",
+  "menu_date": "2026-08-15",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "no hay nada"
+   }
+  ],
+  "dish": null,
+  "raw": "Traes alberja no hay nada, y vasos😅"
+ },
+ {
+  "ts": "2026-08-17T07:06",
+  "author": "Cocinera C",
+  "service_date": "2026-08-17",
+  "menu_date": "2026-08-17",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Chuleta",
+    "quantity": 2,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Churrasco",
+    "quantity": 2,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Pomarola",
+    "quantity": 9,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ají especial",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 2,
+    "unit": "tarro",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "2chuletas yb2 churrasco el pollo y todo esta en la conjeladora\nAy 9pomarola\nNo ay especial\nAy 2 leches en la olla"
+ },
+ {
+  "ts": "2026-08-17T07:08",
+  "author": "Cocinera A",
+  "service_date": "2026-08-17",
+  "menu_date": "2026-08-17",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 4,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Tengo 4 aceites"
+ },
+ {
+  "ts": "2026-08-17T07:09",
+  "author": "Cocinera A",
+  "service_date": "2026-08-17",
+  "menu_date": "2026-08-17",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay mucha"
+   }
+  ],
+  "dish": null,
+  "raw": "Tengo mucha papa canchan no traer"
+ },
+ {
+  "ts": "2026-08-17T18:38",
+  "author": "Cocinera A",
+  "service_date": "2026-08-18",
+  "menu_date": "2026-08-18",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": 5,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Huevo",
+    "quantity": 7,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay alberjita, papa canchan\nLimon, 5 tomates\nHuevo hay 7"
+ },
+ {
+  "ts": "2026-08-17T19:11",
+  "author": "Cocinera A",
+  "service_date": "2026-08-18",
+  "menu_date": "2026-08-18",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 1,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "alcanza para el almuerzo, para la cena va a faltar"
+   }
+  ],
+  "dish": null,
+  "raw": "1 kilo de arroz, azucar hay para el almuerzo pero para la cena va faltar"
+ },
+ {
+  "ts": "2026-08-17T23:36",
+  "author": "Cocinera B",
+  "service_date": "2026-08-18",
+  "menu_date": "2026-08-18",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo",
+    "quantity": 25,
+    "unit": "presa",
+    "note": "aprox."
+   }
+  ],
+  "dish": null,
+  "raw": "Hay como 25 pollos"
+ },
+ {
+  "ts": "2026-08-20T07:35",
+  "author": "Cocinera A",
+  "service_date": "2026-08-20",
+  "menu_date": "2026-08-20",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traigas nada de papa para freír"
+ },
+ {
+  "ts": "2026-08-20T19:59",
+  "author": "Cocinera B",
+  "service_date": "2026-08-21",
+  "menu_date": "2026-08-21",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 6,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 3,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay arroz 6 kg \nTres aceites \nTres leches \nUn paquete de galleta\nRocoto para mañana también hay"
+ },
+ {
+  "ts": "2026-08-20T21:29",
+  "author": "Cocinera A",
+  "service_date": "2026-08-21",
+  "menu_date": "2026-08-21",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay limón, papa amarillo,"
+ },
+ {
+  "ts": "2026-08-21T05:18",
+  "author": "Cocinera A",
+  "service_date": "2026-08-21",
+  "menu_date": "2026-08-21",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer nada de azúcar"
+ },
+ {
+  "ts": "2026-08-21T09:48",
+  "author": "Cocinera A",
+  "service_date": "2026-08-21",
+  "menu_date": "2026-08-21",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Olluco",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": "Olluquito con pollo",
+  "raw": "No hay olluvo"
+ },
+ {
+  "ts": "2026-08-22T05:33",
+  "author": "Cocinera A",
+  "service_date": "2026-08-22",
+  "menu_date": "2026-08-22",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa yungay",
+    "quantity": 3,
+    "unit": "kg",
+    "note": "solo 3 kilos"
+   },
+   {
+    "ingredient": "Papa canchán",
+    "quantity": 3,
+    "unit": "kg",
+    "note": "solo 3 kilos"
+   },
+   {
+    "ingredient": "Papa amarilla",
+    "quantity": 1,
+    "unit": "kg",
+    "note": "solo 1 kilo"
+   },
+   {
+    "ingredient": "Lechuga orgánica",
+    "quantity": null,
+    "unit": null,
+    "note": "solo orgánica"
+   }
+  ],
+  "dish": null,
+  "raw": "Papa yungay solo compra 3 kilos nada más, papa canchan solo 3 kilos, papa amarillo solo 1 kilo\nLechuga americana no me compres solo organica"
+ },
+ {
+  "ts": "2026-08-22T05:33",
+  "author": "Cocinera A",
+  "service_date": "2026-08-22",
+  "menu_date": "2026-08-22",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No comprar nada de cebolla,\nLechuga americana no me compres solo organica\nTomate no traigas"
+ },
+ {
+  "ts": "2026-08-22T05:35",
+  "author": "Cocinera A",
+  "service_date": "2026-08-22",
+  "menu_date": "2026-08-22",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 4,
+    "unit": "presa",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "una jarra llena"
+   }
+  ],
+  "dish": null,
+  "raw": "Churrasco ten 5 que sobro ayer también tengo 4 broasther\nAjos coordinar si vas a traer porque yo tengo una jarra llena de ajos"
+ },
+ {
+  "ts": "2026-08-22T05:35",
+  "author": "Cocinera A",
+  "service_date": "2026-08-21",
+  "menu_date": "2026-08-21",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": 5,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Churrasco ten 5 que sobro ayer también tengo 4 broasther"
+ },
+ {
+  "ts": "2026-08-22T06:27",
+  "author": "Cocinera B",
+  "service_date": "2026-08-22",
+  "menu_date": "2026-08-22",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Leche Gloria (tarro)",
+    "quantity": 3,
+    "unit": "tarro",
+    "note": null
+   },
+   {
+    "ingredient": "Galleta",
+    "quantity": 1,
+    "unit": "paquete",
+    "note": null
+   },
+   {
+    "ingredient": "Sal",
+    "quantity": 2,
+    "unit": "bolsa",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 2,
+    "unit": "kg",
+    "note": "en la olla"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 6,
+    "unit": "kg",
+    "note": "de lo comprado ayer, aprox."
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "bastante"
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Ya te había dicho que había: \n3 tarros de leche \n1 paquete de galleta \n2 bolsas de sal \n2 kilos de arroz \nTodas esas cosas hay en tu olla dónde se guarda n las cosas\nDe ayer que compraste quedaron: \nComo 6 kg de arroz \nAzúcar bastante perejil y hierbabuena y culandro"
+ },
+ {
+  "ts": "2026-08-22T06:43",
+  "author": "Cocinera A",
+  "service_date": "2026-08-22",
+  "menu_date": "2026-08-22",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No comores ni arroz ni azúcar"
+ },
+ {
+  "ts": "2026-08-22T10:21",
+  "author": "Cocinera A",
+  "service_date": "2026-08-22",
+  "menu_date": "2026-08-22",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Verduras para sopa",
+    "quantity": 0,
+    "unit": null,
+    "note": "solo hay zapallo y zanahoria"
+   }
+  ],
+  "dish": "Sopa de trigo",
+  "raw": "No hay verdura para la sopa\nSolo hay zapallo y zanahoria"
+ },
+ {
+  "ts": "2026-08-23T20:59",
+  "author": "Cocinera C",
+  "service_date": "2026-08-24",
+  "menu_date": "2026-08-24",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Orégano",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   },
+   {
+    "ingredient": "Vinagre",
+    "quantity": null,
+    "unit": null,
+    "note": "poco"
+   },
+   {
+    "ingredient": "Romero",
+    "quantity": null,
+    "unit": null,
+    "note": "poco"
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "un poco"
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": "un poco"
+   }
+  ],
+  "dish": null,
+  "raw": "No ay oregano  nada vinagre romiro  ay poco\nAy perjil  y hierbabuena ay un poco"
+ },
+ {
+  "ts": "2026-08-23T21:00",
+  "author": "Cocinera A",
+  "service_date": "2026-08-24",
+  "menu_date": "2026-08-24",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay azucar\nAceite también hay pero no recuerdo cuánto\nHay 3 aceites"
+ },
+ {
+  "ts": "2026-08-23T21:01",
+  "author": "Cocinera C",
+  "service_date": "2026-08-22",
+  "menu_date": "2026-08-22",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": "según Cocinera C: 'yo te di 5 kilos'"
+   }
+  ],
+  "dish": null,
+  "raw": "Cocinera C cuánto de arroz sobro\nYo te di 5 kilos Cocinera A"
+ },
+ {
+  "ts": "2026-08-23T21:03",
+  "author": "Cocinera C",
+  "service_date": "2026-08-24",
+  "menu_date": "2026-08-24",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Harina para freír",
+    "quantity": null,
+    "unit": null,
+    "note": "hay bastante; para freír pescado"
+   }
+  ],
+  "dish": null,
+  "raw": "Comprador para freír arena ay bastante no traegas se basa acer pescado"
+ },
+ {
+  "ts": "2026-08-23T21:04",
+  "author": "Cocinera C",
+  "service_date": "2026-08-24",
+  "menu_date": "2026-08-24",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": "para licuar; solo queda licuado"
+   }
+  ],
+  "dish": null,
+  "raw": "Especial solo tengo licuado traes para licuar"
+ },
+ {
+  "ts": "2026-08-26T00:23",
+  "author": "Cocinera A",
+  "service_date": "2026-08-26",
+  "menu_date": "2026-08-26",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Lechuga orgánica",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay, salvo chuño"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay azucar no traer, hay 3 aceites, lechugas  hay americana y orgánico, harinas hay menos chuño"
+ },
+ {
+  "ts": "2026-08-26T00:23",
+  "author": "Cocinera A",
+  "service_date": "2026-08-26",
+  "menu_date": "2026-08-26",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay azucar no traer, hay 3 aceites, lechugas  hay americana y orgánico, harinas hay menos chuño"
+ },
+ {
+  "ts": "2026-08-26T20:57",
+  "author": "Cocinera A",
+  "service_date": "2026-08-27",
+  "menu_date": "2026-08-27",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 3,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Papa",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay tres aceites , hay azucar no traer ni hierba\nPapas hay"
+ },
+ {
+  "ts": "2026-08-26T20:57",
+  "author": "Cocinera A",
+  "service_date": "2026-08-27",
+  "menu_date": "2026-08-27",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Hierba para refresco",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay tres aceites , hay azucar no traer ni hierba"
+ },
+ {
+  "ts": "2026-08-26T20:59",
+  "author": "Cocinera A",
+  "service_date": "2026-08-27",
+  "menu_date": "2026-08-27",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Chuño",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Traer solo traer chuño"
+ },
+ {
+  "ts": "2026-08-28T03:08",
+  "author": "Cocinera A",
+  "service_date": "2026-08-28",
+  "menu_date": "2026-08-28",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Aceite",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Papa para freír",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No traer azucar para hoy ni para mañana. \nHay 2 aceites \nNi traer hierba para el refresco,\nPapa para freír hay"
+ },
+ {
+  "ts": "2026-08-28T03:08",
+  "author": "Cocinera A",
+  "service_date": "2026-08-28",
+  "menu_date": "2026-08-28",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "ni hoy ni mañana"
+   },
+   {
+    "ingredient": "Hierba para refresco",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traer azucar para hoy ni para mañana. \nHay 2 aceites \nNi traer hierba para el refresco,"
+ },
+ {
+  "ts": "2026-08-29T06:36",
+  "author": "Cocinera A",
+  "service_date": "2026-08-29",
+  "menu_date": "2026-08-29",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Lechuga americana",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Lechuga orgánica",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Lechuga hay americana y organica\nHay azucar"
+ },
+ {
+  "ts": "2026-08-29T06:39",
+  "author": "Cocinera A",
+  "service_date": "2026-08-29",
+  "menu_date": "2026-08-29",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "En harinas no traigas nada\nAzucar tampoco traigas"
+ },
+ {
+  "ts": "2026-08-29T06:57",
+  "author": "Cocinera A",
+  "service_date": "2026-08-29",
+  "menu_date": "2026-08-29",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "bastante"
+   },
+   {
+    "ingredient": "Zanahoria",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Huevo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Queso",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Mantequilla",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Harinas",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Culantro",
+    "quantity": null,
+    "unit": null,
+    "note": "un poquito"
+   },
+   {
+    "ingredient": "Espinaca",
+    "quantity": null,
+    "unit": null,
+    "note": "un poquito"
+   },
+   {
+    "ingredient": "Perejil",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tamal",
+    "quantity": 8,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Vainita",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 1,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 3,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay bastante aji amarillo \nHay zanahoria \nHay ajos\nHay huevo \nHay queso\nHay mantequilla \nHay harinas \nHay alberja\nHay un poquito de culandro\nHay un poquito de espinaca\nHay perejil\nHay ajos\nHay 8 tamales\nHay vainita\nHay zanahoria\nHay 1 aceite \nHay 3 kilos de arroz\nHay azucar"
+ },
+ {
+  "ts": "2026-08-29T07:05",
+  "author": "Cocinera A",
+  "service_date": "2026-08-29",
+  "menu_date": "2026-08-29",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Limon?\nSi traes"
+ },
+ {
+  "ts": "2026-08-29T07:05",
+  "author": "Cocinera A",
+  "service_date": "2026-08-29",
+  "menu_date": "2026-08-29",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay rocoto?\nNo traigas"
+ },
+ {
+  "ts": "2026-08-31T06:55",
+  "author": "Cocinera A",
+  "service_date": "2026-08-31",
+  "menu_date": "2026-08-31",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Arroz",
+    "quantity": 5,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Tamal",
+    "quantity": 8,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Tomate",
+    "quantity": 6,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "5 kilos de arroz\nHay 8 tamales\nTengo dos aceites y hay azucar\nTomate tengo 6"
+ },
+ {
+  "ts": "2026-08-31T10:46",
+  "author": "Cocinera A",
+  "service_date": "2026-08-31",
+  "menu_date": "2026-08-31",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Lechuga",
+    "quantity": 0,
+    "unit": null,
+    "note": "no se trajo"
+   }
+  ],
+  "dish": null,
+  "raw": "Comprador no trajo lechuga"
+ },
+ {
+  "ts": "2026-08-31T17:34",
+  "author": "Cocinera A",
+  "service_date": "2026-09-01",
+  "menu_date": "2026-09-01",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Kion",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 7,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Ají amarillo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 5,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay limon\nHay kion\nHay 7 kilos de arroz\nHay aji amarillo\nHay 2 aceites \nHay azúcar\nHay broasther 5"
+ },
+ {
+  "ts": "2026-08-31T17:42",
+  "author": "Cocinera A",
+  "service_date": "2026-08-31",
+  "menu_date": "2026-08-31",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Ají de gallina",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ceviche",
+    "quantity": null,
+    "unit": null,
+    "note": "guardado en táper"
+   },
+   {
+    "ingredient": "Seco de res",
+    "quantity": null,
+    "unit": null,
+    "note": "guardado en táper"
+   },
+   {
+    "ingredient": "Arroz",
+    "quantity": 2,
+    "unit": "kg",
+    "note": null
+   },
+   {
+    "ingredient": "Huevo sancochado",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Sobro aji de gallina \nCeviche deje en taper\nSeco también deje en taper\nArtoz sobro los dos kilos\nHuevo también sobro sancochaso todo esta en la jugueria"
+ },
+ {
+  "ts": "2026-09-02T18:21",
+  "author": "Cocinera A",
+  "service_date": "2026-09-03",
+  "menu_date": "2026-09-03",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Galleta",
+    "quantity": null,
+    "unit": null,
+    "note": "para la crema"
+   }
+  ],
+  "dish": null,
+  "raw": "Comprador traes galleta para la crema"
+ },
+ {
+  "ts": "2026-09-04T09:53",
+  "author": "Cocinera A",
+  "service_date": "2026-09-04",
+  "menu_date": "2026-09-04",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Pomarola",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay pomarola"
+ },
+ {
+  "ts": "2026-09-05T07:33",
+  "author": "Cocinera A",
+  "service_date": "2026-09-05",
+  "menu_date": "2026-09-05",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   },
+   {
+    "ingredient": "Aceite",
+    "quantity": 2,
+    "unit": "botella",
+    "note": null
+   },
+   {
+    "ingredient": "Milanesa",
+    "quantity": 10,
+    "unit": "unidad",
+    "note": null
+   },
+   {
+    "ingredient": "Ajo",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay azucar\nHay 2 aceite \nHay 10 milanesas\nHay ajod"
+ },
+ {
+  "ts": "2026-09-10T06:59",
+  "author": "Cocinera A",
+  "service_date": "2026-09-09",
+  "menu_date": "2026-09-09",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Yuca",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Me olvide comunicar ayer sobro yuca"
+ },
+ {
+  "ts": "2026-09-11T07:01",
+  "author": "Cocinera A",
+  "service_date": "2026-09-11",
+  "menu_date": "2026-09-11",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Limón",
+    "quantity": null,
+    "unit": null,
+    "note": "más; no hay nada"
+   }
+  ],
+  "dish": null,
+  "raw": "Traer mas limón no hay nada"
+ },
+ {
+  "ts": "2026-09-12T06:52",
+  "author": "Cocinera A",
+  "service_date": "2026-09-12",
+  "menu_date": "2026-09-12",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay broasther"
+ },
+ {
+  "ts": "2026-09-12T06:53",
+  "author": "Cocinera A",
+  "service_date": "2026-09-12",
+  "menu_date": "2026-09-12",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Azucar no traer"
+ },
+ {
+  "ts": "2026-09-12T07:02",
+  "author": "Encargado",
+  "service_date": "2026-09-12",
+  "menu_date": "2026-09-12",
+  "type": "regla",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "rule": "El churrasco se reserva para cuando ya falte comida o falten presas.",
+  "raw": "El churrasco va a ser para cuando ya falte comida o falte presas"
+ },
+ {
+  "ts": "2026-09-12T08:59",
+  "author": "Cocinera A",
+  "service_date": "2026-09-12",
+  "menu_date": "2026-09-12",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Tamal",
+    "quantity": 3,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 3 tamales también"
+ },
+ {
+  "ts": "2026-09-12T09:14",
+  "author": "Encargado",
+  "service_date": "2026-09-12",
+  "menu_date": "2026-09-12",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 5,
+    "unit": "presa",
+    "note": "'creo'"
+   },
+   {
+    "ingredient": "Trucha",
+    "quantity": 5,
+    "unit": "unidad",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 5 broaster creo\nHay 5 truchas"
+ },
+ {
+  "ts": "2026-09-13T19:06",
+  "author": "Cocinera A",
+  "service_date": "2026-09-12",
+  "menu_date": "2026-09-12",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": 25,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Churrasco sobró?\n25"
+ },
+ {
+  "ts": "2026-09-14T03:17",
+  "author": "Cocinera A",
+  "service_date": "2026-09-14",
+  "menu_date": "2026-09-14",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Azúcar",
+    "quantity": null,
+    "unit": null,
+    "note": "ni hoy ni mañana"
+   }
+  ],
+  "dish": null,
+  "raw": "No traer azucar ni hoy ni mañana"
+ },
+ {
+  "ts": "2026-09-14T06:03",
+  "author": "Cocinera C",
+  "service_date": "2026-09-14",
+  "menu_date": "2026-09-14",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Ají especial",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Hierbabuena",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "No traegas\nAy especial yerbabuena"
+ },
+ {
+  "ts": "2026-09-14T06:49",
+  "author": "Cocinera C",
+  "service_date": "2026-09-14",
+  "menu_date": "2026-09-14",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Churrasco",
+    "quantity": 24,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Comprador me olbide ay churrasco 24 presas"
+ },
+ {
+  "ts": "2026-09-15T10:14",
+  "author": "Cocinera A",
+  "service_date": "2026-09-15",
+  "menu_date": "2026-09-15",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Tomate",
+    "quantity": 0,
+    "unit": null,
+    "note": "falta"
+   }
+  ],
+  "dish": null,
+  "raw": "Falta tomate"
+ },
+ {
+  "ts": "2026-09-17T07:05",
+  "author": "Cocinera A",
+  "service_date": "2026-09-17",
+  "menu_date": "2026-09-17",
+  "type": "compra",
+  "items": [
+   {
+    "ingredient": "Papa para freír",
+    "quantity": 3,
+    "unit": "kg",
+    "note": "solo 3 kilos; para lomo y broaster"
+   }
+  ],
+  "dish": null,
+  "raw": "Papá para freír alcanza para lomo\nY para broaster cuando pidan\nTe traes solo 3 kilos"
+ },
+ {
+  "ts": "2026-09-18T06:46",
+  "author": "Cocinera A",
+  "service_date": "2026-09-18",
+  "menu_date": "2026-09-18",
+  "type": "faltante",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": 0,
+    "unit": null,
+    "note": "no se trajo ayer; ahora se usa más cebolla"
+   }
+  ],
+  "dish": null,
+  "raw": "Ya que no tengo cebolla\nAyer no trajiste qhora se utiliza mas cebolla"
+ },
+ {
+  "ts": "2026-09-19T08:21",
+  "author": "Cocinera A",
+  "service_date": "2026-09-19",
+  "menu_date": "2026-09-19",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": 4,
+    "unit": "presa",
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hay 4broaster,"
+ },
+ {
+  "ts": "2026-09-19T08:42",
+  "author": "Cocinera A",
+  "service_date": "2026-09-19",
+  "menu_date": "2026-09-19",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Arveja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "raw": "Hermano no compres alberja"
+ },
+ {
+  "ts": "2026-09-21T07:21",
+  "author": "Cocinera A",
+  "service_date": "2026-09-21",
+  "menu_date": "2026-09-21",
+  "type": "no_comprar",
+  "items": [
+   {
+    "ingredient": "Pollo broaster",
+    "quantity": null,
+    "unit": null,
+    "note": "hay"
+   }
+  ],
+  "dish": null,
+  "raw": "Hay broasther no traigas"
+ },
+ {
+  "ts": "2026-09-21T07:46",
+  "author": "Cocinera C",
+  "service_date": "2026-09-14",
+  "menu_date": "2026-09-14",
+  "type": "sobrante",
+  "items": [
+   {
+    "ingredient": "Verduras para lentejas",
+    "quantity": null,
+    "unit": null,
+    "note": "sobró bastante; no hacer muchas verduras para la lenteja"
+   }
+  ],
+  "dish": "Lentejas",
+  "raw": "Cocinera A no agas mucha verduras para lenteja el lunes sobro bastante"
+ },
+ {
+  "ts": "2026-09-25T07:12",
+  "author": "Cocinera A",
+  "service_date": "2026-09-25",
+  "menu_date": "2026-09-25",
+  "type": "inventario",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": 0,
+    "unit": null,
+    "note": "no hay"
+   }
+  ],
+  "dish": null,
+  "raw": "No hay nada de cebolla"
+ },
+ {
+  "ts": "2026-09-25T07:13",
+  "author": "Encargado",
+  "service_date": "2026-09-25",
+  "menu_date": "2026-09-25",
+  "type": "regla",
+  "items": [
+   {
+    "ingredient": "Cebolla roja",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Ají",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   },
+   {
+    "ingredient": "Rocoto",
+    "quantity": null,
+    "unit": null,
+    "note": null
+   }
+  ],
+  "dish": null,
+  "rule": "Reducir la cantidad de cebolla picada porque está cara (también para el ají y el rocoto); en general bajar un poco las cantidades.",
+  "raw": "Hay que menorar 3l picado de cebolla está caro\nPara todo hay que bajarlo un poco\nPara el aji\nPara rocoto también"
+ }
+]

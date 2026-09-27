@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/industry-9df58028-b50c-407a-9647-36edfab67ba8/styles.css">
+<script src="_ds/industry-9df58028-b50c-407a-9647-36edfab67ba8/_ds_bundle.js"></script>
+<style>body{margin:0;background:#F3E3BE;} a{color:#C4201A;} a:hover{color:var(--color-accent-900);}</style>
+</helmet>
+<div id="menu" style="width:1080px;height:{{ height }};box-sizing:border-box;margin:0 auto;background:#FFF3D6;color:#3B1D0E;font-family:var(--font-body);padding:44px 56px 36px;display:flex;flex-direction:column;gap:28px;overflow:hidden;">
+  <sc-if value="{{ showBanner }}" hint-placeholder-val="{{ true }}">
+    <div class="blueprint" style="position:relative;border:2px solid #F08A12;padding:6px;background:#FFC93C;flex:none;">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <img src="assets/banner.png" alt="Restaurant Criollo La Sazón de Luis" style="display:block;width:100%;height:auto;">
+    </div>
+  </sc-if>
+  <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:stretch;gap:24px;flex:none;">
+    <div style="display:flex;flex-direction:column;justify-content:center;gap:6px;">
+      <div style="font-family:var(--font-heading);font-weight:600;font-size:30px;letter-spacing:.12em;text-transform:uppercase;color:#C4201A;">{{ dateLabel }}</div>
+      <div style="font-family:var(--font-heading);font-weight:700;font-size:96px;line-height:.9;text-transform:uppercase;letter-spacing:-.01em;">Menú del día</div>
+    </div>
+    <div class="blueprint" style="position:relative;background:#D7261E;color:#FFF3D6;padding:18px 36px;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:250px;">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:var(--font-heading);font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:#FFD04A;">Entrada + Segundo</div>
+      <div style="font-family:var(--font-heading);font-weight:700;font-size:88px;line-height:.95;margin-top:6px;white-space:nowrap;">{{ menuPrice }}</div>
+    </div>
+  </div>
+  <div id="menuBody" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:24px;min-height:0;overflow:hidden;">
+    <sc-for list="{{ sections }}" as="sec" hint-placeholder-count="3">
+      <section style="display:flex;flex-direction:column;gap:12px;">
+        <div style="display:flex;align-items:baseline;gap:14px;border-bottom:3px solid #F08A12;padding-bottom:8px;">
+          <span style="font-family:var(--font-heading);font-size:28px;font-weight:600;color:#F08A12;">{{ sec.num }}</span>
+          <h2 style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:48px;line-height:1;text-transform:uppercase;letter-spacing:.02em;">{{ sec.title }}</h2>
+          <span style="margin-left:auto;font-family:var(--font-heading);font-size:24px;letter-spacing:.1em;text-transform:uppercase;color:#C4201A;">{{ sec.note }}</span>
+        </div>
+        <div style="display:grid;grid-template-columns:{{ sec.cols }};">
+          <sc-for list="{{ sec.items }}" as="it" hint-placeholder-count="4">
+            <div style="display:flex;align-items:baseline;gap:16px;padding:{{ rowPad }} 4px;border-bottom:1px solid rgba(90,45,20,.18);">
+              <span style="width:8px;height:8px;flex:none;background:#F08A12;border:1.5px solid #F08A12;transform:translateY(-4px) rotate(45deg);"></span>
+              <span style="flex:1;font-size:{{ itemSize }};font-weight:500;line-height:1.15;text-wrap:pretty;">{{ it.name }}</span>
+              <sc-if value="{{ it.hasPrice }}" hint-placeholder-val="{{ false }}">
+                <span style="font-family:var(--font-heading);font-weight:700;font-size:{{ itemSize }};color:#C4201A;white-space:nowrap;">{{ it.price }}</span>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+    </sc-for>
+  </div>
+  <div style="display:flex;justify-content:space-between;align-items:center;font-family:var(--font-heading);font-size:26px;letter-spacing:.12em;text-transform:uppercase;color:#C4201A;flex:none;">
+    <span>La Sazón de Luis · Restaurant Criollo</span>
+    <span style="color:#3B1D0E;font-weight:600;">2do Piso · Stand 1148 – 1149</span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1080,&quot;height&quot;:1350},&quot;menuText&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Datos&quot;},&quot;dateLabel&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Datos&quot;},&quot;size&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;post&quot;,&quot;story&quot;],&quot;default&quot;:&quot;post&quot;,&quot;tsType&quot;:&quot;'post'|'story'&quot;,&quot;section&quot;:&quot;Formato&quot;},&quot;showBanner&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Formato&quot;}}">
+const SAMPLE = `*MENU*: 🍽️ S/13.00
+
+*ENTRADA*:
+📌 Sopa de verduras
+📌 Ensalada de fideos
+📌 Papa a la huancaína
+📌Tamalitos
+
+*SEGUNDO*:
+📌 Frijoles con seco a la norteña
+📌 Mondonguito a la italiana
+📌 Milanesa la plancha con papas fritas
+📌 Salpicón de pollo
+📌 Adobo de pollo
+*EXTRA*
+📌 Trucha frita S/20.00
+📌 Pollo broaster S/15.00`;
+
+function fmtPrice(p) {
+  const n = parseFloat(String(p).replace(',', '.'));
+  return isNaN(n) ? '' : 'S/ ' + n.toFixed(2);
+}
+
+function parseMenu(raw) {
+  const out = { price: '', ENTRADA: [], SEGUNDO: [], EXTRA: [] };
+  let cur = null;
+  const clean = s => s.replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]/gu, '').replace(/\*/g, '').trim();
+  for (const line of String(raw || '').split(/\r?\n/)) {
+    const t = clean(line);
+    if (!t) continue;
+    const head = t.match(/^(MEN[UÚ]|ENTRADAS?|SEGUNDOS?|EXTRAS?)\s*:?\s*(.*)$/i);
+    if (head) {
+      const k = head[1].toUpperCase();
+      if (k.startsWith('MEN')) { const m = t.match(/S\/\s*([\d.,]+)/i); if (m) out.price = fmtPrice(m[1]); cur = null; }
+      else cur = k.startsWith('ENT') ? 'ENTRADA' : k.startsWith('SEG') ? 'SEGUNDO' : 'EXTRA';
+      continue;
+    }
+    if (!cur) continue;
+    const m = t.match(/^(.*?)\s*[-–:]?\s*S\/\s*([\d.,]+)\s*$/i);
+    const name = (m ? m[1] : t).replace(/^[-•·]\s*/, '').trim();
+    const price = m ? fmtPrice(m[2]) : '';
+    out[cur].push({ name: name.charAt(0).toUpperCase() + name.slice(1), price, hasPrice: !!price });
+  }
+  return out;
+}
+
+class Component extends DCLogic {
+  renderVals() {
+    const q = new URLSearchParams(location.search);
+    const raw = q.get('menu') || window.MENU_TEXT || this.props.menuText || SAMPLE;
+    const d = parseMenu(raw);
+    let dateLabel = q.get('date') || this.props.dateLabel;
+    if (!dateLabel) {
+      dateLabel = new Intl.DateTimeFormat('es-PE', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date());
+      dateLabel = dateLabel.replace(',', '');
+    }
+    const story = (q.get('size') || this.props.size) === 'story';
+    const showBanner = this.props.showBanner ?? true;
+    const avail = (story ? 1280 : 710) + (showBanner ? 0 : 290);
+    const padK = story ? 0.5 : 0.28;
+    const secs = [[d.ENTRADA, 2], [d.SEGUNDO, 1], [d.EXTRA, 2]].filter(s => s[0].length);
+    const need = size => {
+      const pad = Math.round(size * padK);
+      let tot = secs.length * 80 + (secs.length - 1) * 24;
+      for (const [items, cols] of secs) {
+        const colW = 968 / cols - 40 - (cols === 2 ? 0 : 0);
+        const cpl = Math.max(8, Math.floor(colW / (size * 0.5)));
+        const lines = items.map(it => Math.ceil((it.name.length + (it.hasPrice ? 9 : 0)) / cpl));
+        for (let i = 0; i < items.length; i += cols) {
+          const l = Math.max(...lines.slice(i, i + cols));
+          tot += l * size * 1.15 + pad * 2 + 1;
+        }
+      }
+      return tot;
+    };
+    let fs = 38;
+    while (fs > 20 && need(fs) > avail - 16) fs--;
+    const sections = [
+      { num: '01', title: 'Entrada', note: 'Elige una', items: d.ENTRADA, cols: 'repeat(2, minmax(0,1fr))' },
+      { num: '02', title: 'Segundo', note: 'Elige uno', items: d.SEGUNDO, cols: 'minmax(0,1fr)' },
+      { num: '03', title: 'Extras', note: 'Precio aparte', items: d.EXTRA, cols: 'repeat(2, minmax(0,1fr))' },
+    ].filter(s => s.items.length);
+    return {
+      sections,
+      menuPrice: d.price || 'S/ —',
+      dateLabel,
+      height: story ? '1920px' : '1350px',
+      showBanner,
+      itemSize: fs + 'px',
+      rowPad: Math.round(fs * padK) + 'px',
+    };
+  }
+}
+</script>
+</body>
+</html>
