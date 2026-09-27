@@ -41,6 +41,8 @@ export function RulesEditor({ initialRules, dishNames }: { initialRules: RuleVie
   const [draft, setDraft] = useState<Draft | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [deleted, setDeleted] = useState<RuleView | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
 
   const [text, setText] = useState("");
   const [parsing, setParsing] = useState(false);
@@ -84,7 +86,28 @@ export function RulesEditor({ initialRules, dishNames }: { initialRules: RuleVie
       if (!confirm(`¿Borrar la regla “${r.name}”?`)) return;
       await api(`/api/rules/${r.id}`, { method: "DELETE" });
       setRules((rs) => rs.filter((x) => x.id !== r.id));
+      setDeleted(r);
+      setNotice(null);
       if (draft?.id === r.id) setDraft(null);
+    });
+
+  /** Re-creates the rule just deleted (same name, params, hard/enabled). */
+  const undoDelete = () =>
+    run(async () => {
+      if (!deleted) return;
+      const body = JSON.stringify({ name: deleted.name, description: deleted.description, hard: deleted.hard, enabled: deleted.enabled, params: deleted.params });
+      const r = await api<RuleView>("/api/rules", { method: "POST", body });
+      setRules((rs) => [...rs, r]);
+      setDeleted(null);
+    });
+
+  const restoreDefaults = () =>
+    run(async () => {
+      if (!confirm("¿Volver a agregar las reglas originales que se hayan borrado? Las que ya existen no se tocan.")) return;
+      const out = await api<{ added: string[]; rules: RuleView[] }>("/api/rules/restore", { method: "POST" });
+      setRules(out.rules);
+      setDeleted(null);
+      setNotice(out.added.length ? `Se restauraron: ${out.added.join(", ")}.` : "No faltaba ninguna regla original.");
     });
 
   async function parse() {
@@ -151,6 +174,15 @@ export function RulesEditor({ initialRules, dishNames }: { initialRules: RuleVie
             <Warning>{error}</Warning>
           </div>
         )}
+        {deleted && (
+          <div className="mb-3 flex flex-wrap items-center gap-3 border-l-4 border-orange bg-yellow/40 px-3 py-2 text-sm" role="status">
+            <span className="flex-1">Regla «{deleted.name}» borrada.</span>
+            <Button variant="secondary" className="px-2 py-1 text-xs" disabled={busy} onClick={undoDelete}>
+              Deshacer
+            </Button>
+          </div>
+        )}
+        {notice && <p className="mb-3 text-sm text-ink-soft">{notice}</p>}
         <div className="space-y-3">
           {rules.map((r) => (
             <Card key={r.id} className={r.enabled ? "" : "opacity-60"}>
@@ -182,13 +214,16 @@ export function RulesEditor({ initialRules, dishNames }: { initialRules: RuleVie
           ))}
           {!rules.length && <p className="text-sm text-ink-soft">No hay reglas todavía.</p>}
         </div>
-        {!draft && (
-          <div className="mt-4">
+        <div className="mt-4 flex flex-wrap gap-2">
+          {!draft && (
             <Button variant="primary" onClick={() => setDraft(emptyDraft())}>
               + Nueva regla
             </Button>
-          </div>
-        )}
+          )}
+          <Button variant="secondary" disabled={busy} onClick={restoreDefaults} title="Vuelve a agregar las reglas originales que falten">
+            Restaurar reglas predeterminadas
+          </Button>
+        </div>
       </section>
     </div>
   );

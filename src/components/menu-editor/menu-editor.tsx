@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { PosterPreview, posterDateLabel } from "@/components/menu-poster";
 import { Badge, Button, Card, Input, SectionHeader, Spinner, Warning } from "@/components/ui";
 import type { Course, MenuItemView, MenuPayload } from "@/lib/types";
@@ -18,6 +18,8 @@ export interface MenuEditorProps {
   settings: { menuPrice: number; defaultPortions: number; extraPortions: number };
   /** Per-dish defaults for placeholders (portions, extra price). */
   dishDefaults: Record<number, { defaultPortions: number | null; price: number | null }>;
+  /** Menus made in the app from yesterday on (not the imported history), to find drafts for other days. */
+  upcoming?: { date: string; status: string }[];
 }
 
 const SECTIONS: { course: Course; num: string; title: string; note: string }[] = [
@@ -26,7 +28,10 @@ const SECTIONS: { course: Course; num: string; title: string; note: string }[] =
   { course: "extra", num: "03", title: "Extras", note: "Precio aparte" },
 ];
 
-export function MenuEditor({ initial, settings, dishDefaults }: MenuEditorProps) {
+const shortDate = (d: string) =>
+  new Intl.DateTimeFormat("es-PE", { weekday: "short", day: "numeric", month: "numeric", timeZone: "UTC" }).format(new Date(`${d}T12:00:00Z`));
+
+export function MenuEditor({ initial, settings, dishDefaults, upcoming = [] }: MenuEditorProps) {
   const router = useRouter();
   const [payload, setPayload] = useState(initial);
   const [busy, setBusy] = useState<string | null>(null);
@@ -85,6 +90,41 @@ export function MenuEditor({ initial, settings, dishDefaults }: MenuEditorProps)
       return api<MenuPayload>(base);
     });
 
+  // Always show what's saved: the router can restore an old copy of this page (back/forward), so re-read the
+  // menu from the server when the editor mounts and whenever the tab or page becomes visible again.
+  const busyRef = useRef(busy);
+  useEffect(() => {
+    busyRef.current = busy;
+  }, [busy]);
+  useEffect(() => {
+    let cancelled = false;
+    const sync = async () => {
+      if (busyRef.current || document.visibilityState !== "visible") return;
+      try {
+        const fresh = await api<MenuPayload>(base);
+        if (!cancelled && !busyRef.current) setPayload(fresh);
+      } catch {
+        /* offline: keep what we have */
+      }
+    };
+    void sync();
+    try {
+      localStorage.setItem("lastMenu", JSON.stringify({ date, at: Date.now() }));
+    } catch {
+      /* storage unavailable */
+    }
+    const onShow = () => void sync();
+    document.addEventListener("visibilitychange", onShow);
+    window.addEventListener("pageshow", onShow);
+    window.addEventListener("focus", onShow);
+    return () => {
+      cancelled = true;
+      document.removeEventListener("visibilitychange", onShow);
+      window.removeEventListener("pageshow", onShow);
+      window.removeEventListener("focus", onShow);
+    };
+  }, [base, date]);
+
   const names = (c: Course) => byCourse(c).map((i) => i.name);
   const extras = byCourse("extra").map((i) => ({ name: i.name, price: i.price }));
   const whatsapp = buildWhatsappText({ menuPrice, entradas: names("entrada"), segundos: names("segundo"), extras });
@@ -119,6 +159,22 @@ export function MenuEditor({ initial, settings, dishDefaults }: MenuEditorProps)
           </Link>
         </nav>
       </div>
+
+      {upcoming.length > 0 && (
+        <nav aria-label="Menús guardados" className="flex flex-wrap items-center gap-2 text-sm">
+          <span className="font-heading text-xs font-semibold uppercase tracking-wider text-ink-soft">Tus menús:</span>
+          {upcoming.map((u) => (
+            <Link
+              key={u.date}
+              href={`/menu/${u.date}`}
+              aria-current={u.date === date ? "page" : undefined}
+              className={`border px-2 py-0.5 no-underline ${u.date === date ? "border-red bg-red text-paper" : "border-line bg-paper text-ink hover:border-red"}`}
+            >
+              {shortDate(u.date)} · {u.status === "publicado" ? "publicado" : "borrador"}
+            </Link>
+          ))}
+        </nav>
+      )}
 
       <Card className="flex flex-wrap items-center gap-3">
         <div className="bg-red-strong px-4 py-2 text-center text-paper">

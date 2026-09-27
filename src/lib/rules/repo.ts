@@ -4,6 +4,7 @@ import { z } from "zod";
 import { db, schema } from "@/db";
 import { getLlm } from "@/lib/llm";
 import { ENTRADA_CATEGORIES, SEGUNDO_CATEGORIES, TAGS, WEEKDAYS } from "@/lib/types";
+import { DEFAULT_RULES } from "./defaults";
 import { describeRule } from "./describe";
 import { cleanParams, ruleBodySchema, ruleParamsSchema } from "./schema";
 
@@ -38,6 +39,14 @@ export async function updateRule(id: number, patch: z.infer<typeof rulePatchSche
     ? await db.update(rules).set(set).where(eq(rules.id, id)).returning()
     : await db.select().from(rules).where(eq(rules.id, id));
   return row ? view(row) : null;
+}
+
+/** Re-adds default rules whose name no longer exists (deleted by mistake). Existing ones are left as edited. */
+export async function restoreDefaultRules(): Promise<{ added: string[] }> {
+  const names = new Set((await db.select({ name: rules.name }).from(rules)).map((r) => r.name));
+  const missing = DEFAULT_RULES.filter((r) => !names.has(r.name));
+  if (missing.length) await db.insert(rules).values(missing.map((r) => ({ ...r, hard: r.hard ?? true, enabled: true })));
+  return { added: missing.map((r) => r.name) };
 }
 
 export async function deleteRule(id: number): Promise<boolean> {

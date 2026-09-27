@@ -33,6 +33,11 @@ export async function getOrCreateMenu(date: string) {
   return created;
 }
 
+/** YYYY-MM-DD `days` days ago (UTC), for "recent menus" lists. */
+export function daysAgo(days: number): string {
+  return new Date(Date.now() - days * 86_400_000).toISOString().slice(0, 10);
+}
+
 /** Tomorrow in Lima time (the restaurant plans the evening before). */
 export function tomorrow(): string {
   const lima = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Lima" }));
