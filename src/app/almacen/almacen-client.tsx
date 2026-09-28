@@ -3,9 +3,11 @@
 import { useMemo, useState } from "react";
 import type { IngredientView, ParsedStockItem } from "@/lib/recipes/ingredients";
 import { norm } from "@/lib/recipes/text";
-import { fmtQty, sectionOrder, STORE_SECTIONS } from "@/lib/shopping/units";
+import { compareSections, fmtQty, UNASSIGNED_VENDOR } from "@/lib/shopping/units";
+import type { VendorsView } from "@/lib/shopping/vendors";
 import { UNITS } from "@/lib/types";
 import { Badge, Button, Card, Input, Label, PageTitle, SectionHeader, Select, Spinner, Textarea, Warning } from "@/components/ui";
+import { VendorSelect } from "@/components/vendor-select";
 import { api, NumberField, Notice, parseNum } from "../compras/_ui";
 
 function ago(iso: string | null): string {
@@ -19,8 +21,10 @@ function ago(iso: string | null): string {
 
 type PreviewRow = ParsedStockItem & { include: boolean; qtyText: string };
 
-export function AlmacenClient({ initial }: { initial: IngredientView[] }) {
+export function AlmacenClient({ initial, initialVendors }: { initial: IngredientView[]; initialVendors: VendorsView }) {
   const [list, setList] = useState(initial);
+  const [vendorsView, setVendorsView] = useState(initialVendors);
+  const vendors = vendorsView.vendors;
   const [q, setQ] = useState("");
   const [section, setSection] = useState("");
   const [onlyStock, setOnlyStock] = useState(false);
@@ -28,7 +32,11 @@ export function AlmacenClient({ initial }: { initial: IngredientView[] }) {
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
 
-  const reload = async () => setList((await api<{ ingredients: IngredientView[] }>("/api/ingredients")).ingredients);
+  const reload = async () => {
+    const [i, v] = await Promise.all([api<{ ingredients: IngredientView[] }>("/api/ingredients"), api<VendorsView>("/api/ingredients/vendors")]);
+    setList(i.ingredients);
+    setVendorsView(v);
+  };
 
   const run = async (label: string, fn: () => Promise<void>) => {
     setBusy(label);
@@ -46,6 +54,7 @@ export function AlmacenClient({ initial }: { initial: IngredientView[] }) {
     run(`i-${id}`, async () => {
       const r = await api<{ ingredient: IngredientView }>(`/api/ingredients/${id}`, "PATCH", body);
       setList((l) => l.map((x) => (x.id === id ? { ...x, ...r.ingredient } : x)));
+      if (body.storeSection !== undefined) setVendorsView(await api<VendorsView>("/api/ingredients/vendors"));
     });
 
   const remove = (i: IngredientView) => {
@@ -70,8 +79,9 @@ export function AlmacenClient({ initial }: { initial: IngredientView[] }) {
     const nq = norm(q);
     return list
       .filter((i) => (!nq || norm(i.name).includes(nq)) && (!section || i.storeSection === section) && (!onlyStock || i.stockQty > 0))
-      .sort((a, b) => sectionOrder(a.storeSection) - sectionOrder(b.storeSection) || a.name.localeCompare(b.name, "es"));
-  }, [list, q, section, onlyStock]);
+      .sort((a, b) => compareSections(vendors)(a.storeSection, b.storeSection) || a.name.localeCompare(b.name, "es"));
+  }, [list, q, section, onlyStock, vendors]);
+  const sectionsInUse = Object.keys(vendorsView.usage).sort(compareSections(vendors));
   const withStock = list.filter((i) => i.stockQty > 0).length;
 
   return (
@@ -107,10 +117,10 @@ export function AlmacenClient({ initial }: { initial: IngredientView[] }) {
             <Input value={q} onChange={(e) => setQ(e.target.value)} placeholder="cebolla, arroz…" />
           </div>
           <div>
-            <Label>Sección</Label>
+            <Label>Proveedor</Label>
             <Select value={section} onChange={(e) => setSection(e.target.value)}>
-              <option value="">todas</option>
-              {STORE_SECTIONS.map((s) => (
+              <option value="">todos</option>
+              {[...new Set([...vendors, ...sectionsInUse])].map((s) => (
                 <option key={s}>{s}</option>
               ))}
             </Select>
@@ -126,18 +136,19 @@ export function AlmacenClient({ initial }: { initial: IngredientView[] }) {
             <span>Hay</span>
             <span>Unidad</span>
             <span>Precio S/ x unidad</span>
-            <span>Sección</span>
+            <span>Proveedor</span>
             <span title="Solo se lista si falta">Revisar</span>
             <span />
           </div>
           {shown.map((i) => (
-            <IngredientRow key={i.id} i={i} busy={busy === `i-${i.id}`} onPatch={(b) => patch(i.id, b)} onDelete={() => remove(i)} />
+            <IngredientRow key={i.id} i={i} vendors={vendors} busy={busy === `i-${i.id}`} onPatch={(b) => patch(i.id, b)} onDelete={() => remove(i)} />
           ))}
           {!shown.length && <p className="p-3 text-sm text-ink-soft">No hay ingredientes con ese filtro.</p>}
         </Card>
       </section>
 
       <AddIngredient
+        vendors={vendors}
         busy={busy === "add"}
         onAdd={(body) =>
           run("add", async () => {
@@ -147,11 +158,147 @@ export function AlmacenClient({ initial }: { initial: IngredientView[] }) {
           })
         }
       />
+
+      <VendorsEditor
+        view={vendorsView}
+        busy={busy === "vendors"}
+        onSave={(vendors, moves, msg) =>
+          run("vendors", async () => {
+            await api<VendorsView>("/api/ingredients/vendors", "PUT", { vendors, moves });
+            await reload();
+            setNotice(msg);
+          })
+        }
+      />
     </div>
   );
 }
 
-function IngredientRow({ i, busy, onPatch, onDelete }: { i: IngredientView; busy: boolean; onPatch: (b: Record<string, unknown>) => void; onDelete: () => void }) {
+type VendorRow = { key: string; orig: string | null; name: string };
+let vendorSeq = 0;
+
+/** Edit the vendor list: rename (moves its ingredients), add, remove (ingredients go to "sin proveedor"), reorder. Old sections still in use can be moved to a vendor. */
+function VendorsEditor({ view, busy, onSave }: { view: VendorsView; busy: boolean; onSave: (vendors: string[], moves: { from: string; to: string }[], msg: string) => void }) {
+  const toRows = (v: string[]): VendorRow[] => v.map((name) => ({ key: `v${++vendorSeq}`, orig: name, name }));
+  const [rows, setRows] = useState(() => toRows(view.vendors));
+  const [synced, setSynced] = useState(view.vendors.join("\n"));
+  const [moveTo, setMoveTo] = useState<Record<string, string>>({});
+  if (synced !== view.vendors.join("\n")) {
+    // the saved list changed: start over from it
+    setSynced(view.vendors.join("\n"));
+    setRows(toRows(view.vendors));
+  }
+
+  const count = (name: string | null) => (name ? (view.usage[name] ?? 0) : 0);
+  const dirty = rows.length !== view.vendors.length || rows.some((r, i) => r.name.trim() !== view.vendors[i]);
+  const legacy = Object.keys(view.usage)
+    .filter((s) => s !== UNASSIGNED_VENDOR && !view.vendors.includes(s))
+    .sort((a, b) => a.localeCompare(b, "es"));
+  const set = (key: string, patch: Partial<VendorRow>) => setRows((rs) => rs.map((r) => (r.key === key ? { ...r, ...patch } : r)));
+  const move = (idx: number, d: -1 | 1) =>
+    setRows((rs) => {
+      const j = idx + d;
+      if (j < 0 || j >= rs.length) return rs;
+      const n = [...rs];
+      [n[idx], n[j]] = [n[j], n[idx]];
+      return n;
+    });
+
+  const save = () => {
+    const kept = rows.filter((r) => r.name.trim());
+    const moves = [
+      ...kept.filter((r) => r.orig && r.orig !== r.name.trim()).map((r) => ({ from: r.orig!, to: r.name.trim() })),
+      ...view.vendors.filter((v) => !kept.some((r) => r.orig === v)).map((v) => ({ from: v, to: UNASSIGNED_VENDOR })),
+    ];
+    const removedWithItems = moves.filter((m) => m.to === UNASSIGNED_VENDOR && count(m.from) > 0);
+    if (removedWithItems.length && !window.confirm(`${removedWithItems.map((m) => `${m.from} (${count(m.from)})`).join(", ")}: sus ingredientes quedarán "${UNASSIGNED_VENDOR}". ¿Seguir?`))
+      return;
+    onSave(
+      kept.map((r) => r.name.trim()),
+      moves,
+      "Proveedores guardados.",
+    );
+  };
+
+  return (
+    <section>
+      <SectionHeader num="04" title="Proveedores" note="a quién se le compra cada cosa" />
+      <Card className="space-y-3">
+        <p className="text-sm text-ink-soft">La lista de compras se agrupa por proveedor, en este orden. Si cambias un nombre, sus ingredientes lo siguen.</p>
+        <div className="divide-y divide-line border-y border-line">
+          {rows.map((r, idx) => (
+            <div key={r.key} className="flex items-center gap-2 py-1.5">
+              <Input className="min-w-0 flex-1" value={r.name} placeholder="Nombre" onChange={(e) => set(r.key, { name: e.target.value })} aria-label="Proveedor" />
+              <span className="w-24 text-xs text-ink-soft">{r.orig ? `${count(r.orig)} ingred.` : "nuevo"}</span>
+              <Button variant="ghost" className="!px-1.5" onClick={() => move(idx, -1)} disabled={idx === 0} aria-label={`Subir ${r.name}`}>
+                ↑
+              </Button>
+              <Button variant="ghost" className="!px-1.5" onClick={() => move(idx, 1)} disabled={idx === rows.length - 1} aria-label={`Bajar ${r.name}`}>
+                ↓
+              </Button>
+              <Button variant="ghost" className="!px-1.5" onClick={() => setRows((rs) => rs.filter((x) => x.key !== r.key))} aria-label={`Quitar ${r.name}`}>
+                ✕
+              </Button>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <Button onClick={() => setRows((rs) => [...rs, { key: `v${++vendorSeq}`, orig: null, name: "" }])} disabled={busy}>
+            + Proveedor
+          </Button>
+          <Button variant="primary" onClick={save} disabled={!dirty || busy}>
+            {busy ? "Guardando…" : "Guardar proveedores"}
+          </Button>
+          {dirty && (
+            <Button variant="ghost" onClick={() => setRows(toRows(view.vendors))} disabled={busy}>
+              Deshacer
+            </Button>
+          )}
+          {count(UNASSIGNED_VENDOR) > 0 && <span className="text-xs text-ink-soft">{count(UNASSIGNED_VENDOR)} ingredientes sin proveedor: asígnalos en la tabla de arriba.</span>}
+        </div>
+
+        {legacy.length > 0 && (
+          <div className="space-y-2 bg-yellow/30 p-3">
+            <Label>Secciones antiguas en uso</Label>
+            <p className="text-xs text-ink-soft">Pasa todos sus ingredientes a un proveedor de una vez (o cámbialos uno por uno en la tabla).</p>
+            {legacy.map((s) => (
+              <div key={s} className="flex flex-wrap items-center gap-2 text-sm">
+                <span className="w-32 font-semibold">{s}</span>
+                <span className="w-24 text-xs text-ink-soft">{count(s)} ingred.</span>
+                <span className="text-xs">pasar a</span>
+                <VendorSelect className="!w-40" value={moveTo[s] ?? view.vendors[0] ?? UNASSIGNED_VENDOR} vendors={view.vendors} onChange={(e) => setMoveTo((m) => ({ ...m, [s]: e.target.value }))} aria-label={`Pasar ${s} a`} />
+                <Button
+                  disabled={busy || dirty}
+                  title={dirty ? "Guarda primero los cambios de la lista" : undefined}
+                  onClick={() => {
+                    const to = moveTo[s] ?? view.vendors[0] ?? UNASSIGNED_VENDOR;
+                    onSave(view.vendors, [{ from: s, to }], `${count(s)} ingredientes de "${s}" pasados a ${to}.`);
+                  }}
+                >
+                  Pasar
+                </Button>
+              </div>
+            ))}
+          </div>
+        )}
+      </Card>
+    </section>
+  );
+}
+
+function IngredientRow({
+  i,
+  vendors,
+  busy,
+  onPatch,
+  onDelete,
+}: {
+  i: IngredientView;
+  vendors: string[];
+  busy: boolean;
+  onPatch: (b: Record<string, unknown>) => void;
+  onDelete: () => void;
+}) {
   const [name, setName] = useState<string | null>(null);
   return (
     <div className="grid grid-cols-2 items-center gap-2 border-b border-line px-3 py-2 md:grid-cols-[minmax(0,2fr)_6rem_6rem_7rem_8rem_5.5rem_2rem]">
@@ -189,13 +336,8 @@ function IngredientRow({ i, busy, onPatch, onDelete }: { i: IngredientView; busy
         <NumberField label={`Precio de ${i.name}`} className="text-right" value={i.pricePerUnit} allowEmpty onCommit={(v) => onPatch({ pricePerUnit: v })} />
       </label>
       <label className="text-xs text-ink-soft md:text-base">
-        <span className="md:hidden">Sección</span>
-        <Select value={i.storeSection} onChange={(e) => onPatch({ storeSection: e.target.value })}>
-          {(STORE_SECTIONS as readonly string[]).includes(i.storeSection) ? null : <option>{i.storeSection}</option>}
-          {STORE_SECTIONS.map((s) => (
-            <option key={s}>{s}</option>
-          ))}
-        </Select>
+        <span className="md:hidden">Proveedor</span>
+        <VendorSelect value={i.storeSection} vendors={vendors} onChange={(e) => onPatch({ storeSection: e.target.value })} />
       </label>
       <label className="flex items-center gap-1 text-xs" title="Suele sobrar: solo aparece en la lista si falta">
         <input type="checkbox" className="accent-[var(--red)]" checked={i.alwaysCheckStock} onChange={(e) => onPatch({ alwaysCheckStock: e.target.checked })} />
@@ -323,10 +465,18 @@ function PasteStock({
   );
 }
 
-function AddIngredient({ busy, onAdd }: { busy: boolean; onAdd: (b: { name: string; unit: string; storeSection: string; stockQty: number; pricePerUnit: number | null }) => void }) {
+function AddIngredient({
+  vendors,
+  busy,
+  onAdd,
+}: {
+  vendors: string[];
+  busy: boolean;
+  onAdd: (b: { name: string; unit: string; storeSection: string; stockQty: number; pricePerUnit: number | null }) => void;
+}) {
   const [name, setName] = useState("");
   const [unit, setUnit] = useState("kg");
-  const [section, setSection] = useState("mercado");
+  const [section, setSection] = useState(UNASSIGNED_VENDOR);
   const [stock, setStock] = useState("");
   const [price, setPrice] = useState("");
   return (
@@ -347,12 +497,8 @@ function AddIngredient({ busy, onAdd }: { busy: boolean; onAdd: (b: { name: stri
             </Select>
           </div>
           <div>
-            <Label>Sección</Label>
-            <Select value={section} onChange={(e) => setSection(e.target.value)}>
-              {STORE_SECTIONS.map((s) => (
-                <option key={s}>{s}</option>
-              ))}
-            </Select>
+            <Label>Proveedor</Label>
+            <VendorSelect value={section} vendors={vendors} onChange={(e) => setSection(e.target.value)} />
           </div>
           <div>
             <Label>Hay</Label>

@@ -1,7 +1,7 @@
 /** Prompt and schema for LLM recipe drafting. Pure (no DB) so it can be tested and inspected. */
 import { z } from "zod";
 import { UNITS } from "../types";
-import { fmtQty, STORE_SECTIONS } from "../shopping/units";
+import { fmtQty } from "../shopping/units";
 
 export const draftSchema = z.object({
   recipes: z.array(
@@ -11,7 +11,6 @@ export const draftSchema = z.object({
         z.object({
           name: z.string().describe("Ingrediente; reutiliza el nombre exacto de la lista si existe"),
           unit: z.enum(UNITS),
-          storeSection: z.enum(STORE_SECTIONS),
           qtyPerPortion: z.number().describe("Cantidad por porción en `unit` (0 si solo va por olla)"),
           fixedQty: z.number().describe("Cantidad fija por olla/tanda en `unit`, independiente de las porciones (0 si no aplica)"),
         }),
@@ -27,7 +26,6 @@ export const stockParseSchema = z.object({
       name: z.string().describe("Ingrediente; nombre exacto de la lista si existe"),
       qty: z.number().nullable().describe("Cantidad en `unit`; null si no se dijo un número (\"bastante\", \"poco\")"),
       unit: z.enum(UNITS),
-      storeSection: z.enum(STORE_SECTIONS),
       note: z.string().nullable().describe("Lo que dijeron si no es un número exacto, p.ej. \"bastante\""),
     }),
   ),
@@ -47,7 +45,6 @@ export interface DraftDish {
 export interface KnownIngredient {
   name: string;
   unit: string;
-  storeSection: string;
 }
 
 export interface ExampleRecipe {
@@ -67,7 +64,7 @@ Reglas para las cantidades:
 - Aceite para freír: fixedQty (p.ej. 1 botella por tanda de fritura); para aderezo, un poco por porción.
 - La cocina pidió REDUCIR cebolla, ají y rocoto porque están caros: usa cantidades moderadas (cebolla roja ≈ 0.03–0.05 kg por porción en guisos, más solo si es protagonista como en escabeche o sarsa).
 - Solo ingredientes que se compran crudos: nada de preparaciones intermedias ni nombres de platos. Desglosa las salsas: crema huancaína = queso fresco + ají amarillo + leche evaporada + galleta + aceite; ocopa = huacatay + maní + queso + ají; huevo sancochado = "Huevo" en unidad (1 huevo ≈ 1 unidad). Usa "Pollo" (presa) para el pollo.
-- Reutiliza el nombre EXACTO y la unidad de la lista de ingredientes existentes siempre que sea el mismo producto. NUNCA sustituyas un producto por otro parecido: la proteína del plato debe ser la del nombre (cabrito → "Cabrito", no "Carne para lomo"; "seco de res" → "Carne de res para guiso"; pescado → "Pescado"). Solo crea un ingrediente nuevo si no está, con un nombre simple en singular ("Ají amarillo", "Culantro", "Queso fresco") y la sección donde se compra: mercado (verduras, frutas, tubérculos, hierbas, queso fresco), pollería (pollo, huevos), carnicería (res, cerdo, menudencia), pescadería, abarrotes (arroz, menestras, fideos, aceite, condimentos, conservas, leche).
+- Reutiliza el nombre EXACTO y la unidad de la lista de ingredientes existentes siempre que sea el mismo producto. NUNCA sustituyas un producto por otro parecido: la proteína del plato debe ser la del nombre (cabrito → "Cabrito", no "Carne para lomo"; "seco de res" → "Carne de res para guiso"; pescado → "Pescado"). Solo crea un ingrediente nuevo si no está, con un nombre simple en singular ("Ají amarillo", "Culantro", "Queso fresco").
 - Unidades: kg para lo que se pesa, "unidad" para lo que se cuenta (huevo, limón si la lista lo tiene en unidad, lechuga), "atado" para hierbas por atado, etc. Si un ingrediente existente usa otra unidad, usa la suya.
 - 4 a 14 ingredientes por plato, lo importante para comprar. Devuelve una receta por cada plato pedido, con el nombre exacto del plato.`;
 
@@ -104,12 +101,12 @@ export function buildDraftPrompt(input: {
   recentCorrections: string[];
 }): string {
   const out: string[] = [];
-  out.push("## Ingredientes existentes (nombre · unidad · sección)");
+  out.push("## Ingredientes existentes (nombre · unidad)");
   const hidden = new Set(NOT_RAW_INGREDIENTS.map((n) => n.toLocaleLowerCase("es")));
   out.push(
     input.ingredients
       .filter((i) => !hidden.has(i.name.toLocaleLowerCase("es")))
-      .map((i) => `${i.name} · ${i.unit} · ${i.storeSection}`)
+      .map((i) => `${i.name} · ${i.unit}`)
       .join("\n"),
   );
   if (input.kitchenRules.length) {
@@ -144,8 +141,8 @@ export const STOCK_SYSTEM = `Eres el asistente de la cocina de "La Sazón de Lui
 
 export function buildStockPrompt(text: string, ingredients: KnownIngredient[]): string {
   return [
-    "## Ingredientes existentes (nombre · unidad · sección)",
-    ingredients.map((i) => `${i.name} · ${i.unit} · ${i.storeSection}`).join("\n"),
+    "## Ingredientes existentes (nombre · unidad)",
+    ingredients.map((i) => `${i.name} · ${i.unit}`).join("\n"),
     "",
     "## Mensaje",
     text,

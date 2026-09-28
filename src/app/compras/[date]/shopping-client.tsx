@@ -5,9 +5,10 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { DraftJob, DraftOutcome } from "@/lib/recipes";
 import { sourceLabel } from "@/lib/recipes/learn";
 import type { ConfirmSummary, ShoppingLineView, ShoppingView } from "@/lib/shopping";
-import { fmtQty, sectionOrder, shoppingWhatsapp, STORE_SECTIONS } from "@/lib/shopping/units";
+import { compareSections, fmtQty, shoppingWhatsapp, UNASSIGNED_VENDOR } from "@/lib/shopping/units";
 import { UNITS } from "@/lib/types";
 import { Badge, Button, Card, Input, Label, PageTitle, SectionHeader, Select, Spinner, Textarea, Warning } from "@/components/ui";
+import { VendorSelect } from "@/components/vendor-select";
 import { api, NumberField, Notice, parseNum } from "../_ui";
 
 interface IngredientOption {
@@ -25,9 +26,18 @@ function shortDate(date: string) {
   return `${d}/${m}`;
 }
 
-export function ShoppingClient({ initial, ingredients: initialIngredients }: { initial: ShoppingView; ingredients: IngredientOption[] }) {
+export function ShoppingClient({
+  initial,
+  ingredients: initialIngredients,
+  vendors: initialVendors,
+}: {
+  initial: ShoppingView;
+  ingredients: IngredientOption[];
+  vendors: string[];
+}) {
   const [view, setView] = useState(initial);
   const [ingredients, setIngredients] = useState(initialIngredients);
+  const [vendors, setVendors] = useState(initialVendors);
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<React.ReactNode>(null);
@@ -49,8 +59,9 @@ export function ShoppingClient({ initial, ingredients: initialIngredients }: { i
 
   const refresh = useCallback(async () => setView(await api<ShoppingView>(`/api/shopping/${date}`)), [date]);
   const refreshIngredients = useCallback(async () => {
-    const r = await api<{ ingredients: IngredientOption[] }>("/api/ingredients");
+    const r = await api<{ ingredients: IngredientOption[]; vendors: string[] }>("/api/ingredients");
     setIngredients(r.ingredients);
+    setVendors(r.vendors);
   }, []);
 
   // first visit to a menu that never got a list: compute it (deterministic, no LLM)
@@ -71,8 +82,9 @@ export function ShoppingClient({ initial, ingredients: initialIngredients }: { i
   const groups = useMemo(() => {
     const m = new Map<string, ShoppingLineView[]>();
     for (const l of view.lines) m.set(l.section, [...(m.get(l.section) ?? []), l]);
-    return [...m.entries()].sort((a, b) => sectionOrder(a[0]) - sectionOrder(b[0]));
-  }, [view.lines]);
+    const cmp = compareSections(vendors);
+    return [...m.entries()].sort((a, b) => cmp(a[0], b[0]));
+  }, [view.lines, vendors]);
 
   const toBuy = view.lines.filter((l) => l.quantity > 0 && !l.checked).length;
   const editedCount = view.lines.filter((l) => l.edited && !l.confirmed).length;
@@ -141,6 +153,7 @@ export function ShoppingClient({ initial, ingredients: initialIngredients }: { i
     const text = shoppingWhatsapp(
       `*Compras ${view.weekday} ${shortDate(date)}*`,
       view.lines.map((l) => ({ name: l.name, unit: l.unit, quantity: l.quantity, section: l.section, checked: l.checked })),
+      vendors,
     );
     try {
       await navigator.clipboard.writeText(text);
@@ -242,6 +255,7 @@ export function ShoppingClient({ initial, ingredients: initialIngredients }: { i
 
           <AddLine
             ingredients={ingredients}
+            vendors={vendors}
             busy={busy === "add"}
             onAdd={(body) =>
               run("add", async () => {
@@ -428,11 +442,23 @@ function LineRow({
 type AddBody = { ingredientId?: number | null; name: string; unit?: string; quantity: number; note?: string | null; storeSection?: string };
 type StockBody = { ingredientId?: number | null; name: string; unit?: string; storeSection?: string; qty: number };
 
-function AddLine({ ingredients, busy, onAdd, onStock }: { ingredients: IngredientOption[]; busy: boolean; onAdd: (b: AddBody) => void; onStock: (b: StockBody) => void }) {
+function AddLine({
+  ingredients,
+  vendors,
+  busy,
+  onAdd,
+  onStock,
+}: {
+  ingredients: IngredientOption[];
+  vendors: string[];
+  busy: boolean;
+  onAdd: (b: AddBody) => void;
+  onStock: (b: StockBody) => void;
+}) {
   const [name, setName] = useState("");
   const [qty, setQty] = useState("");
   const [unit, setUnit] = useState("kg");
-  const [section, setSection] = useState<string>("mercado");
+  const [section, setSection] = useState<string>(UNASSIGNED_VENDOR);
   const [note, setNote] = useState("");
   const match = ingredients.find((i) => i.name.toLocaleLowerCase("es") === name.trim().toLocaleLowerCase("es"));
   const q = parseNum(qty);
@@ -476,15 +502,11 @@ function AddLine({ ingredients, busy, onAdd, onStock }: { ingredients: Ingredien
             )}
           </div>
           <div>
-            <Label>Dónde</Label>
+            <Label>Proveedor</Label>
             {match ? (
               <div className="py-1.5 text-sm">{match.storeSection}</div>
             ) : (
-              <Select value={section} onChange={(e) => setSection(e.target.value)}>
-                {STORE_SECTIONS.map((s) => (
-                  <option key={s}>{s}</option>
-                ))}
-              </Select>
+              <VendorSelect value={section} vendors={vendors} onChange={(e) => setSection(e.target.value)} />
             )}
           </div>
           <div className="col-span-2 md:col-span-1">

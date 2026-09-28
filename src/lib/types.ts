@@ -44,6 +44,8 @@ export interface Settings {
   sideRice?: SideRiceRule;
   /** Shopping: EMA weight when a confirmed shopping edit updates recipe quantities (0–1). */
   learningAlpha?: number;
+  /** Shopping: vendors (proveedores) an ingredient can be bought from, in shopping-list order. */
+  vendors?: string[];
 }
 
 /**
@@ -85,6 +87,7 @@ export const DEFAULT_SETTINGS: Settings = {
     triggers: ["tallarín", "tallarines", "arroz con pollo", "chaufa", "jardinera"],
   },
   learningAlpha: 0.3,
+  vendors: [], // real names live only in the database (the repo is public)
 };
 
 export function weekdayOf(date: string): Weekday {

@@ -226,7 +226,7 @@ async function draftBatch(batch: (typeof dishes.$inferSelect)[], overwrite: bool
     for (const d of requested) d.notes = k.dishNotes.get(d.name);
     const prompt = buildDraftPrompt({
       dishes: requested,
-      ingredients: known.map((i) => ({ name: i.name, unit: i.unit, storeSection: i.storeSection })),
+      ingredients: known.map((i) => ({ name: i.name, unit: i.unit })),
       kitchenRules: k.kitchenRules,
       overstocked: k.overstocked,
       examples: k.examples,
@@ -244,7 +244,7 @@ async function draftBatch(batch: (typeof dishes.$inferSelect)[], overwrite: bool
       for (const it of r.ingredients) {
         if (!it.name.trim()) continue;
         const existing = findByName(known, it.name);
-        const ing = existing ?? (await findOrCreateIngredient(capitalize(it.name), it.unit, it.storeSection, known));
+        const ing = existing ?? (await findOrCreateIngredient(capitalize(it.name), it.unit, undefined, known));
         const conv = (q: number) => {
           const v = Math.max(0, Number.isFinite(q) ? q : 0);
           return existing && existing.unit !== it.unit ? (convert(v, it.unit, existing.unit) ?? v) : v;

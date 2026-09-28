@@ -152,14 +152,39 @@ describe("mergeLines", () => {
 });
 
 describe("shoppingWhatsapp", () => {
-  it("groups by section like the kitchen writes it", () => {
-    const text = shoppingWhatsapp("Compras sábado 27/09", [
-      { name: "Arroz", unit: "kg", quantity: 3, section: "abarrotes" },
-      { name: "Cebolla roja", unit: "kg", quantity: 15, section: "mercado" },
-      { name: "Pollo", unit: "presa", quantity: 20, section: "pollería" },
-      { name: "Limón", unit: "kg", quantity: 0, section: "mercado" },
-      { name: "Papa amarilla", unit: "kg", quantity: 2.5, section: "mercado", checked: true },
-    ]);
-    expect(text).toBe(["Compras sábado 27/09", "", "*MERCADO*", "15 kilos cebolla roja", "", "*POLLERÍA*", "20 presas pollo", "", "*ABARROTES*", "3 kilos arroz"].join("\n"));
+  it("groups by vendor in the configured order like the kitchen writes it", () => {
+    const text = shoppingWhatsapp(
+      "Compras sábado 27/09",
+      [
+        { name: "Arroz", unit: "kg", quantity: 3, section: "Ana" },
+        { name: "Cebolla roja", unit: "kg", quantity: 15, section: "Zoe" },
+        { name: "Pollo", unit: "presa", quantity: 20, section: "Beto" },
+        { name: "Limón", unit: "kg", quantity: 0, section: "Zoe" },
+        { name: "Papa amarilla", unit: "kg", quantity: 2.5, section: "Zoe", checked: true },
+        { name: "Bolsas", unit: "paquete", quantity: 1, section: "sin proveedor" },
+        { name: "Culantro", unit: "atado", quantity: 2, section: "mercado" },
+      ],
+      ["Zoe", "Beto", "Ana"],
+    );
+    expect(text).toBe(
+      [
+        "Compras sábado 27/09",
+        "",
+        "*ZOE*",
+        "15 kilos cebolla roja",
+        "",
+        "*BETO*",
+        "20 presas pollo",
+        "",
+        "*ANA*",
+        "3 kilos arroz",
+        "",
+        "*MERCADO*",
+        "2 atados culantro",
+        "",
+        "*SIN PROVEEDOR*",
+        "1 paquete bolsas",
+      ].join("\n"),
+    );
   });
 });

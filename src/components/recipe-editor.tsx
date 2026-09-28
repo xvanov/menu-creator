@@ -3,9 +3,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { DraftOutcome, RecipeItemView, RecipeView } from "@/lib/recipes";
 import { sourceLabel } from "@/lib/recipes/learn";
-import { STORE_SECTIONS, fmtQty } from "@/lib/shopping/units";
+import { UNASSIGNED_VENDOR, fmtQty } from "@/lib/shopping/units";
 import { UNITS } from "@/lib/types";
 import { Badge, Button, Input, Select, Spinner, Warning } from "./ui";
+import { VendorSelect } from "./vendor-select";
 
 interface IngredientOption {
   id: number;
@@ -64,6 +65,7 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
   const [recipe, setRecipe] = useState<RecipeView | null>(null);
   const [rows, setRows] = useState<Row[]>([]);
   const [options, setOptions] = useState<IngredientOption[]>([]);
+  const [vendors, setVendors] = useState<string[]>([]);
   const [portions, setPortions] = useState(20);
   const [dirty, setDirty] = useState(false);
   const [busy, setBusy] = useState<"" | "load" | "save" | "draft">("load");
@@ -99,7 +101,10 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
 
   const loadOptions = useCallback(async () => {
     const res = await fetch("/api/ingredients");
-    if (res.ok) setOptions(((await res.json()) as { ingredients: IngredientOption[] }).ingredients);
+    if (!res.ok) return;
+    const data = (await res.json()) as { ingredients: IngredientOption[]; vendors: string[] };
+    setOptions(data.ingredients);
+    setVendors(data.vendors);
   }, []);
 
   useEffect(() => {
@@ -138,7 +143,7 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
   const addRow = () => {
     setRows((rs) => [
       ...rs,
-      { key: `n${++seq}`, ingredientId: null, name: "", unit: "kg", storeSection: "mercado", perPortion: 0, amount: "", basis: String(portions), fixedQty: "0", source: "nuevo", corrections: 0 },
+      { key: `n${++seq}`, ingredientId: null, name: "", unit: "kg", storeSection: UNASSIGNED_VENDOR, perPortion: 0, amount: "", basis: String(portions), fixedQty: "0", source: "nuevo", corrections: 0 },
     ]);
     setDirty(true);
   };
@@ -297,11 +302,7 @@ export function RecipeEditor({ dishId }: { dishId: number }) {
                           <option key={u}>{u}</option>
                         ))}
                       </Select>
-                      <Select value={r.storeSection} onChange={(e) => update(r.key, { storeSection: e.target.value })} aria-label="Dónde se compra">
-                        {STORE_SECTIONS.map((s) => (
-                          <option key={s}>{s}</option>
-                        ))}
-                      </Select>
+                      <VendorSelect value={r.storeSection} vendors={vendors} onChange={(e) => update(r.key, { storeSection: e.target.value })} aria-label="Proveedor" />
                     </div>
                   ) : (
                     <span className="text-sm">{r.unit}</span>

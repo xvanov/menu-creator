@@ -78,5 +78,7 @@ type export) and mention it in your final report.
 - `GET /api/shopping/[date]`, `POST /api/shopping/[date]/recompute`, `POST /api/shopping/[date]/lines`,
   `PATCH/DELETE /api/shopping/[date]/lines/[id]`
 - `GET/PUT /api/recipes/[dishId]`, `POST /api/recipes/[dishId]/draft` (LLM)
-- `GET/POST /api/ingredients`, `PATCH/DELETE /api/ingredients/[id]` (incl. `stockQty` = storage)
+- `GET/POST /api/ingredients` (GET also returns `vendors`), `PATCH/DELETE /api/ingredients/[id]` (incl. `stockQty` = storage)
+- `GET/PUT /api/ingredients/vendors` `{ vendors, moves? }` — vendor (proveedor) list in `Settings.vendors`;
+  `ingredients.storeSection` holds the vendor name ("sin proveedor" when unassigned). `moves` reassign ingredients (rename/remove).
 - `<RecipeEditor dishId />` from `src/components/recipe-editor.tsx` (B embeds it in `/platos/[id]`).

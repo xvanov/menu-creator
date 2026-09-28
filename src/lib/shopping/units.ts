@@ -1,8 +1,8 @@
 /** Units, buy rounding and text formatting for shopping quantities. Pure: safe for client and tests. */
 
-export const STORE_SECTIONS = ["mercado", "pollería", "carnicería", "pescadería", "abarrotes"] as const;
-export type StoreSection = (typeof STORE_SECTIONS)[number];
-export const OTHER_SECTION = "otros";
+/** `ingredients.storeSection` holds the vendor (proveedor) name; the list lives in `Settings.vendors`. */
+export const UNASSIGNED_VENDOR = "sin proveedor";
+export const OTHER_SECTION = UNASSIGNED_VENDOR;
 
 const COUNT_UNITS = new Set(["unidad", "paquete", "bolsa", "tarro", "botella", "atado", "presa", "caja", "lata"]);
 
@@ -70,18 +70,21 @@ export function whatsappLine(qty: number, unit: string, name: string): string {
   return `${fmtQty(qty).replace(".", ",")} ${unitWord(unit, qty)} ${name.toLocaleLowerCase("es")}`;
 }
 
-export function sectionOrder(section: string): number {
-  const i = (STORE_SECTIONS as readonly string[]).indexOf(section);
-  return i < 0 ? STORE_SECTIONS.length : i;
+/** Sorts vendors in the order of the configured list, then unknown ones alphabetically, "sin proveedor" last. */
+export function compareSections(vendors: readonly string[]) {
+  const rank = (s: string) => (s === UNASSIGNED_VENDOR ? vendors.length + 1 : vendors.includes(s) ? vendors.indexOf(s) : vendors.length);
+  return (a: string, b: string) => rank(a) - rank(b) || a.localeCompare(b, "es");
 }
 
-/** Plain WhatsApp text grouped by store section; skips lines with nothing to buy and checked-off lines. */
+/** Plain WhatsApp text grouped by vendor; skips lines with nothing to buy and checked-off lines. */
 export function shoppingWhatsapp(
   title: string,
   lines: { name: string; unit: string; quantity: number; section: string; checked?: boolean; note?: string | null }[],
+  vendors: readonly string[] = [],
 ): string {
   const groups = new Map<string, string[]>();
-  const sorted = [...lines].sort((a, b) => sectionOrder(a.section) - sectionOrder(b.section) || a.name.localeCompare(b.name, "es"));
+  const cmp = compareSections(vendors);
+  const sorted = [...lines].sort((a, b) => cmp(a.section, b.section) || a.name.localeCompare(b.name, "es"));
   for (const l of sorted) {
     if (!(l.quantity > 0) || l.checked) continue;
     const g = groups.get(l.section) ?? [];

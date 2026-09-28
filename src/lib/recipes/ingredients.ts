@@ -2,9 +2,9 @@ import "server-only";
 import { asc, eq, inArray, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { getLlm } from "@/lib/llm";
-import { STORE_SECTIONS } from "@/lib/shopping/units";
+import { UNASSIGNED_VENDOR } from "@/lib/shopping/units";
 import { buildStockPrompt, STOCK_SYSTEM, stockParseSchema } from "./prompt";
-import { capitalize, findByName, norm } from "./text";
+import { capitalize, findByName } from "./text";
 
 const { ingredients, recipeItems, shoppingLines, corrections } = schema;
 
@@ -25,24 +25,13 @@ export async function listIngredients(): Promise<IngredientView[]> {
   return rows.map((r) => ({ ...r, recipes: byId.get(r.id) ?? 0 }));
 }
 
-export function guessSection(name: string): string {
-  const n = norm(name);
-  if (/pollo|presa|molleja|gallina|huevo/.test(n)) return "pollería";
-  if (/\bres\b|carne|churrasco|chuleta|bistec|lomo|chancho|cerdo|higado|mondongo|pata|asado|panceta|costilla/.test(n)) return "carnicería";
-  if (/pescado|trucha|bonito|choro|atun|merluza|jurel|langostino|calamar|pota/.test(n)) return "pescadería";
-  if (/arroz|aceite|azucar|\bsal\b|fideo|tallar|harina|leche|galleta|sillao|vinagre|pomarola|ajinomoto|lenteja|frijol|pallar|garbanzo|partida|quinua|trigo|mani|mostaza|pimienta|comino|oregano|laurel|pasas|chuño|mayonesa|lata|conserva|cubito|caldo|pasta|avena|cafe|te\b/.test(n))
-    return "abarrotes";
-  return "mercado";
-}
-
-/** Finds an ingredient by (normalized) name or creates it. */
+/** Finds an ingredient by (normalized) name or creates it (vendor "sin proveedor" unless given). */
 export async function findOrCreateIngredient(name: string, unit = "kg", storeSection?: string, known?: Ingredient[]): Promise<Ingredient> {
   const list = known ?? (await db.select().from(ingredients));
   const hit = findByName(list, name);
   if (hit) return hit;
   const clean = capitalize(name);
-  const section = storeSection && (STORE_SECTIONS as readonly string[]).includes(storeSection) ? storeSection : guessSection(clean);
-  await db.insert(ingredients).values({ name: clean, unit, storeSection: section }).onConflictDoNothing();
+  await db.insert(ingredients).values({ name: clean, unit, storeSection: storeSection?.trim() || UNASSIGNED_VENDOR }).onConflictDoNothing();
   const [row] = await db.select().from(ingredients).where(eq(ingredients.name, clean));
   known?.push(row);
   return row;
@@ -86,7 +75,7 @@ export async function createIngredient(input: IngredientPatch & { name: string }
     .values({
       name: capitalize(input.name),
       unit: input.unit ?? "kg",
-      storeSection: input.storeSection ?? guessSection(input.name),
+      storeSection: input.storeSection ?? UNASSIGNED_VENDOR,
       pricePerUnit: input.pricePerUnit ?? null,
       stockQty: Math.max(0, input.stockQty ?? 0),
       stockUpdatedAt: input.stockQty ? nowIso() : null,
@@ -164,7 +153,7 @@ export async function parseStockText(text: string): Promise<{ ok: true; items: P
           name: hit?.name ?? capitalize(i.name),
           qty: i.qty,
           unit: hit?.unit ?? i.unit,
-          storeSection: hit?.storeSection ?? i.storeSection,
+          storeSection: hit?.storeSection ?? UNASSIGNED_VENDOR,
           note: i.note,
           ingredientId: hit?.id ?? null,
           currentStock: hit?.stockQty ?? null,

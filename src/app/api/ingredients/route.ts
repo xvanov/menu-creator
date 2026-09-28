@@ -3,13 +3,14 @@ import { ingredientCreateSchema } from "@/lib/recipes/ingredient-schema";
 import { createIngredient, listIngredients } from "@/lib/recipes/ingredients";
 import { norm } from "@/lib/recipes/text";
 import { body, handle } from "@/lib/shopping/http";
+import { getVendors } from "@/lib/shopping/vendors";
 
-/** GET /api/ingredients?q= — all ingredients (accent-insensitive filter). */
+/** GET /api/ingredients?q= — all ingredients (accent-insensitive filter) and the vendor list. */
 export async function GET(req: NextRequest) {
   return handle(async () => {
     const q = norm(req.nextUrl.searchParams.get("q") ?? "");
-    const all = await listIngredients();
-    return { ingredients: q ? all.filter((i) => norm(i.name).includes(q)) : all };
+    const [all, vendors] = await Promise.all([listIngredients(), getVendors()]);
+    return { ingredients: q ? all.filter((i) => norm(i.name).includes(q)) : all, vendors };
   });
 }
 
