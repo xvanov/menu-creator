@@ -1,7 +1,7 @@
 /**
  * Seeds the database from data/*.json. Idempotent and non-destructive: only adds what is missing
  * (settings keys, default rules on an empty rules table, dishes, historical menus for dates without a
- * menu, ingredients), so re-running an install never undoes edits made in the app.
+ * menu, ingredients on an empty table), so re-running an install never undoes edits made in the app.
  * `--all` wipes everything first (fresh start).
  *
  *   npm run db:push && npm run db:seed
@@ -109,7 +109,9 @@ async function main() {
     );
   }
 
-  // ingredients seen in the chat (units: most common)
+  // ingredients seen in the chat (units: most common), only on an empty table: the owner deletes and merges
+  // ingredients, and re-adding the missing ones on every deploy brought deleted ones back
+  const hasIngredients = (await db.select({ id: s.ingredients.id }).from(s.ingredients).limit(1)).length > 0;
   const units = new Map<string, Map<string, number>>();
   for (const n of notes)
     for (const it of n.items ?? []) {
@@ -120,7 +122,7 @@ async function main() {
     }
   // routinely overstocked in the chat: only list when stock is low (default for new rows only)
   const overstocked = new Set(["Azúcar", "Limón", "Cebolla roja"]);
-  for (const [name, m] of units) {
+  for (const [name, m] of hasIngredients ? [] : units) {
     const unit = [...m.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "kg";
     await db
       .insert(s.ingredients)

@@ -28,8 +28,10 @@ and the mistakes already made once (incident of 2026-09-27: the owner's custom m
 2. **Deploys never change an existing schema.** `vercel-build` creates tables only when the database is empty.
    For a real schema change, add a migration plan first, back up (Turso point-in-time restore keeps 24 h on the
    free plan), then deploy once with `ALLOW_SCHEMA_PUSH=1` and remove it again.
-3. **The seed is non-destructive** (`scripts/seed.ts`): it only adds missing settings keys, default rules on an
-   *empty* rules table, missing dishes and historical menus for dates without a menu. `--all` wipes everything;
+3. **The seed is non-destructive** (`scripts/seed.ts`): it only adds missing settings keys, default rules and
+   chat ingredients on an *empty* table, missing dishes and historical menus for dates without a menu. It runs on
+   every deploy, so anything it "adds if missing" comes back after the owner deletes it (2026-09-28: 18 deleted
+   ingredients reappeared); prefer "only on an empty table". `--all` wipes everything;
    never run it against the cloud.
 4. **Local and cloud are separate databases.** `local.db` on a computer ≠ the live Turso database. Menus made at
    `localhost` are not on the live site. Copy with `npm run push:cloud` (`--list` to compare; it never overwrites
